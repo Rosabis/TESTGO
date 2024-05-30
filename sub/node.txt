@@ -5,21 +5,12 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: Japan hysteria2, server: aws-jp.aikunapp.com, port: 443, type: hysteria2, password: 62771ce7-db7e-4e82-b143-48499a991d89, auth: 62771ce7-db7e-4e82-b143-48499a991d89, sni: s0.awsstatic.com, skip-cert-verify: true, udp: true}
-  - {name: Hong Kong hysteria2, server: hkt.aikunapp.com, port: 789, type: hysteria2, password: 62771ce7-db7e-4e82-b143-48499a991d89, auth: 62771ce7-db7e-4e82-b143-48499a991d89, sni: s0.awsstatic.com, skip-cert-verify: true, udp: true}
-  - {name: Hong Kong hysteria2 (1), server: hktddns2.aikunapp.com, port: 1000, type: hysteria2, password: 62771ce7-db7e-4e82-b143-48499a991d89, auth: 62771ce7-db7e-4e82-b143-48499a991d89, sni: s0.awsstatic.com, skip-cert-verify: true, udp: true}
-  - {name: South Korea hysteria2, server: krseoul.aikunapp.com, port: 443, type: hysteria2, password: 62771ce7-db7e-4e82-b143-48499a991d89, auth: 62771ce7-db7e-4e82-b143-48499a991d89, sni: s0.awsstatic.com, skip-cert-verify: true, udp: true}
-  - {name: South Korea hysteria2 (1), server: krseoul.aikunapp.com, port: 9001, type: hysteria2, password: 62771ce7-db7e-4e82-b143-48499a991d89, auth: 62771ce7-db7e-4e82-b143-48499a991d89, sni: s0.awsstatic.com, skip-cert-verify: true, udp: true}
   - {name: Taiwan hysteria2, server: 103.137.63.101, port: 30102, type: hysteria2, password: c286daa2-59de-455c-8de8-ec032b6ce2e8, auth: c286daa2-59de-455c-8de8-ec032b6ce2e8, sni: tw1.wish.ml, skip-cert-verify: true, udp: true}
-  - {name: Japan hysteria2 (1), server: 103.140.136.23, port: 30102, type: hysteria2, password: c286daa2-59de-455c-8de8-ec032b6ce2e8, auth: c286daa2-59de-455c-8de8-ec032b6ce2e8, sni: jp1.wish.ml, skip-cert-verify: true, udp: true}
-  - {name: South Korea hysteria2 (2), server: 130.162.143.204, port: 30102, type: hysteria2, password: c286daa2-59de-455c-8de8-ec032b6ce2e8, auth: c286daa2-59de-455c-8de8-ec032b6ce2e8, sni: kr1.wish.ml, skip-cert-verify: true, udp: true}
-  - {name: South Korea hysteria2 (3), server: 132.226.229.139, port: 30102, type: hysteria2, password: c286daa2-59de-455c-8de8-ec032b6ce2e8, auth: c286daa2-59de-455c-8de8-ec032b6ce2e8, sni: kr3.wish.ml, skip-cert-verify: true, udp: true}
-  - {name: Japan hysteria2 (2), server: 150.230.4.114, port: 30102, type: hysteria2, password: c286daa2-59de-455c-8de8-ec032b6ce2e8, auth: c286daa2-59de-455c-8de8-ec032b6ce2e8, sni: jp3.wish.ml, skip-cert-verify: true, udp: true}
-  - {name: Japan hysteria2 (3), server: 168.138.203.223, port: 30102, type: hysteria2, password: c286daa2-59de-455c-8de8-ec032b6ce2e8, auth: c286daa2-59de-455c-8de8-ec032b6ce2e8, sni: jp2.wish.ml, skip-cert-verify: true, udp: true}
-  - {name: Japan hysteria2 (4), server: jp1.wish.ml, port: 30102, type: hysteria2, password: c286daa2-59de-455c-8de8-ec032b6ce2e8, auth: c286daa2-59de-455c-8de8-ec032b6ce2e8, sni: jp1.wish.ml, skip-cert-verify: true, udp: true}
-  - {name: South Korea hysteria2 (4), server: kr1.wish.ml, port: 30102, type: hysteria2, password: c286daa2-59de-455c-8de8-ec032b6ce2e8, auth: c286daa2-59de-455c-8de8-ec032b6ce2e8, sni: kr1.wish.ml, skip-cert-verify: true, udp: true}
-  - {name: South Korea hysteria2 (5), server: kr3.wish.ml, port: 30102, type: hysteria2, password: c286daa2-59de-455c-8de8-ec032b6ce2e8, auth: c286daa2-59de-455c-8de8-ec032b6ce2e8, sni: kr3.wish.ml, skip-cert-verify: true, udp: true}
-  - {name: Taiwan hysteria2 (1), server: tw1.wish.ml, port: 30102, type: hysteria2, password: c286daa2-59de-455c-8de8-ec032b6ce2e8, auth: c286daa2-59de-455c-8de8-ec032b6ce2e8, sni: tw1.wish.ml, skip-cert-verify: true, udp: true}
+  - {name: Japan hysteria2, server: 103.140.136.23, port: 30102, type: hysteria2, password: c286daa2-59de-455c-8de8-ec032b6ce2e8, auth: c286daa2-59de-455c-8de8-ec032b6ce2e8, sni: jp1.wish.ml, skip-cert-verify: true, udp: true}
+  - {name: South Korea hysteria2, server: 130.162.143.204, port: 30102, type: hysteria2, password: c286daa2-59de-455c-8de8-ec032b6ce2e8, auth: c286daa2-59de-455c-8de8-ec032b6ce2e8, sni: kr1.wish.ml, skip-cert-verify: true, udp: true}
+  - {name: South Korea hysteria2 (1), server: 132.226.229.139, port: 30102, type: hysteria2, password: c286daa2-59de-455c-8de8-ec032b6ce2e8, auth: c286daa2-59de-455c-8de8-ec032b6ce2e8, sni: kr3.wish.ml, skip-cert-verify: true, udp: true}
+  - {name: Japan hysteria2 (1), server: 150.230.4.114, port: 30102, type: hysteria2, password: c286daa2-59de-455c-8de8-ec032b6ce2e8, auth: c286daa2-59de-455c-8de8-ec032b6ce2e8, sni: jp3.wish.ml, skip-cert-verify: true, udp: true}
+  - {name: Japan hysteria2 (2), server: 168.138.203.223, port: 30102, type: hysteria2, password: c286daa2-59de-455c-8de8-ec032b6ce2e8, auth: c286daa2-59de-455c-8de8-ec032b6ce2e8, sni: jp2.wish.ml, skip-cert-verify: true, udp: true}
   - {name: United States hysteria2, server: 104.192.224.140, port: 62894, type: hysteria2, password: dongtaiwang.com, auth: dongtaiwang.com, sni: www.bing.com, skip-cert-verify: true, udp: true}
   - {name: United States hysteria2 (1), server: 104.192.224.140, port: 62894, type: hysteria2, password: dongtaiwang.com, auth: dongtaiwang.com, sni: www.bing.com, skip-cert-verify: true, udp: true}
   - {name: United States hysteria2 (2), server: 104.192.224.140, port: 62894, type: hysteria2, password: dongtaiwang.com, auth: dongtaiwang.com, sni: www.bing.com, skip-cert-verify: true, udp: true}
@@ -41,75 +32,26 @@ proxies:
   - {name: France hysteria (2), server: 62.210.243.131, port: 18702, type: hysteria, auth_str: dongtaiwang.com, auth-str: dongtaiwang.com, up: 11, down: 55, fast-open: false, protocol: none, sni: bing.com, skip-cert-verify: true, alpn: [h3], udp: true}
   - {name: France hysteria (3), server: 62.210.243.131, port: 18702, type: hysteria, auth_str: dongtaiwang.com, auth-str: dongtaiwang.com, up: 11, down: 55, fast-open: false, protocol: none, sni: bing.com, skip-cert-verify: true, alpn: [h3], udp: true}
   - {name: Japan ss, server: 5.forlive.live, port: 60033, type: ss, cipher: chacha20-ietf-poly1305, password: 6a8bf2a8-f100-4428-ac3f-ad8ea07e1361, udp: true}
-  - {name: United States ss, server: cn1.gauss.life, port: 58047, type: ss, cipher: chacha20-ietf-poly1305, password: 7419c9c5-e8a8-468b-b978-88b493a08149, udp: true}
-  - {name: United States ss (1), server: cn2.gauss.life, port: 58011, type: ss, cipher: chacha20-ietf-poly1305, password: 7419c9c5-e8a8-468b-b978-88b493a08149, udp: true}
-  - {name: United States ss (2), server: cn3.gauss.life, port: 58884, type: ss, cipher: chacha20-ietf-poly1305, password: 7419c9c5-e8a8-468b-b978-88b493a08149, udp: true}
-  - {name: United States ss (3), server: hk1.gauss.life, port: 58606, type: ss, cipher: chacha20-ietf-poly1305, password: 7419c9c5-e8a8-468b-b978-88b493a08149, udp: true}
-  - {name: United States ss (4), server: hk2.gauss.life, port: 58494, type: ss, cipher: chacha20-ietf-poly1305, password: 7419c9c5-e8a8-468b-b978-88b493a08149, udp: true}
-  - {name: United States ss (5), server: hk3.gauss.life, port: 58691, type: ss, cipher: chacha20-ietf-poly1305, password: 7419c9c5-e8a8-468b-b978-88b493a08149, udp: true}
-  - {name: United States ss (6), server: jp1.gauss.life, port: 58146, type: ss, cipher: chacha20-ietf-poly1305, password: 7419c9c5-e8a8-468b-b978-88b493a08149, udp: true}
-  - {name: United States ss (7), server: jp2.gauss.life, port: 58527, type: ss, cipher: chacha20-ietf-poly1305, password: 7419c9c5-e8a8-468b-b978-88b493a08149, udp: true}
-  - {name: United States ss (8), server: jp3.gauss.life, port: 58757, type: ss, cipher: chacha20-ietf-poly1305, password: 7419c9c5-e8a8-468b-b978-88b493a08149, udp: true}
-  - {name: United States ss (9), server: sg1.gauss.life, port: 58166, type: ss, cipher: chacha20-ietf-poly1305, password: 7419c9c5-e8a8-468b-b978-88b493a08149, udp: true}
-  - {name: United States ss (10), server: sg2.gauss.life, port: 58886, type: ss, cipher: chacha20-ietf-poly1305, password: 7419c9c5-e8a8-468b-b978-88b493a08149, udp: true}
-  - {name: United States ss (11), server: sg3.gauss.life, port: 58326, type: ss, cipher: chacha20-ietf-poly1305, password: 7419c9c5-e8a8-468b-b978-88b493a08149, udp: true}
-  - {name: United States ss (12), server: us1.gauss.life, port: 58352, type: ss, cipher: chacha20-ietf-poly1305, password: 7419c9c5-e8a8-468b-b978-88b493a08149, udp: true}
-  - {name: United States ss (13), server: us1.gauss.life, port: 58958, type: ss, cipher: chacha20-ietf-poly1305, password: 7419c9c5-e8a8-468b-b978-88b493a08149, udp: true}
-  - {name: United States ss (14), server: us2.gauss.life, port: 58411, type: ss, cipher: chacha20-ietf-poly1305, password: 7419c9c5-e8a8-468b-b978-88b493a08149, udp: true}
-  - {name: United States ss (15), server: us3.gauss.life, port: 58384, type: ss, cipher: chacha20-ietf-poly1305, password: 7419c9c5-e8a8-468b-b978-88b493a08149, udp: true}
-  - {name: China ss, server: hk4.gauss.life, port: 16301, type: ss, cipher: chacha20-ietf-poly1305, password: 1fd86cbf-0418-48b9-92b7-af5113108647, udp: true}
-  - {name: China ss (1), server: hk5.gauss.life, port: 16312, type: ss, cipher: chacha20-ietf-poly1305, password: 1fd86cbf-0418-48b9-92b7-af5113108647, udp: true}
-  - {name: China ss (2), server: hk6.gauss.life, port: 16323, type: ss, cipher: chacha20-ietf-poly1305, password: 1fd86cbf-0418-48b9-92b7-af5113108647, udp: true}
-  - {name: China ss (3), server: jp5.gauss.life, port: 16412, type: ss, cipher: chacha20-ietf-poly1305, password: 1fd86cbf-0418-48b9-92b7-af5113108647, udp: true}
-  - {name: China ss (4), server: jp5.gauss.life, port: 16512, type: ss, cipher: chacha20-ietf-poly1305, password: 1fd86cbf-0418-48b9-92b7-af5113108647, udp: true}
-  - {name: China ss (5), server: jp6.gauss.life, port: 16423, type: ss, cipher: chacha20-ietf-poly1305, password: 1fd86cbf-0418-48b9-92b7-af5113108647, udp: true}
   - {name: Japan ss (1), server: 2.forlive.live, port: 61005, type: ss, cipher: chacha20-ietf-poly1305, password: 256f9142-09e2-31f4-8b1b-8c8d0f4068b1, udp: true}
   - {name: Japan ss (2), server: 4.forlive.live, port: 61001, type: ss, cipher: chacha20-ietf-poly1305, password: 3644bf1f-a8be-3b00-b902-984dda5f75a0, udp: true}
   - {name: United Kingdom ss, server: 51.145.96.134, port: 18869, type: ss, cipher: chacha20-ietf-poly1305, password: V8QywnpW9gaAwJfzkStkVp, udp: true}
   - {name: United Kingdom ss (1), server: 51.145.96.134, port: 18869, type: ss, cipher: chacha20-ietf-poly1305, password: V8QywnpW9gaAwJfzkStkVp, udp: true}
   - {name: United Kingdom ss (2), server: 51.145.96.134, port: 18869, type: ss, cipher: chacha20-ietf-poly1305, password: V8QywnpW9gaAwJfzkStkVp, udp: true}
-  - {name: China ss (6), server: hk3100.fraternizey.com, port: 11879, type: ss, cipher: chacha20-ietf-poly1305, password: b18e2fa7-f175-41f6-b23a-798683cd1366, udp: true}
-  - {name: China ss (7), server: hk9571.fraternizey.com, port: 44472, type: ss, cipher: chacha20-ietf-poly1305, password: b18e2fa7-f175-41f6-b23a-798683cd1366, udp: true}
-  - {name: China ss (8), server: jpa7502.fraternizey.com, port: 21035, type: ss, cipher: chacha20-ietf-poly1305, password: b18e2fa7-f175-41f6-b23a-798683cd1366, udp: true}
-  - {name: China ss (9), server: kra9012.fraternizey.com, port: 19644, type: ss, cipher: chacha20-ietf-poly1305, password: b18e2fa7-f175-41f6-b23a-798683cd1366, udp: true}
-  - {name: China ss (10), server: sga8502.fraternizey.com, port: 24891, type: ss, cipher: chacha20-ietf-poly1305, password: b18e2fa7-f175-41f6-b23a-798683cd1366, udp: true}
-  - {name: China ss (11), server: sgb9502.fraternizey.com, port: 39548, type: ss, cipher: chacha20-ietf-poly1305, password: b18e2fa7-f175-41f6-b23a-798683cd1366, udp: true}
-  - {name: China ss (12), server: twa3302.fraternizey.com, port: 34969, type: ss, cipher: chacha20-ietf-poly1305, password: b18e2fa7-f175-41f6-b23a-798683cd1366, udp: true}
-  - {name: China ss (13), server: usa1012.fraternizey.com, port: 23159, type: ss, cipher: chacha20-ietf-poly1305, password: b18e2fa7-f175-41f6-b23a-798683cd1366, udp: true}
-  - {name: China ss (14), server: usb5071.fraternizey.com, port: 19782, type: ss, cipher: chacha20-ietf-poly1305, password: b18e2fa7-f175-41f6-b23a-798683cd1366, udp: true}
-  - {name: China ss (15), server: mwksvfzza.mxmxmx.lol, port: 16301, type: ss, cipher: chacha20-ietf-poly1305, password: e143c6c2-ff80-4521-834d-3a93dc8d048b, udp: true}
-  - {name: China ss (16), server: mwksvfzza.mxmxmx.lol, port: 16401, type: ss, cipher: chacha20-ietf-poly1305, password: e143c6c2-ff80-4521-834d-3a93dc8d048b, udp: true}
-  - {name: China ss (17), server: mwksvfzza.mxmxmx.lol, port: 16501, type: ss, cipher: chacha20-ietf-poly1305, password: e143c6c2-ff80-4521-834d-3a93dc8d048b, udp: true}
-  - {name: China ss (18), server: e55596d8b2d8c495.cdn.jiashule.com, port: 18749, type: ss, cipher: chacha20-ietf-poly1305, password: e7f5be90-36cb-45fc-8833-6be56e1dff5f, udp: true}
-  - {name: China ss (19), server: e55596d8b2d8c495.cdn.jiashule.com, port: 36966, type: ss, cipher: chacha20-ietf-poly1305, password: e7f5be90-36cb-45fc-8833-6be56e1dff5f, udp: true}
-  - {name: China ss (20), server: e55596d8b2d8c495.cdn.jiashule.com, port: 51669, type: ss, cipher: chacha20-ietf-poly1305, password: e7f5be90-36cb-45fc-8833-6be56e1dff5f, udp: true}
-  - {name: China ss (21), server: e55596d8b2d8c495.cdn.jiashule.com, port: 64814, type: ss, cipher: chacha20-ietf-poly1305, password: e7f5be90-36cb-45fc-8833-6be56e1dff5f, udp: true}
-  - {name: China ss (22), server: zy.02er.com, port: 13102, type: ss, cipher: chacha20-ietf-poly1305, password: e7f5be90-36cb-45fc-8833-6be56e1dff5f, udp: true}
-  - {name: China ss (23), server: zy.02er.com, port: 13125, type: ss, cipher: chacha20-ietf-poly1305, password: e7f5be90-36cb-45fc-8833-6be56e1dff5f, udp: true}
-  - {name: China ss (24), server: zy.02er.com, port: 20168, type: ss, cipher: chacha20-ietf-poly1305, password: e7f5be90-36cb-45fc-8833-6be56e1dff5f, udp: true}
-  - {name: China ss (25), server: zy.02er.com, port: 28470, type: ss, cipher: chacha20-ietf-poly1305, password: e7f5be90-36cb-45fc-8833-6be56e1dff5f, udp: true}
   - {name: United Kingdom ss (3), server: 52.151.99.42, port: 58939, type: ss, cipher: chacha20-ietf-poly1305, password: jha5ZXvI7J4CkWQn4iB3AF, udp: true}
   - {name: United Kingdom ss (4), server: 52.151.99.42, port: 58939, type: ss, cipher: chacha20-ietf-poly1305, password: jha5ZXvI7J4CkWQn4iB3AF, udp: true}
   - {name: United Kingdom ss (5), server: 51.145.101.254, port: 19054, type: ss, cipher: chacha20-ietf-poly1305, password: mGUCxJURD8yHfXexvivQhJ, udp: true}
   - {name: United Kingdom ss (6), server: 51.145.101.254, port: 19054, type: ss, cipher: chacha20-ietf-poly1305, password: mGUCxJURD8yHfXexvivQhJ, udp: true}
   - {name: Russia ss, server: 194.26.229.18, port: 50744, type: ss, cipher: chacha20-ietf-poly1305, password: sIZ80DZsAC9ZSshS69gYql, udp: true}
-  - {name: United States ss (16), server: 184.170.241.194, port: 443, type: ss, cipher: aes-128-cfb, password: shadowsocks, udp: true}
-  - {name: United States ss (17), server: 184.170.241.194, port: 443, type: ss, cipher: aes-128-cfb, password: shadowsocks, udp: true}
-  - {name: United States ss (18), server: 212.102.47.198, port: 443, type: ss, cipher: aes-128-cfb, password: shadowsocks, udp: true}
-  - {name: United States ss (19), server: 212.102.47.198, port: 443, type: ss, cipher: aes-128-cfb, password: shadowsocks, udp: true}
-  - {name: United States ss (20), server: 212.102.47.198, port: 443, type: ss, cipher: aes-128-cfb, password: shadowsocks, udp: true}
-  - {name: China ss (26), server: hk4.gauss.life, port: 16101, type: ss, cipher: aes-128-gcm, password: 1fd86cbf-0418-48b9-92b7-af5113108647, udp: true}
-  - {name: China ss (27), server: hk6.gauss.life, port: 16123, type: ss, cipher: aes-128-gcm, password: 1fd86cbf-0418-48b9-92b7-af5113108647, udp: true}
-  - {name: China ss (28), server: 04.forlive.live, port: 22291, type: ss, cipher: aes-128-gcm, password: eb187f4d-2d02-4af7-8509-63daee8d65fb, udp: true}
-  - {name: China ss (29), server: xiaonangua.lwjyj.com, port: 32102, type: ss, cipher: aes-128-gcm, password: fcf9cb7c-6bc9-406e-87c0-bd8b09d170ee, udp: true}
-  - {name: China ss (30), server: xiaonangua.lwjyj.com, port: 32651, type: ss, cipher: aes-128-gcm, password: fcf9cb7c-6bc9-406e-87c0-bd8b09d170ee, udp: true}
-  - {name: China ss (31), server: xiaonangua.lwjyj.com, port: 32652, type: ss, cipher: aes-128-gcm, password: fcf9cb7c-6bc9-406e-87c0-bd8b09d170ee, udp: true}
-  - {name: China ss (32), server: xiaonangua.lwjyj.com, port: 38861, type: ss, cipher: aes-128-gcm, password: fcf9cb7c-6bc9-406e-87c0-bd8b09d170ee, udp: true}
-  - {name: China ss (33), server: xiaonangua.lwjyj.com, port: 38862, type: ss, cipher: aes-128-gcm, password: fcf9cb7c-6bc9-406e-87c0-bd8b09d170ee, udp: true}
+  - {name: United States ss, server: 184.170.241.194, port: 443, type: ss, cipher: aes-128-cfb, password: shadowsocks, udp: true}
+  - {name: United States ss (1), server: 184.170.241.194, port: 443, type: ss, cipher: aes-128-cfb, password: shadowsocks, udp: true}
+  - {name: United States ss (2), server: 212.102.47.198, port: 443, type: ss, cipher: aes-128-cfb, password: shadowsocks, udp: true}
+  - {name: United States ss (3), server: 212.102.47.198, port: 443, type: ss, cipher: aes-128-cfb, password: shadowsocks, udp: true}
+  - {name: United States ss (4), server: 212.102.47.198, port: 443, type: ss, cipher: aes-128-cfb, password: shadowsocks, udp: true}
+  - {name: China ss, server: 04.forlive.live, port: 22291, type: ss, cipher: aes-128-gcm, password: eb187f4d-2d02-4af7-8509-63daee8d65fb, udp: true}
   - {name: United Kingdom ss (7), server: 212.102.53.196, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
   - {name: United Kingdom ss (8), server: 212.102.53.197, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
-  - {name: United States ss (21), server: 109.104.152.126, port: 51122, type: ss, cipher: aes-256-gcm, password: dongtaiwang.com, udp: true}
-  - {name: United States ss (22), server: 109.104.152.126, port: 51122, type: ss, cipher: aes-256-gcm, password: dongtaiwang.com, udp: true}
+  - {name: United States ss (5), server: 109.104.152.126, port: 51122, type: ss, cipher: aes-256-gcm, password: dongtaiwang.com, udp: true}
+  - {name: United States ss (6), server: 109.104.152.126, port: 51122, type: ss, cipher: aes-256-gcm, password: dongtaiwang.com, udp: true}
   - {name: China trojan, server: 120.236.196.21, port: 29529, type: trojan, password: TNDSJfNv, skip-cert-verify: true, udp: true}
   - {name: China trojan (1), server: 36.151.195.48, port: 20344, type: trojan, password: TNDSJfNv, skip-cert-verify: true, udp: true}
   - {name: China trojan (2), server: 36.151.195.48, port: 20344, type: trojan, password: TNDSJfNv, skip-cert-verify: true, udp: true}
@@ -126,31 +68,6 @@ proxies:
   - {name: China trojan (12), server: free.2weradf.xyz, port: 36887, type: trojan, password: a264e316-a5f3-4bc6-b0fd-f7fe4959dd5b, sni: my01.abpilot.xyz, skip-cert-verify: true, udp: true}
   - {name: Singapore trojan, server: 5.44.249.44, port: 3306, type: trojan, password: b84d16a244460e09, sni: n2.gladns.com, skip-cert-verify: true, network: ws, ws-opts: {path: /gateway/connect, headers: {Host: n2.gladns.com}}, udp: true}
   - {name: South Korea trojan, server: 146.56.38.95, port: 57770, type: trojan, password: moist, sni: trojan.freenods.sbs, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: trojan.freenods.sbs}}, udp: true}
-  - {name: United States vless, server: 108.181.23.99, port: 443, type: vless, uuid: dc72060b-96b4-42c1-baa9-5385d7ffca70, tls: true, tfo: false, flow: xtls-rprx-vision, skip-cert-verify: true, servername: dcgsus.xn--9vq57ocpoc50b.com, client-fingerprint: chrome, network: tcp, udp: true}
-  - {name: United States vless (1), server: 108.181.24.25, port: 443, type: vless, uuid: dc72060b-96b4-42c1-baa9-5385d7ffca70, tls: true, tfo: false, flow: xtls-rprx-vision, skip-cert-verify: true, servername: dcgsus.xn--9vq57ocpoc50b.com, client-fingerprint: chrome, network: tcp, udp: true}
-  - {name: Singapore vless, server: 129.150.57.222, port: 443, type: vless, uuid: dc72060b-96b4-42c1-baa9-5385d7ffca70, tls: true, tfo: false, flow: xtls-rprx-vision, skip-cert-verify: true, servername: dcgssg.xn--9vq57ocpoc50b.com, client-fingerprint: chrome, network: tcp, udp: true}
-  - {name: Singapore vless (1), server: 129.150.57.222, port: 443, type: vless, uuid: dc72060b-96b4-42c1-baa9-5385d7ffca70, tls: true, tfo: false, flow: xtls-rprx-vision, skip-cert-verify: true, servername: dcgssg.xn--9vq57ocpoc50b.com, client-fingerprint: chrome, network: tcp, udp: true}
-  - {name: South Korea vless, server: 140.238.26.2, port: 443, type: vless, uuid: dc72060b-96b4-42c1-baa9-5385d7ffca70, tls: true, tfo: false, flow: xtls-rprx-vision, skip-cert-verify: true, servername: dcgskr.xn--9vq57ocpoc50b.com, client-fingerprint: chrome, network: tcp, udp: true}
-  - {name: South Korea vless (1), server: 140.238.26.2, port: 443, type: vless, uuid: dc72060b-96b4-42c1-baa9-5385d7ffca70, tls: true, tfo: false, flow: xtls-rprx-vision, skip-cert-verify: true, servername: dcgskr.xn--9vq57ocpoc50b.com, client-fingerprint: chrome, network: tcp, udp: true}
-  - {name: Japan vless, server: 140.83.50.155, port: 443, type: vless, uuid: dc72060b-96b4-42c1-baa9-5385d7ffca70, tls: true, tfo: false, flow: xtls-rprx-vision, skip-cert-verify: true, servername: dcgsjp.xn--9vq57ocpoc50b.com, client-fingerprint: chrome, network: tcp, udp: true}
-  - {name: Japan vless (1), server: 140.83.50.155, port: 443, type: vless, uuid: dc72060b-96b4-42c1-baa9-5385d7ffca70, tls: true, tfo: false, flow: xtls-rprx-vision, skip-cert-verify: true, servername: dcgsjp.xn--9vq57ocpoc50b.com, client-fingerprint: chrome, network: tcp, udp: true}
-  - {name: South Korea vless (2), server: 146.56.171.162, port: 443, type: vless, uuid: dc72060b-96b4-42c1-baa9-5385d7ffca70, tls: true, tfo: false, flow: xtls-rprx-vision, skip-cert-verify: true, servername: dcgskr.xn--9vq57ocpoc50b.com, client-fingerprint: chrome, network: tcp, udp: true}
-  - {name: South Korea vless (3), server: 146.56.171.162, port: 443, type: vless, uuid: dc72060b-96b4-42c1-baa9-5385d7ffca70, tls: true, tfo: false, flow: xtls-rprx-vision, skip-cert-verify: true, servername: dcgskr.xn--9vq57ocpoc50b.com, client-fingerprint: chrome, network: tcp, udp: true}
-  - {name: Japan vless (2), server: 152.69.197.136, port: 443, type: vless, uuid: dc72060b-96b4-42c1-baa9-5385d7ffca70, tls: true, tfo: false, flow: xtls-rprx-vision, skip-cert-verify: true, servername: dcgsjp.xn--9vq57ocpoc50b.com, client-fingerprint: chrome, network: tcp, udp: true}
-  - {name: Japan vless (3), server: 152.69.197.136, port: 443, type: vless, uuid: dc72060b-96b4-42c1-baa9-5385d7ffca70, tls: true, tfo: false, flow: xtls-rprx-vision, skip-cert-verify: true, servername: dcgsjp.xn--9vq57ocpoc50b.com, client-fingerprint: chrome, network: tcp, udp: true}
-  - {name: United States vless (2), server: 152.70.120.26, port: 443, type: vless, uuid: dc72060b-96b4-42c1-baa9-5385d7ffca70, tls: true, tfo: false, flow: xtls-rprx-vision, skip-cert-verify: true, servername: dcgsus.xn--9vq57ocpoc50b.com, client-fingerprint: chrome, network: tcp, udp: true}
-  - {name: United States vless (3), server: 152.70.120.26, port: 443, type: vless, uuid: dc72060b-96b4-42c1-baa9-5385d7ffca70, tls: true, tfo: false, flow: xtls-rprx-vision, skip-cert-verify: true, servername: dcgsus.xn--9vq57ocpoc50b.com, client-fingerprint: chrome, network: tcp, udp: true}
-  - {name: South Korea vless (4), server: 152.70.247.179, port: 443, type: vless, uuid: dc72060b-96b4-42c1-baa9-5385d7ffca70, tls: true, tfo: false, flow: xtls-rprx-vision, skip-cert-verify: true, servername: dcgskr.xn--9vq57ocpoc50b.com, client-fingerprint: chrome, network: tcp, udp: true}
-  - {name: South Korea vless (5), server: 152.70.247.179, port: 443, type: vless, uuid: dc72060b-96b4-42c1-baa9-5385d7ffca70, tls: true, tfo: false, flow: xtls-rprx-vision, skip-cert-verify: true, servername: dcgskr.xn--9vq57ocpoc50b.com, client-fingerprint: chrome, network: tcp, udp: true}
-  - {name: United States vless (4), server: 155.248.202.212, port: 443, type: vless, uuid: dc72060b-96b4-42c1-baa9-5385d7ffca70, tls: true, tfo: false, flow: xtls-rprx-vision, skip-cert-verify: true, servername: dcgsus.xn--9vq57ocpoc50b.com, client-fingerprint: chrome, network: tcp, udp: true}
-  - {name: United States vless (5), server: 155.248.202.212, port: 443, type: vless, uuid: dc72060b-96b4-42c1-baa9-5385d7ffca70, tls: true, tfo: false, flow: xtls-rprx-vision, skip-cert-verify: true, servername: dcgsus.xn--9vq57ocpoc50b.com, client-fingerprint: chrome, network: tcp, udp: true}
-  - {name: United States vless (6), server: 167.234.219.191, port: 443, type: vless, uuid: dc72060b-96b4-42c1-baa9-5385d7ffca70, tls: true, tfo: false, flow: xtls-rprx-vision, skip-cert-verify: true, servername: dcgsus.xn--9vq57ocpoc50b.com, client-fingerprint: chrome, network: tcp, udp: true}
-  - {name: United States vless (7), server: 167.234.219.191, port: 443, type: vless, uuid: dc72060b-96b4-42c1-baa9-5385d7ffca70, tls: true, tfo: false, flow: xtls-rprx-vision, skip-cert-verify: true, servername: dcgsus.xn--9vq57ocpoc50b.com, client-fingerprint: chrome, network: tcp, udp: true}
-  - {name: South Korea vless (6), server: 193.122.127.190, port: 443, type: vless, uuid: dc72060b-96b4-42c1-baa9-5385d7ffca70, tls: true, tfo: false, flow: xtls-rprx-vision, skip-cert-verify: true, servername: dcgskr.xn--9vq57ocpoc50b.com, client-fingerprint: chrome, network: tcp, udp: true}
-  - {name: South Korea vless (7), server: 193.122.127.190, port: 443, type: vless, uuid: dc72060b-96b4-42c1-baa9-5385d7ffca70, tls: true, tfo: false, flow: xtls-rprx-vision, skip-cert-verify: true, servername: dcgskr.xn--9vq57ocpoc50b.com, client-fingerprint: chrome, network: tcp, udp: true}
-  - {name: Singapore vless (2), server: 213.35.105.8, port: 443, type: vless, uuid: dc72060b-96b4-42c1-baa9-5385d7ffca70, tls: true, tfo: false, flow: xtls-rprx-vision, skip-cert-verify: true, servername: dcgssg.xn--9vq57ocpoc50b.com, client-fingerprint: chrome, network: tcp, udp: true}
-  - {name: Taiwan vless, server: 957e32be476a.78ab92.98f0fa.a458.k1.108f4143-d0af-4e42-85a0-b13448ab5917.138503301e7d.yydjc.top, port: 443, type: vless, uuid: dc72060b-96b4-42c1-baa9-5385d7ffca70, tls: true, tfo: false, flow: xtls-rprx-vision, skip-cert-verify: true, servername: dcgstw.xn--9vq57ocpoc50b.com, client-fingerprint: chrome, network: tcp, udp: true}
-  - {name: Taiwan vless (1), server: 957e32be476a.78ab92.98f0fa.a458.k1.108f4143-d0af-4e42-85a0-b13448ab5917.138503301e7d.yydjc.top, port: 443, type: vless, uuid: dc72060b-96b4-42c1-baa9-5385d7ffca70, tls: true, tfo: false, flow: xtls-rprx-vision, skip-cert-verify: true, servername: dcgstw.xn--9vq57ocpoc50b.com, client-fingerprint: chrome, network: tcp, udp: true}
   - {name: China vmess, server: 47.92.152.169, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: China vmess (1), server: 47.92.152.169, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: China vmess (2), server: 47.92.152.169, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
@@ -160,101 +77,81 @@ proxies:
   - {name: China vmess (6), server: 47.104.186.133, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: China vmess (7), server: 47.104.186.133, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: China vmess (8), server: 47.104.186.133, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: China vmess (9), server: 47.104.186.133, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: China vmess (9), server: 47.116.173.76, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: China vmess (10), server: 47.116.173.76, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: China vmess (11), server: 47.116.173.76, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: China vmess (12), server: 47.116.173.76, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: China vmess (13), server: 47.116.173.76, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: China vmess (14), server: 47.116.173.76, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: Taiwan vmess, server: 103.123.132.27, port: 30000, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, servername: www.97254291.xyz, network: ws, ws-opts: {path: /path/182320181512, headers: {Host: www.97254291.xyz}}, udp: true}
-  - {name: Taiwan vmess (1), server: 103.177.33.20, port: 30000, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, servername: www.35709620.xyz, network: ws, ws-opts: {path: /path/341901080027, headers: {Host: www.35709620.xyz}}, udp: true}
   - {name: UNKNOWN vmess, server: 104.19.48.29, port: 2052, type: vmess, uuid: c286daa2-59de-455c-8de8-ec032b6ce2e8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: hk2.wish.ml}}, udp: true}
   - {name: UNKNOWN vmess (1), server: 104.19.54.100, port: 2052, type: vmess, uuid: c286daa2-59de-455c-8de8-ec032b6ce2e8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048&Telegram🇨🇳 @WangCai2", headers: {Host: hk2.wish.ml}}, udp: true}
   - {name: UNKNOWN vmess (2), server: 104.19.54.100, port: 2052, type: vmess, uuid: c286daa2-59de-455c-8de8-ec032b6ce2e8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048&Telegram🇨🇳 @WangCai2", headers: {Host: hk2.wish.ml}}, udp: true}
+  - {name: China vmess (14), server: 112.132.212.19, port: 50004, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: China vmess (15), server: 112.132.212.19, port: 50004, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: China vmess (16), server: 112.132.212.19, port: 50004, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: China vmess (17), server: 112.132.212.19, port: 50004, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: China vmess (18), server: 112.132.212.19, port: 50004, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: China vmess (18), server: 112.132.215.12, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: China vmess (19), server: 112.132.215.12, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: China vmess (20), server: 112.132.215.12, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: China vmess (21), server: 112.132.215.12, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: China vmess (22), server: 112.132.215.12, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: China vmess (23), server: 112.132.215.12, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: China vmess (23), server: 114.55.132.202, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: China vmess (24), server: 114.55.132.202, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: China vmess (25), server: 114.55.132.202, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: China vmess (26), server: 114.55.132.202, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: China vmess (27), server: 114.55.132.202, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: China vmess (28), server: 114.55.132.202, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: China vmess (29), server: 114.55.132.202, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: China vmess (30), server: 120.210.205.82, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: China vmess (31), server: 120.238.122.250, port: 34414, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: China vmess (32), server: 120.238.122.250, port: 34414, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: China vmess (33), server: 124.220.57.75, port: 80, type: vmess, uuid: 98a48843-cb60-4151-88c6-26abe6ee1907, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
-  - {name: UNKNOWN vmess (3), server: 172.67.71.234, port: 443, type: vmess, uuid: c326c437-7bb3-3c5c-b678-560652745a3f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: 100-100-17-445.db-link01.top, network: ws, ws-opts: {path: /dabai.in, headers: {Host: 100-100-17-445.db-link01.top}}, udp: true}
-  - {name: China vmess (34), server: 183.236.51.59, port: 54100, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: China vmess (35), server: 183.236.51.59, port: 54100, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: China vmess (28), server: 120.210.205.82, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: China vmess (29), server: 120.238.122.250, port: 34414, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: China vmess (30), server: 120.238.122.250, port: 34414, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: China vmess (31), server: 124.220.57.75, port: 80, type: vmess, uuid: 98a48843-cb60-4151-88c6-26abe6ee1907, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /}, udp: true}
+  - {name: China vmess (32), server: 183.236.51.59, port: 54100, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: China vmess (33), server: 183.236.51.59, port: 54100, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: China vmess (34), server: 183.232.142.179, port: 15600, type: vmess, uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: China vmess (35), server: 183.232.142.179, port: 15600, type: vmess, uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: China vmess (36), server: 183.232.142.179, port: 15600, type: vmess, uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: China vmess (37), server: 183.232.142.179, port: 15600, type: vmess, uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: China vmess (38), server: 183.232.142.179, port: 15600, type: vmess, uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: China vmess (39), server: 183.232.142.179, port: 15600, type: vmess, uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: China vmess (40), server: 183.232.170.47, port: 15611, type: vmess, uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: China vmess (37), server: 183.232.170.47, port: 15611, type: vmess, uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: China vmess (38), server: 183.232.199.61, port: 15600, type: vmess, uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: China vmess (39), server: 183.232.199.61, port: 15600, type: vmess, uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: China vmess (40), server: 183.232.199.61, port: 15600, type: vmess, uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: China vmess (41), server: 183.232.199.61, port: 15600, type: vmess, uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: China vmess (42), server: 183.232.199.61, port: 15600, type: vmess, uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: China vmess (43), server: 183.232.199.61, port: 15600, type: vmess, uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: China vmess (44), server: 183.232.199.61, port: 15600, type: vmess, uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: China vmess (45), server: 183.232.199.61, port: 15600, type: vmess, uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: China vmess (46), server: 183.232.199.61, port: 15600, type: vmess, uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: China vmess (47), server: 183.232.199.61, port: 15600, type: vmess, uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: China vmess (48), server: 183.232.199.61, port: 15601, type: vmess, uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: China vmess (49), server: 183.232.199.61, port: 15601, type: vmess, uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: China vmess (50), server: 183.232.199.61, port: 15603, type: vmess, uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: China vmess (51), server: 183.232.199.61, port: 30001, type: vmess, uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: China vmess (52), server: 183.232.199.61, port: 48001, type: vmess, uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: China vmess (53), server: 183.232.199.61, port: 42001, type: vmess, uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: China vmess (54), server: 183.232.199.61, port: 42001, type: vmess, uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: China vmess (55), server: 183.232.199.61, port: 42001, type: vmess, uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: China vmess (56), server: 183.232.199.61, port: 42001, type: vmess, uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: China vmess (57), server: 183.232.199.61, port: 42001, type: vmess, uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: China vmess (58), server: 183.232.199.28, port: 15605, type: vmess, uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: China vmess (59), server: 183.232.199.28, port: 15601, type: vmess, uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: China vmess (60), server: 183.232.199.28, port: 15603, type: vmess, uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: China vmess (61), server: 183.232.199.28, port: 15603, type: vmess, uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: China vmess (62), server: 183.232.199.28, port: 15603, type: vmess, uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: China vmess (63), server: 183.232.199.28, port: 45001, type: vmess, uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: China vmess (64), server: 183.232.199.28, port: 45001, type: vmess, uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: China vmess (65), server: 183.232.199.28, port: 45001, type: vmess, uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: China vmess (66), server: 183.232.199.28, port: 45001, type: vmess, uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: China vmess (67), server: 183.232.199.28, port: 42001, type: vmess, uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: China vmess (68), server: 183.232.199.28, port: 42001, type: vmess, uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: China vmess (69), server: 183.232.199.28, port: 42001, type: vmess, uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: China vmess (70), server: 183.232.199.28, port: 42001, type: vmess, uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: China vmess (71), server: 183.232.199.28, port: 42001, type: vmess, uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: China vmess (72), server: 183.240.179.207, port: 30058, type: vmess, uuid: 5bd5899a-4b78-4d75-8570-4d21b43422c4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: China vmess (73), server: 183.240.180.244, port: 35972, type: vmess, uuid: 770ee730-2450-4e3c-a6c6-3932bd32afbd, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: China vmess (74), server: 183.240.180.244, port: 35972, type: vmess, uuid: 770ee730-2450-4e3c-a6c6-3932bd32afbd, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: United States vmess, server: 23.225.41.69, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, servername: www.11615746.xyz, network: ws, ws-opts: {path: /path/341901080027, headers: {Host: www.11615746.xyz}}, udp: true}
-  - {name: China vmess (75), server: m.cnmjin.net, port: 16632, type: vmess, uuid: 2b8cfb7b-d3e7-4525-8418-e13a9b8fd73b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: dcef278233434a15c3587ef998dd119d.mobgslb.tbcache.com}}, udp: true}
+  - {name: China vmess (44), server: 183.232.199.61, port: 15601, type: vmess, uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: China vmess (45), server: 183.232.199.61, port: 15601, type: vmess, uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: China vmess (46), server: 183.232.199.61, port: 15603, type: vmess, uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: China vmess (47), server: 183.232.199.61, port: 30001, type: vmess, uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: China vmess (48), server: 183.232.199.61, port: 48001, type: vmess, uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: China vmess (49), server: 183.232.199.61, port: 42001, type: vmess, uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: China vmess (50), server: 183.232.199.61, port: 42001, type: vmess, uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: China vmess (51), server: 183.232.199.61, port: 42001, type: vmess, uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: China vmess (52), server: 183.232.199.61, port: 42001, type: vmess, uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: China vmess (53), server: 183.232.199.28, port: 15605, type: vmess, uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: China vmess (54), server: 183.232.199.28, port: 15601, type: vmess, uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: China vmess (55), server: 183.232.199.28, port: 15603, type: vmess, uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: China vmess (56), server: 183.232.199.28, port: 15603, type: vmess, uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: China vmess (57), server: 183.232.199.28, port: 15603, type: vmess, uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: China vmess (58), server: 183.232.199.28, port: 45001, type: vmess, uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: China vmess (59), server: 183.232.199.28, port: 45001, type: vmess, uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: China vmess (60), server: 183.232.199.28, port: 45001, type: vmess, uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: China vmess (61), server: 183.232.199.28, port: 42001, type: vmess, uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: China vmess (62), server: 183.232.199.28, port: 42001, type: vmess, uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: China vmess (63), server: 183.232.199.28, port: 42001, type: vmess, uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: China vmess (64), server: 183.232.199.28, port: 42001, type: vmess, uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: China vmess (65), server: 183.240.179.207, port: 30058, type: vmess, uuid: 5bd5899a-4b78-4d75-8570-4d21b43422c4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: China vmess (66), server: 183.240.180.244, port: 35972, type: vmess, uuid: 770ee730-2450-4e3c-a6c6-3932bd32afbd, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: China vmess (67), server: 183.240.180.244, port: 35972, type: vmess, uuid: 770ee730-2450-4e3c-a6c6-3932bd32afbd, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: China vmess (68), server: m.cnmjin.net, port: 16632, type: vmess, uuid: 2b8cfb7b-d3e7-4525-8418-e13a9b8fd73b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: dcef278233434a15c3587ef998dd119d.mobgslb.tbcache.com}}, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
+      - Taiwan hysteria2
       - Japan hysteria2
-      - Hong Kong hysteria2
-      - Hong Kong hysteria2 (1)
       - South Korea hysteria2
       - South Korea hysteria2 (1)
-      - Taiwan hysteria2
       - Japan hysteria2 (1)
-      - South Korea hysteria2 (2)
-      - South Korea hysteria2 (3)
       - Japan hysteria2 (2)
-      - Japan hysteria2 (3)
-      - Japan hysteria2 (4)
-      - South Korea hysteria2 (4)
-      - South Korea hysteria2 (5)
-      - Taiwan hysteria2 (1)
       - United States hysteria2
       - United States hysteria2 (1)
       - United States hysteria2 (2)
@@ -276,75 +173,26 @@ proxy-groups:
       - France hysteria (2)
       - France hysteria (3)
       - Japan ss
-      - United States ss
-      - United States ss (1)
-      - United States ss (2)
-      - United States ss (3)
-      - United States ss (4)
-      - United States ss (5)
-      - United States ss (6)
-      - United States ss (7)
-      - United States ss (8)
-      - United States ss (9)
-      - United States ss (10)
-      - United States ss (11)
-      - United States ss (12)
-      - United States ss (13)
-      - United States ss (14)
-      - United States ss (15)
-      - China ss
-      - China ss (1)
-      - China ss (2)
-      - China ss (3)
-      - China ss (4)
-      - China ss (5)
       - Japan ss (1)
       - Japan ss (2)
       - United Kingdom ss
       - United Kingdom ss (1)
       - United Kingdom ss (2)
-      - China ss (6)
-      - China ss (7)
-      - China ss (8)
-      - China ss (9)
-      - China ss (10)
-      - China ss (11)
-      - China ss (12)
-      - China ss (13)
-      - China ss (14)
-      - China ss (15)
-      - China ss (16)
-      - China ss (17)
-      - China ss (18)
-      - China ss (19)
-      - China ss (20)
-      - China ss (21)
-      - China ss (22)
-      - China ss (23)
-      - China ss (24)
-      - China ss (25)
       - United Kingdom ss (3)
       - United Kingdom ss (4)
       - United Kingdom ss (5)
       - United Kingdom ss (6)
       - Russia ss
-      - United States ss (16)
-      - United States ss (17)
-      - United States ss (18)
-      - United States ss (19)
-      - United States ss (20)
-      - China ss (26)
-      - China ss (27)
-      - China ss (28)
-      - China ss (29)
-      - China ss (30)
-      - China ss (31)
-      - China ss (32)
-      - China ss (33)
+      - United States ss
+      - United States ss (1)
+      - United States ss (2)
+      - United States ss (3)
+      - United States ss (4)
+      - China ss
       - United Kingdom ss (7)
       - United Kingdom ss (8)
-      - United States ss (21)
-      - United States ss (22)
+      - United States ss (5)
+      - United States ss (6)
       - China trojan
       - China trojan (1)
       - China trojan (2)
@@ -361,31 +209,6 @@ proxy-groups:
       - China trojan (12)
       - Singapore trojan
       - South Korea trojan
-      - United States vless
-      - United States vless (1)
-      - Singapore vless
-      - Singapore vless (1)
-      - South Korea vless
-      - South Korea vless (1)
-      - Japan vless
-      - Japan vless (1)
-      - South Korea vless (2)
-      - South Korea vless (3)
-      - Japan vless (2)
-      - Japan vless (3)
-      - United States vless (2)
-      - United States vless (3)
-      - South Korea vless (4)
-      - South Korea vless (5)
-      - United States vless (4)
-      - United States vless (5)
-      - United States vless (6)
-      - United States vless (7)
-      - South Korea vless (6)
-      - South Korea vless (7)
-      - Singapore vless (2)
-      - Taiwan vless
-      - Taiwan vless (1)
       - China vmess
       - China vmess (1)
       - China vmess (2)
@@ -400,12 +223,10 @@ proxy-groups:
       - China vmess (11)
       - China vmess (12)
       - China vmess (13)
-      - China vmess (14)
-      - Taiwan vmess
-      - Taiwan vmess (1)
       - UNKNOWN vmess
       - UNKNOWN vmess (1)
       - UNKNOWN vmess (2)
+      - China vmess (14)
       - China vmess (15)
       - China vmess (16)
       - China vmess (17)
@@ -425,7 +246,6 @@ proxy-groups:
       - China vmess (31)
       - China vmess (32)
       - China vmess (33)
-      - UNKNOWN vmess (3)
       - China vmess (34)
       - China vmess (35)
       - China vmess (36)
@@ -461,34 +281,17 @@ proxy-groups:
       - China vmess (66)
       - China vmess (67)
       - China vmess (68)
-      - China vmess (69)
-      - China vmess (70)
-      - China vmess (71)
-      - China vmess (72)
-      - China vmess (73)
-      - China vmess (74)
-      - United States vmess
-      - China vmess (75)
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
+      - Taiwan hysteria2
       - Japan hysteria2
-      - Hong Kong hysteria2
-      - Hong Kong hysteria2 (1)
       - South Korea hysteria2
       - South Korea hysteria2 (1)
-      - Taiwan hysteria2
       - Japan hysteria2 (1)
-      - South Korea hysteria2 (2)
-      - South Korea hysteria2 (3)
       - Japan hysteria2 (2)
-      - Japan hysteria2 (3)
-      - Japan hysteria2 (4)
-      - South Korea hysteria2 (4)
-      - South Korea hysteria2 (5)
-      - Taiwan hysteria2 (1)
       - United States hysteria2
       - United States hysteria2 (1)
       - United States hysteria2 (2)
@@ -510,75 +313,26 @@ proxy-groups:
       - France hysteria (2)
       - France hysteria (3)
       - Japan ss
-      - United States ss
-      - United States ss (1)
-      - United States ss (2)
-      - United States ss (3)
-      - United States ss (4)
-      - United States ss (5)
-      - United States ss (6)
-      - United States ss (7)
-      - United States ss (8)
-      - United States ss (9)
-      - United States ss (10)
-      - United States ss (11)
-      - United States ss (12)
-      - United States ss (13)
-      - United States ss (14)
-      - United States ss (15)
-      - China ss
-      - China ss (1)
-      - China ss (2)
-      - China ss (3)
-      - China ss (4)
-      - China ss (5)
       - Japan ss (1)
       - Japan ss (2)
       - United Kingdom ss
       - United Kingdom ss (1)
       - United Kingdom ss (2)
-      - China ss (6)
-      - China ss (7)
-      - China ss (8)
-      - China ss (9)
-      - China ss (10)
-      - China ss (11)
-      - China ss (12)
-      - China ss (13)
-      - China ss (14)
-      - China ss (15)
-      - China ss (16)
-      - China ss (17)
-      - China ss (18)
-      - China ss (19)
-      - China ss (20)
-      - China ss (21)
-      - China ss (22)
-      - China ss (23)
-      - China ss (24)
-      - China ss (25)
       - United Kingdom ss (3)
       - United Kingdom ss (4)
       - United Kingdom ss (5)
       - United Kingdom ss (6)
       - Russia ss
-      - United States ss (16)
-      - United States ss (17)
-      - United States ss (18)
-      - United States ss (19)
-      - United States ss (20)
-      - China ss (26)
-      - China ss (27)
-      - China ss (28)
-      - China ss (29)
-      - China ss (30)
-      - China ss (31)
-      - China ss (32)
-      - China ss (33)
+      - United States ss
+      - United States ss (1)
+      - United States ss (2)
+      - United States ss (3)
+      - United States ss (4)
+      - China ss
       - United Kingdom ss (7)
       - United Kingdom ss (8)
-      - United States ss (21)
-      - United States ss (22)
+      - United States ss (5)
+      - United States ss (6)
       - China trojan
       - China trojan (1)
       - China trojan (2)
@@ -595,31 +349,6 @@ proxy-groups:
       - China trojan (12)
       - Singapore trojan
       - South Korea trojan
-      - United States vless
-      - United States vless (1)
-      - Singapore vless
-      - Singapore vless (1)
-      - South Korea vless
-      - South Korea vless (1)
-      - Japan vless
-      - Japan vless (1)
-      - South Korea vless (2)
-      - South Korea vless (3)
-      - Japan vless (2)
-      - Japan vless (3)
-      - United States vless (2)
-      - United States vless (3)
-      - South Korea vless (4)
-      - South Korea vless (5)
-      - United States vless (4)
-      - United States vless (5)
-      - United States vless (6)
-      - United States vless (7)
-      - South Korea vless (6)
-      - South Korea vless (7)
-      - Singapore vless (2)
-      - Taiwan vless
-      - Taiwan vless (1)
       - China vmess
       - China vmess (1)
       - China vmess (2)
@@ -634,12 +363,10 @@ proxy-groups:
       - China vmess (11)
       - China vmess (12)
       - China vmess (13)
-      - China vmess (14)
-      - Taiwan vmess
-      - Taiwan vmess (1)
       - UNKNOWN vmess
       - UNKNOWN vmess (1)
       - UNKNOWN vmess (2)
+      - China vmess (14)
       - China vmess (15)
       - China vmess (16)
       - China vmess (17)
@@ -659,7 +386,6 @@ proxy-groups:
       - China vmess (31)
       - China vmess (32)
       - China vmess (33)
-      - UNKNOWN vmess (3)
       - China vmess (34)
       - China vmess (35)
       - China vmess (36)
@@ -695,35 +421,18 @@ proxy-groups:
       - China vmess (66)
       - China vmess (67)
       - China vmess (68)
-      - China vmess (69)
-      - China vmess (70)
-      - China vmess (71)
-      - China vmess (72)
-      - China vmess (73)
-      - China vmess (74)
-      - United States vmess
-      - China vmess (75)
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
+      - Taiwan hysteria2
       - Japan hysteria2
-      - Hong Kong hysteria2
-      - Hong Kong hysteria2 (1)
       - South Korea hysteria2
       - South Korea hysteria2 (1)
-      - Taiwan hysteria2
       - Japan hysteria2 (1)
-      - South Korea hysteria2 (2)
-      - South Korea hysteria2 (3)
       - Japan hysteria2 (2)
-      - Japan hysteria2 (3)
-      - Japan hysteria2 (4)
-      - South Korea hysteria2 (4)
-      - South Korea hysteria2 (5)
-      - Taiwan hysteria2 (1)
       - United States hysteria2
       - United States hysteria2 (1)
       - United States hysteria2 (2)
@@ -745,75 +454,26 @@ proxy-groups:
       - France hysteria (2)
       - France hysteria (3)
       - Japan ss
-      - United States ss
-      - United States ss (1)
-      - United States ss (2)
-      - United States ss (3)
-      - United States ss (4)
-      - United States ss (5)
-      - United States ss (6)
-      - United States ss (7)
-      - United States ss (8)
-      - United States ss (9)
-      - United States ss (10)
-      - United States ss (11)
-      - United States ss (12)
-      - United States ss (13)
-      - United States ss (14)
-      - United States ss (15)
-      - China ss
-      - China ss (1)
-      - China ss (2)
-      - China ss (3)
-      - China ss (4)
-      - China ss (5)
       - Japan ss (1)
       - Japan ss (2)
       - United Kingdom ss
       - United Kingdom ss (1)
       - United Kingdom ss (2)
-      - China ss (6)
-      - China ss (7)
-      - China ss (8)
-      - China ss (9)
-      - China ss (10)
-      - China ss (11)
-      - China ss (12)
-      - China ss (13)
-      - China ss (14)
-      - China ss (15)
-      - China ss (16)
-      - China ss (17)
-      - China ss (18)
-      - China ss (19)
-      - China ss (20)
-      - China ss (21)
-      - China ss (22)
-      - China ss (23)
-      - China ss (24)
-      - China ss (25)
       - United Kingdom ss (3)
       - United Kingdom ss (4)
       - United Kingdom ss (5)
       - United Kingdom ss (6)
       - Russia ss
-      - United States ss (16)
-      - United States ss (17)
-      - United States ss (18)
-      - United States ss (19)
-      - United States ss (20)
-      - China ss (26)
-      - China ss (27)
-      - China ss (28)
-      - China ss (29)
-      - China ss (30)
-      - China ss (31)
-      - China ss (32)
-      - China ss (33)
+      - United States ss
+      - United States ss (1)
+      - United States ss (2)
+      - United States ss (3)
+      - United States ss (4)
+      - China ss
       - United Kingdom ss (7)
       - United Kingdom ss (8)
-      - United States ss (21)
-      - United States ss (22)
+      - United States ss (5)
+      - United States ss (6)
       - China trojan
       - China trojan (1)
       - China trojan (2)
@@ -830,31 +490,6 @@ proxy-groups:
       - China trojan (12)
       - Singapore trojan
       - South Korea trojan
-      - United States vless
-      - United States vless (1)
-      - Singapore vless
-      - Singapore vless (1)
-      - South Korea vless
-      - South Korea vless (1)
-      - Japan vless
-      - Japan vless (1)
-      - South Korea vless (2)
-      - South Korea vless (3)
-      - Japan vless (2)
-      - Japan vless (3)
-      - United States vless (2)
-      - United States vless (3)
-      - South Korea vless (4)
-      - South Korea vless (5)
-      - United States vless (4)
-      - United States vless (5)
-      - United States vless (6)
-      - United States vless (7)
-      - South Korea vless (6)
-      - South Korea vless (7)
-      - Singapore vless (2)
-      - Taiwan vless
-      - Taiwan vless (1)
       - China vmess
       - China vmess (1)
       - China vmess (2)
@@ -869,12 +504,10 @@ proxy-groups:
       - China vmess (11)
       - China vmess (12)
       - China vmess (13)
-      - China vmess (14)
-      - Taiwan vmess
-      - Taiwan vmess (1)
       - UNKNOWN vmess
       - UNKNOWN vmess (1)
       - UNKNOWN vmess (2)
+      - China vmess (14)
       - China vmess (15)
       - China vmess (16)
       - China vmess (17)
@@ -894,7 +527,6 @@ proxy-groups:
       - China vmess (31)
       - China vmess (32)
       - China vmess (33)
-      - UNKNOWN vmess (3)
       - China vmess (34)
       - China vmess (35)
       - China vmess (36)
@@ -930,14 +562,6 @@ proxy-groups:
       - China vmess (66)
       - China vmess (67)
       - China vmess (68)
-      - China vmess (69)
-      - China vmess (70)
-      - China vmess (71)
-      - China vmess (72)
-      - China vmess (73)
-      - China vmess (74)
-      - United States vmess
-      - China vmess (75)
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -956,21 +580,12 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
+      - Taiwan hysteria2
       - Japan hysteria2
-      - Hong Kong hysteria2
-      - Hong Kong hysteria2 (1)
       - South Korea hysteria2
       - South Korea hysteria2 (1)
-      - Taiwan hysteria2
       - Japan hysteria2 (1)
-      - South Korea hysteria2 (2)
-      - South Korea hysteria2 (3)
       - Japan hysteria2 (2)
-      - Japan hysteria2 (3)
-      - Japan hysteria2 (4)
-      - South Korea hysteria2 (4)
-      - South Korea hysteria2 (5)
-      - Taiwan hysteria2 (1)
       - United States hysteria2
       - United States hysteria2 (1)
       - United States hysteria2 (2)
@@ -992,75 +607,26 @@ proxy-groups:
       - France hysteria (2)
       - France hysteria (3)
       - Japan ss
-      - United States ss
-      - United States ss (1)
-      - United States ss (2)
-      - United States ss (3)
-      - United States ss (4)
-      - United States ss (5)
-      - United States ss (6)
-      - United States ss (7)
-      - United States ss (8)
-      - United States ss (9)
-      - United States ss (10)
-      - United States ss (11)
-      - United States ss (12)
-      - United States ss (13)
-      - United States ss (14)
-      - United States ss (15)
-      - China ss
-      - China ss (1)
-      - China ss (2)
-      - China ss (3)
-      - China ss (4)
-      - China ss (5)
       - Japan ss (1)
       - Japan ss (2)
       - United Kingdom ss
       - United Kingdom ss (1)
       - United Kingdom ss (2)
-      - China ss (6)
-      - China ss (7)
-      - China ss (8)
-      - China ss (9)
-      - China ss (10)
-      - China ss (11)
-      - China ss (12)
-      - China ss (13)
-      - China ss (14)
-      - China ss (15)
-      - China ss (16)
-      - China ss (17)
-      - China ss (18)
-      - China ss (19)
-      - China ss (20)
-      - China ss (21)
-      - China ss (22)
-      - China ss (23)
-      - China ss (24)
-      - China ss (25)
       - United Kingdom ss (3)
       - United Kingdom ss (4)
       - United Kingdom ss (5)
       - United Kingdom ss (6)
       - Russia ss
-      - United States ss (16)
-      - United States ss (17)
-      - United States ss (18)
-      - United States ss (19)
-      - United States ss (20)
-      - China ss (26)
-      - China ss (27)
-      - China ss (28)
-      - China ss (29)
-      - China ss (30)
-      - China ss (31)
-      - China ss (32)
-      - China ss (33)
+      - United States ss
+      - United States ss (1)
+      - United States ss (2)
+      - United States ss (3)
+      - United States ss (4)
+      - China ss
       - United Kingdom ss (7)
       - United Kingdom ss (8)
-      - United States ss (21)
-      - United States ss (22)
+      - United States ss (5)
+      - United States ss (6)
       - China trojan
       - China trojan (1)
       - China trojan (2)
@@ -1077,31 +643,6 @@ proxy-groups:
       - China trojan (12)
       - Singapore trojan
       - South Korea trojan
-      - United States vless
-      - United States vless (1)
-      - Singapore vless
-      - Singapore vless (1)
-      - South Korea vless
-      - South Korea vless (1)
-      - Japan vless
-      - Japan vless (1)
-      - South Korea vless (2)
-      - South Korea vless (3)
-      - Japan vless (2)
-      - Japan vless (3)
-      - United States vless (2)
-      - United States vless (3)
-      - South Korea vless (4)
-      - South Korea vless (5)
-      - United States vless (4)
-      - United States vless (5)
-      - United States vless (6)
-      - United States vless (7)
-      - South Korea vless (6)
-      - South Korea vless (7)
-      - Singapore vless (2)
-      - Taiwan vless
-      - Taiwan vless (1)
       - China vmess
       - China vmess (1)
       - China vmess (2)
@@ -1116,12 +657,10 @@ proxy-groups:
       - China vmess (11)
       - China vmess (12)
       - China vmess (13)
-      - China vmess (14)
-      - Taiwan vmess
-      - Taiwan vmess (1)
       - UNKNOWN vmess
       - UNKNOWN vmess (1)
       - UNKNOWN vmess (2)
+      - China vmess (14)
       - China vmess (15)
       - China vmess (16)
       - China vmess (17)
@@ -1141,7 +680,6 @@ proxy-groups:
       - China vmess (31)
       - China vmess (32)
       - China vmess (33)
-      - UNKNOWN vmess (3)
       - China vmess (34)
       - China vmess (35)
       - China vmess (36)
@@ -1177,14 +715,6 @@ proxy-groups:
       - China vmess (66)
       - China vmess (67)
       - China vmess (68)
-      - China vmess (69)
-      - China vmess (70)
-      - China vmess (71)
-      - China vmess (72)
-      - China vmess (73)
-      - China vmess (74)
-      - United States vmess
-      - China vmess (75)
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -1195,21 +725,12 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
+      - Taiwan hysteria2
       - Japan hysteria2
-      - Hong Kong hysteria2
-      - Hong Kong hysteria2 (1)
       - South Korea hysteria2
       - South Korea hysteria2 (1)
-      - Taiwan hysteria2
       - Japan hysteria2 (1)
-      - South Korea hysteria2 (2)
-      - South Korea hysteria2 (3)
       - Japan hysteria2 (2)
-      - Japan hysteria2 (3)
-      - Japan hysteria2 (4)
-      - South Korea hysteria2 (4)
-      - South Korea hysteria2 (5)
-      - Taiwan hysteria2 (1)
       - United States hysteria2
       - United States hysteria2 (1)
       - United States hysteria2 (2)
@@ -1231,75 +752,26 @@ proxy-groups:
       - France hysteria (2)
       - France hysteria (3)
       - Japan ss
-      - United States ss
-      - United States ss (1)
-      - United States ss (2)
-      - United States ss (3)
-      - United States ss (4)
-      - United States ss (5)
-      - United States ss (6)
-      - United States ss (7)
-      - United States ss (8)
-      - United States ss (9)
-      - United States ss (10)
-      - United States ss (11)
-      - United States ss (12)
-      - United States ss (13)
-      - United States ss (14)
-      - United States ss (15)
-      - China ss
-      - China ss (1)
-      - China ss (2)
-      - China ss (3)
-      - China ss (4)
-      - China ss (5)
       - Japan ss (1)
       - Japan ss (2)
       - United Kingdom ss
       - United Kingdom ss (1)
       - United Kingdom ss (2)
-      - China ss (6)
-      - China ss (7)
-      - China ss (8)
-      - China ss (9)
-      - China ss (10)
-      - China ss (11)
-      - China ss (12)
-      - China ss (13)
-      - China ss (14)
-      - China ss (15)
-      - China ss (16)
-      - China ss (17)
-      - China ss (18)
-      - China ss (19)
-      - China ss (20)
-      - China ss (21)
-      - China ss (22)
-      - China ss (23)
-      - China ss (24)
-      - China ss (25)
       - United Kingdom ss (3)
       - United Kingdom ss (4)
       - United Kingdom ss (5)
       - United Kingdom ss (6)
       - Russia ss
-      - United States ss (16)
-      - United States ss (17)
-      - United States ss (18)
-      - United States ss (19)
-      - United States ss (20)
-      - China ss (26)
-      - China ss (27)
-      - China ss (28)
-      - China ss (29)
-      - China ss (30)
-      - China ss (31)
-      - China ss (32)
-      - China ss (33)
+      - United States ss
+      - United States ss (1)
+      - United States ss (2)
+      - United States ss (3)
+      - United States ss (4)
+      - China ss
       - United Kingdom ss (7)
       - United Kingdom ss (8)
-      - United States ss (21)
-      - United States ss (22)
+      - United States ss (5)
+      - United States ss (6)
       - China trojan
       - China trojan (1)
       - China trojan (2)
@@ -1316,31 +788,6 @@ proxy-groups:
       - China trojan (12)
       - Singapore trojan
       - South Korea trojan
-      - United States vless
-      - United States vless (1)
-      - Singapore vless
-      - Singapore vless (1)
-      - South Korea vless
-      - South Korea vless (1)
-      - Japan vless
-      - Japan vless (1)
-      - South Korea vless (2)
-      - South Korea vless (3)
-      - Japan vless (2)
-      - Japan vless (3)
-      - United States vless (2)
-      - United States vless (3)
-      - South Korea vless (4)
-      - South Korea vless (5)
-      - United States vless (4)
-      - United States vless (5)
-      - United States vless (6)
-      - United States vless (7)
-      - South Korea vless (6)
-      - South Korea vless (7)
-      - Singapore vless (2)
-      - Taiwan vless
-      - Taiwan vless (1)
       - China vmess
       - China vmess (1)
       - China vmess (2)
@@ -1355,12 +802,10 @@ proxy-groups:
       - China vmess (11)
       - China vmess (12)
       - China vmess (13)
-      - China vmess (14)
-      - Taiwan vmess
-      - Taiwan vmess (1)
       - UNKNOWN vmess
       - UNKNOWN vmess (1)
       - UNKNOWN vmess (2)
+      - China vmess (14)
       - China vmess (15)
       - China vmess (16)
       - China vmess (17)
@@ -1380,7 +825,6 @@ proxy-groups:
       - China vmess (31)
       - China vmess (32)
       - China vmess (33)
-      - UNKNOWN vmess (3)
       - China vmess (34)
       - China vmess (35)
       - China vmess (36)
@@ -1416,34 +860,17 @@ proxy-groups:
       - China vmess (66)
       - China vmess (67)
       - China vmess (68)
-      - China vmess (69)
-      - China vmess (70)
-      - China vmess (71)
-      - China vmess (72)
-      - China vmess (73)
-      - China vmess (74)
-      - United States vmess
-      - China vmess (75)
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
+      - Taiwan hysteria2
       - Japan hysteria2
-      - Hong Kong hysteria2
-      - Hong Kong hysteria2 (1)
       - South Korea hysteria2
       - South Korea hysteria2 (1)
-      - Taiwan hysteria2
       - Japan hysteria2 (1)
-      - South Korea hysteria2 (2)
-      - South Korea hysteria2 (3)
       - Japan hysteria2 (2)
-      - Japan hysteria2 (3)
-      - Japan hysteria2 (4)
-      - South Korea hysteria2 (4)
-      - South Korea hysteria2 (5)
-      - Taiwan hysteria2 (1)
       - United States hysteria2
       - United States hysteria2 (1)
       - United States hysteria2 (2)
@@ -1465,75 +892,26 @@ proxy-groups:
       - France hysteria (2)
       - France hysteria (3)
       - Japan ss
-      - United States ss
-      - United States ss (1)
-      - United States ss (2)
-      - United States ss (3)
-      - United States ss (4)
-      - United States ss (5)
-      - United States ss (6)
-      - United States ss (7)
-      - United States ss (8)
-      - United States ss (9)
-      - United States ss (10)
-      - United States ss (11)
-      - United States ss (12)
-      - United States ss (13)
-      - United States ss (14)
-      - United States ss (15)
-      - China ss
-      - China ss (1)
-      - China ss (2)
-      - China ss (3)
-      - China ss (4)
-      - China ss (5)
       - Japan ss (1)
       - Japan ss (2)
       - United Kingdom ss
       - United Kingdom ss (1)
       - United Kingdom ss (2)
-      - China ss (6)
-      - China ss (7)
-      - China ss (8)
-      - China ss (9)
-      - China ss (10)
-      - China ss (11)
-      - China ss (12)
-      - China ss (13)
-      - China ss (14)
-      - China ss (15)
-      - China ss (16)
-      - China ss (17)
-      - China ss (18)
-      - China ss (19)
-      - China ss (20)
-      - China ss (21)
-      - China ss (22)
-      - China ss (23)
-      - China ss (24)
-      - China ss (25)
       - United Kingdom ss (3)
       - United Kingdom ss (4)
       - United Kingdom ss (5)
       - United Kingdom ss (6)
       - Russia ss
-      - United States ss (16)
-      - United States ss (17)
-      - United States ss (18)
-      - United States ss (19)
-      - United States ss (20)
-      - China ss (26)
-      - China ss (27)
-      - China ss (28)
-      - China ss (29)
-      - China ss (30)
-      - China ss (31)
-      - China ss (32)
-      - China ss (33)
+      - United States ss
+      - United States ss (1)
+      - United States ss (2)
+      - United States ss (3)
+      - United States ss (4)
+      - China ss
       - United Kingdom ss (7)
       - United Kingdom ss (8)
-      - United States ss (21)
-      - United States ss (22)
+      - United States ss (5)
+      - United States ss (6)
       - China trojan
       - China trojan (1)
       - China trojan (2)
@@ -1550,31 +928,6 @@ proxy-groups:
       - China trojan (12)
       - Singapore trojan
       - South Korea trojan
-      - United States vless
-      - United States vless (1)
-      - Singapore vless
-      - Singapore vless (1)
-      - South Korea vless
-      - South Korea vless (1)
-      - Japan vless
-      - Japan vless (1)
-      - South Korea vless (2)
-      - South Korea vless (3)
-      - Japan vless (2)
-      - Japan vless (3)
-      - United States vless (2)
-      - United States vless (3)
-      - South Korea vless (4)
-      - South Korea vless (5)
-      - United States vless (4)
-      - United States vless (5)
-      - United States vless (6)
-      - United States vless (7)
-      - South Korea vless (6)
-      - South Korea vless (7)
-      - Singapore vless (2)
-      - Taiwan vless
-      - Taiwan vless (1)
       - China vmess
       - China vmess (1)
       - China vmess (2)
@@ -1589,12 +942,10 @@ proxy-groups:
       - China vmess (11)
       - China vmess (12)
       - China vmess (13)
-      - China vmess (14)
-      - Taiwan vmess
-      - Taiwan vmess (1)
       - UNKNOWN vmess
       - UNKNOWN vmess (1)
       - UNKNOWN vmess (2)
+      - China vmess (14)
       - China vmess (15)
       - China vmess (16)
       - China vmess (17)
@@ -1614,7 +965,6 @@ proxy-groups:
       - China vmess (31)
       - China vmess (32)
       - China vmess (33)
-      - UNKNOWN vmess (3)
       - China vmess (34)
       - China vmess (35)
       - China vmess (36)
@@ -1650,35 +1000,18 @@ proxy-groups:
       - China vmess (66)
       - China vmess (67)
       - China vmess (68)
-      - China vmess (69)
-      - China vmess (70)
-      - China vmess (71)
-      - China vmess (72)
-      - China vmess (73)
-      - China vmess (74)
-      - United States vmess
-      - China vmess (75)
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - Taiwan hysteria2
       - Japan hysteria2
-      - Hong Kong hysteria2
-      - Hong Kong hysteria2 (1)
       - South Korea hysteria2
       - South Korea hysteria2 (1)
-      - Taiwan hysteria2
       - Japan hysteria2 (1)
-      - South Korea hysteria2 (2)
-      - South Korea hysteria2 (3)
       - Japan hysteria2 (2)
-      - Japan hysteria2 (3)
-      - Japan hysteria2 (4)
-      - South Korea hysteria2 (4)
-      - South Korea hysteria2 (5)
-      - Taiwan hysteria2 (1)
       - United States hysteria2
       - United States hysteria2 (1)
       - United States hysteria2 (2)
@@ -1700,75 +1033,26 @@ proxy-groups:
       - France hysteria (2)
       - France hysteria (3)
       - Japan ss
-      - United States ss
-      - United States ss (1)
-      - United States ss (2)
-      - United States ss (3)
-      - United States ss (4)
-      - United States ss (5)
-      - United States ss (6)
-      - United States ss (7)
-      - United States ss (8)
-      - United States ss (9)
-      - United States ss (10)
-      - United States ss (11)
-      - United States ss (12)
-      - United States ss (13)
-      - United States ss (14)
-      - United States ss (15)
-      - China ss
-      - China ss (1)
-      - China ss (2)
-      - China ss (3)
-      - China ss (4)
-      - China ss (5)
       - Japan ss (1)
       - Japan ss (2)
       - United Kingdom ss
       - United Kingdom ss (1)
       - United Kingdom ss (2)
-      - China ss (6)
-      - China ss (7)
-      - China ss (8)
-      - China ss (9)
-      - China ss (10)
-      - China ss (11)
-      - China ss (12)
-      - China ss (13)
-      - China ss (14)
-      - China ss (15)
-      - China ss (16)
-      - China ss (17)
-      - China ss (18)
-      - China ss (19)
-      - China ss (20)
-      - China ss (21)
-      - China ss (22)
-      - China ss (23)
-      - China ss (24)
-      - China ss (25)
       - United Kingdom ss (3)
       - United Kingdom ss (4)
       - United Kingdom ss (5)
       - United Kingdom ss (6)
       - Russia ss
-      - United States ss (16)
-      - United States ss (17)
-      - United States ss (18)
-      - United States ss (19)
-      - United States ss (20)
-      - China ss (26)
-      - China ss (27)
-      - China ss (28)
-      - China ss (29)
-      - China ss (30)
-      - China ss (31)
-      - China ss (32)
-      - China ss (33)
+      - United States ss
+      - United States ss (1)
+      - United States ss (2)
+      - United States ss (3)
+      - United States ss (4)
+      - China ss
       - United Kingdom ss (7)
       - United Kingdom ss (8)
-      - United States ss (21)
-      - United States ss (22)
+      - United States ss (5)
+      - United States ss (6)
       - China trojan
       - China trojan (1)
       - China trojan (2)
@@ -1785,31 +1069,6 @@ proxy-groups:
       - China trojan (12)
       - Singapore trojan
       - South Korea trojan
-      - United States vless
-      - United States vless (1)
-      - Singapore vless
-      - Singapore vless (1)
-      - South Korea vless
-      - South Korea vless (1)
-      - Japan vless
-      - Japan vless (1)
-      - South Korea vless (2)
-      - South Korea vless (3)
-      - Japan vless (2)
-      - Japan vless (3)
-      - United States vless (2)
-      - United States vless (3)
-      - South Korea vless (4)
-      - South Korea vless (5)
-      - United States vless (4)
-      - United States vless (5)
-      - United States vless (6)
-      - United States vless (7)
-      - South Korea vless (6)
-      - South Korea vless (7)
-      - Singapore vless (2)
-      - Taiwan vless
-      - Taiwan vless (1)
       - China vmess
       - China vmess (1)
       - China vmess (2)
@@ -1824,12 +1083,10 @@ proxy-groups:
       - China vmess (11)
       - China vmess (12)
       - China vmess (13)
-      - China vmess (14)
-      - Taiwan vmess
-      - Taiwan vmess (1)
       - UNKNOWN vmess
       - UNKNOWN vmess (1)
       - UNKNOWN vmess (2)
+      - China vmess (14)
       - China vmess (15)
       - China vmess (16)
       - China vmess (17)
@@ -1849,7 +1106,6 @@ proxy-groups:
       - China vmess (31)
       - China vmess (32)
       - China vmess (33)
-      - UNKNOWN vmess (3)
       - China vmess (34)
       - China vmess (35)
       - China vmess (36)
@@ -1885,14 +1141,6 @@ proxy-groups:
       - China vmess (66)
       - China vmess (67)
       - China vmess (68)
-      - China vmess (69)
-      - China vmess (70)
-      - China vmess (71)
-      - China vmess (72)
-      - China vmess (73)
-      - China vmess (74)
-      - United States vmess
-      - China vmess (75)
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -1908,21 +1156,12 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - Taiwan hysteria2
       - Japan hysteria2
-      - Hong Kong hysteria2
-      - Hong Kong hysteria2 (1)
       - South Korea hysteria2
       - South Korea hysteria2 (1)
-      - Taiwan hysteria2
       - Japan hysteria2 (1)
-      - South Korea hysteria2 (2)
-      - South Korea hysteria2 (3)
       - Japan hysteria2 (2)
-      - Japan hysteria2 (3)
-      - Japan hysteria2 (4)
-      - South Korea hysteria2 (4)
-      - South Korea hysteria2 (5)
-      - Taiwan hysteria2 (1)
       - United States hysteria2
       - United States hysteria2 (1)
       - United States hysteria2 (2)
@@ -1944,75 +1183,26 @@ proxy-groups:
       - France hysteria (2)
       - France hysteria (3)
       - Japan ss
-      - United States ss
-      - United States ss (1)
-      - United States ss (2)
-      - United States ss (3)
-      - United States ss (4)
-      - United States ss (5)
-      - United States ss (6)
-      - United States ss (7)
-      - United States ss (8)
-      - United States ss (9)
-      - United States ss (10)
-      - United States ss (11)
-      - United States ss (12)
-      - United States ss (13)
-      - United States ss (14)
-      - United States ss (15)
-      - China ss
-      - China ss (1)
-      - China ss (2)
-      - China ss (3)
-      - China ss (4)
-      - China ss (5)
       - Japan ss (1)
       - Japan ss (2)
       - United Kingdom ss
       - United Kingdom ss (1)
       - United Kingdom ss (2)
-      - China ss (6)
-      - China ss (7)
-      - China ss (8)
-      - China ss (9)
-      - China ss (10)
-      - China ss (11)
-      - China ss (12)
-      - China ss (13)
-      - China ss (14)
-      - China ss (15)
-      - China ss (16)
-      - China ss (17)
-      - China ss (18)
-      - China ss (19)
-      - China ss (20)
-      - China ss (21)
-      - China ss (22)
-      - China ss (23)
-      - China ss (24)
-      - China ss (25)
       - United Kingdom ss (3)
       - United Kingdom ss (4)
       - United Kingdom ss (5)
       - United Kingdom ss (6)
       - Russia ss
-      - United States ss (16)
-      - United States ss (17)
-      - United States ss (18)
-      - United States ss (19)
-      - United States ss (20)
-      - China ss (26)
-      - China ss (27)
-      - China ss (28)
-      - China ss (29)
-      - China ss (30)
-      - China ss (31)
-      - China ss (32)
-      - China ss (33)
+      - United States ss
+      - United States ss (1)
+      - United States ss (2)
+      - United States ss (3)
+      - United States ss (4)
+      - China ss
       - United Kingdom ss (7)
       - United Kingdom ss (8)
-      - United States ss (21)
-      - United States ss (22)
+      - United States ss (5)
+      - United States ss (6)
       - China trojan
       - China trojan (1)
       - China trojan (2)
@@ -2029,31 +1219,6 @@ proxy-groups:
       - China trojan (12)
       - Singapore trojan
       - South Korea trojan
-      - United States vless
-      - United States vless (1)
-      - Singapore vless
-      - Singapore vless (1)
-      - South Korea vless
-      - South Korea vless (1)
-      - Japan vless
-      - Japan vless (1)
-      - South Korea vless (2)
-      - South Korea vless (3)
-      - Japan vless (2)
-      - Japan vless (3)
-      - United States vless (2)
-      - United States vless (3)
-      - South Korea vless (4)
-      - South Korea vless (5)
-      - United States vless (4)
-      - United States vless (5)
-      - United States vless (6)
-      - United States vless (7)
-      - South Korea vless (6)
-      - South Korea vless (7)
-      - Singapore vless (2)
-      - Taiwan vless
-      - Taiwan vless (1)
       - China vmess
       - China vmess (1)
       - China vmess (2)
@@ -2068,12 +1233,10 @@ proxy-groups:
       - China vmess (11)
       - China vmess (12)
       - China vmess (13)
-      - China vmess (14)
-      - Taiwan vmess
-      - Taiwan vmess (1)
       - UNKNOWN vmess
       - UNKNOWN vmess (1)
       - UNKNOWN vmess (2)
+      - China vmess (14)
       - China vmess (15)
       - China vmess (16)
       - China vmess (17)
@@ -2093,7 +1256,6 @@ proxy-groups:
       - China vmess (31)
       - China vmess (32)
       - China vmess (33)
-      - UNKNOWN vmess (3)
       - China vmess (34)
       - China vmess (35)
       - China vmess (36)
@@ -2129,14 +1291,6 @@ proxy-groups:
       - China vmess (66)
       - China vmess (67)
       - China vmess (68)
-      - China vmess (69)
-      - China vmess (70)
-      - China vmess (71)
-      - China vmess (72)
-      - China vmess (73)
-      - China vmess (74)
-      - United States vmess
-      - China vmess (75)
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
