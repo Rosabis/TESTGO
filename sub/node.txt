@@ -5,6 +5,11 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
+  - {name: Hong Kong hysteria2, server: hk03.hy2.one, port: 62331, type: hysteria2, password: 7cc5a263-def2-4494-8303-0f532e765c5d, auth: 7cc5a263-def2-4494-8303-0f532e765c5d, sni: www.bing.com, skip-cert-verify: true, udp: true}
+  - {name: Japan hysteria2, server: jp06.hy2.one, port: 13333, type: hysteria2, password: 7cc5a263-def2-4494-8303-0f532e765c5d, auth: 7cc5a263-def2-4494-8303-0f532e765c5d, sni: www.bing.com, skip-cert-verify: true, udp: true}
+  - {name: South Korea hysteria2, server: kr.hy2.one, port: 55443, type: hysteria2, password: 7cc5a263-def2-4494-8303-0f532e765c5d, auth: 7cc5a263-def2-4494-8303-0f532e765c5d, sni: www.bing.com, skip-cert-verify: true, udp: true}
+  - {name: Israel hysteria2, server: us1.hy-2.top, port: 39232, type: hysteria2, password: 7cc5a263-def2-4494-8303-0f532e765c5d, auth: 7cc5a263-def2-4494-8303-0f532e765c5d, sni: www.bing.com, skip-cert-verify: true, udp: true}
+  - {name: South Korea vless, server: kr.hy2.one, port: 55442, type: vless, uuid: 7cc5a263-def2-4494-8303-0f532e765c5d, tls: true, tfo: false, flow: xtls-rprx-vision, skip-cert-verify: true, reality-opts: {public-key: sS4V0lk9XYNJn6Ttu6Q7oxTjSoqTQ990_tzMi_y6kjI, short-id: a735f58f}, servername: www.python.org, client-fingerprint: chrome, network: tcp, udp: true}
   - {name: Norway vmess, server: 46.29.219.44, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, servername: www.19935376.xyz, network: ws, ws-opts: {path: /path/341901080027, headers: {Host: www.19935376.xyz}}, udp: true}
   - {name: China vmess, server: 47.92.152.169, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: China vmess (1), server: 47.116.173.76, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
@@ -176,18 +181,38 @@ proxies:
   - {name: UNKNOWN vmess (127), server: yx3.chinayyds.xyz, port: 2052, type: vmess, uuid: 0ecf28e1-c24f-48c1-92e5-ec8da5345f2d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: us1.chinayyds.xyz}}, udp: true}
   - {name: UNKNOWN vmess (128), server: yx3.chinayyds.xyz, port: 2052, type: vmess, uuid: 2aa1ce5b-78a7-4817-a035-c55fd7b4e12c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: us1.chinayyds.xyz}}, udp: true}
   - {name: UNKNOWN vmess (129), server: yx3.chinayyds.xyz, port: 2052, type: vmess, uuid: 6964f3f9-674e-4aa8-b0c6-3130ac377d61, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: us1.chinayyds.xyz}}, udp: true}
-  - {name: UNKNOWN vmess (130), server: gy2.chinayyds.xyz, port: 2052, type: vmess, uuid: 6964f3f9-674e-4aa8-b0c6-3130ac377d61, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: opus.chinayyds.xyz}}, udp: true}
-  - {name: UNKNOWN vmess (131), server: gy2.chinayyds.xyz, port: 2052, type: vmess, uuid: 947ac4ba-1b62-489f-b727-8a9d5a224c7b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: opus.chinayyds.xyz}}, udp: true}
-  - {name: UNKNOWN vmess (132), server: gy2.chinayyds.xyz, port: 2052, type: vmess, uuid: 0ecf28e1-c24f-48c1-92e5-ec8da5345f2d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: opus.chinayyds.xyz}}, udp: true}
-  - {name: UNKNOWN vmess (133), server: gy2.chinayyds.xyz, port: 2052, type: vmess, uuid: 2aa1ce5b-78a7-4817-a035-c55fd7b4e12c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: opus.chinayyds.xyz}}, udp: true}
-  - {name: UNKNOWN vmess (134), server: gy2.chinayyds.xyz, port: 2052, type: vmess, uuid: d6e3c8c0-0f0e-4d75-bcc5-ef2fddcf69cb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: opus.chinayyds.xyz}}, udp: true}
-  - {name: UNKNOWN vmess (135), server: gy2.chinayyds.xyz, port: 2052, type: vmess, uuid: d75bf12a-8a0a-40cc-8245-5f4c0180587d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: opus.chinayyds.xyz}}, udp: true}
+  - {name: UNKNOWN vmess (130), server: cf.hy2.one, port: 80, type: vmess, uuid: 7cc5a263-def2-4494-8303-0f532e765c5d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: th02.hy-2.top}}, udp: true}
+  - {name: UNKNOWN vmess (131), server: cf.hy2.one, port: 2053, type: vmess, uuid: 7cc5a263-def2-4494-8303-0f532e765c5d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, servername: wkl01.hy-2.sbs, network: ws, ws-opts: {path: /, headers: {Host: wkl01.hy-2.sbs}}, udp: true}
+  - {name: UNKNOWN vmess (132), server: cf.hy2.one, port: 2052, type: vmess, uuid: 7cc5a263-def2-4494-8303-0f532e765c5d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: de01.hy-2.top}}, udp: true}
+  - {name: UNKNOWN vmess (133), server: cf.hy2.one, port: 80, type: vmess, uuid: 7cc5a263-def2-4494-8303-0f532e765c5d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: hk07.hy-2.one}}, udp: true}
+  - {name: UNKNOWN vmess (134), server: cf.hy2.one, port: 80, type: vmess, uuid: 7cc5a263-def2-4494-8303-0f532e765c5d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: hk07.hy-2.one}}, udp: true}
+  - {name: UNKNOWN vmess (135), server: cf.hy2.one, port: 80, type: vmess, uuid: 7cc5a263-def2-4494-8303-0f532e765c5d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: hk07.hy-2.one}}, udp: true}
+  - {name: UNKNOWN vmess (136), server: cf.hy2.one, port: 80, type: vmess, uuid: 7cc5a263-def2-4494-8303-0f532e765c5d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: hk07.hy-2.one}}, udp: true}
+  - {name: UNKNOWN vmess (137), server: cf.hy2.one, port: 2052, type: vmess, uuid: 7cc5a263-def2-4494-8303-0f532e765c5d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: hk03.hy-2.top}}, udp: true}
+  - {name: UNKNOWN vmess (138), server: cf.hy2.one, port: 80, type: vmess, uuid: 7cc5a263-def2-4494-8303-0f532e765c5d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: jp05.hy-2.top}}, udp: true}
+  - {name: UNKNOWN vmess (139), server: cf.hy2.one, port: 80, type: vmess, uuid: 7cc5a263-def2-4494-8303-0f532e765c5d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: jp06.hy-2.top}}, udp: true}
+  - {name: UNKNOWN vmess (140), server: cf.hy2.one, port: 2052, type: vmess, uuid: 7cc5a263-def2-4494-8303-0f532e765c5d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: sg04.hy-2.top}}, udp: true}
+  - {name: UNKNOWN vmess (141), server: cf.hy2.one, port: 2052, type: vmess, uuid: 7cc5a263-def2-4494-8303-0f532e765c5d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: sg01.hy-2.top}}, udp: true}
+  - {name: UNKNOWN vmess (142), server: gy2.chinayyds.xyz, port: 2052, type: vmess, uuid: 6964f3f9-674e-4aa8-b0c6-3130ac377d61, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: opus.chinayyds.xyz}}, udp: true}
+  - {name: UNKNOWN vmess (143), server: gy2.chinayyds.xyz, port: 2052, type: vmess, uuid: 947ac4ba-1b62-489f-b727-8a9d5a224c7b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: opus.chinayyds.xyz}}, udp: true}
+  - {name: UNKNOWN vmess (144), server: gy2.chinayyds.xyz, port: 2052, type: vmess, uuid: 0ecf28e1-c24f-48c1-92e5-ec8da5345f2d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: opus.chinayyds.xyz}}, udp: true}
+  - {name: UNKNOWN vmess (145), server: gy2.chinayyds.xyz, port: 2052, type: vmess, uuid: 2aa1ce5b-78a7-4817-a035-c55fd7b4e12c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: opus.chinayyds.xyz}}, udp: true}
+  - {name: UNKNOWN vmess (146), server: gy2.chinayyds.xyz, port: 2052, type: vmess, uuid: d6e3c8c0-0f0e-4d75-bcc5-ef2fddcf69cb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: opus.chinayyds.xyz}}, udp: true}
+  - {name: UNKNOWN vmess (147), server: gy2.chinayyds.xyz, port: 2052, type: vmess, uuid: d75bf12a-8a0a-40cc-8245-5f4c0180587d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: opus.chinayyds.xyz}}, udp: true}
+  - {name: UNKNOWN vmess (148), server: ntsjbgust.569883.xyz, port: 2052, type: vmess, uuid: b229cc37-77f3-4bce-ba5e-58c9d33f95c6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: azyd.mmaccc.top}}, udp: true}
+  - {name: UNKNOWN vmess (149), server: ntsjbgust.569883.xyz, port: 2052, type: vmess, uuid: b229cc37-77f3-4bce-ba5e-58c9d33f95c6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /Mboxx, headers: {Host: buylas.mmaccc.top}}, udp: true}
+  - {name: UNKNOWN vmess (150), server: ntsjbgust.569883.xyz, port: 2052, type: vmess, uuid: b229cc37-77f3-4bce-ba5e-58c9d33f95c6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: tw.mm-cc.top}}, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
+      - Hong Kong hysteria2
+      - Japan hysteria2
+      - South Korea hysteria2
+      - Israel hysteria2
+      - South Korea vless
       - Norway vmess
       - China vmess
       - China vmess (1)
@@ -365,11 +390,31 @@ proxy-groups:
       - UNKNOWN vmess (133)
       - UNKNOWN vmess (134)
       - UNKNOWN vmess (135)
+      - UNKNOWN vmess (136)
+      - UNKNOWN vmess (137)
+      - UNKNOWN vmess (138)
+      - UNKNOWN vmess (139)
+      - UNKNOWN vmess (140)
+      - UNKNOWN vmess (141)
+      - UNKNOWN vmess (142)
+      - UNKNOWN vmess (143)
+      - UNKNOWN vmess (144)
+      - UNKNOWN vmess (145)
+      - UNKNOWN vmess (146)
+      - UNKNOWN vmess (147)
+      - UNKNOWN vmess (148)
+      - UNKNOWN vmess (149)
+      - UNKNOWN vmess (150)
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
+      - Hong Kong hysteria2
+      - Japan hysteria2
+      - South Korea hysteria2
+      - Israel hysteria2
+      - South Korea vless
       - Norway vmess
       - China vmess
       - China vmess (1)
@@ -547,12 +592,32 @@ proxy-groups:
       - UNKNOWN vmess (133)
       - UNKNOWN vmess (134)
       - UNKNOWN vmess (135)
+      - UNKNOWN vmess (136)
+      - UNKNOWN vmess (137)
+      - UNKNOWN vmess (138)
+      - UNKNOWN vmess (139)
+      - UNKNOWN vmess (140)
+      - UNKNOWN vmess (141)
+      - UNKNOWN vmess (142)
+      - UNKNOWN vmess (143)
+      - UNKNOWN vmess (144)
+      - UNKNOWN vmess (145)
+      - UNKNOWN vmess (146)
+      - UNKNOWN vmess (147)
+      - UNKNOWN vmess (148)
+      - UNKNOWN vmess (149)
+      - UNKNOWN vmess (150)
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
+      - Hong Kong hysteria2
+      - Japan hysteria2
+      - South Korea hysteria2
+      - Israel hysteria2
+      - South Korea vless
       - Norway vmess
       - China vmess
       - China vmess (1)
@@ -730,6 +795,21 @@ proxy-groups:
       - UNKNOWN vmess (133)
       - UNKNOWN vmess (134)
       - UNKNOWN vmess (135)
+      - UNKNOWN vmess (136)
+      - UNKNOWN vmess (137)
+      - UNKNOWN vmess (138)
+      - UNKNOWN vmess (139)
+      - UNKNOWN vmess (140)
+      - UNKNOWN vmess (141)
+      - UNKNOWN vmess (142)
+      - UNKNOWN vmess (143)
+      - UNKNOWN vmess (144)
+      - UNKNOWN vmess (145)
+      - UNKNOWN vmess (146)
+      - UNKNOWN vmess (147)
+      - UNKNOWN vmess (148)
+      - UNKNOWN vmess (149)
+      - UNKNOWN vmess (150)
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -748,6 +828,11 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
+      - Hong Kong hysteria2
+      - Japan hysteria2
+      - South Korea hysteria2
+      - Israel hysteria2
+      - South Korea vless
       - Norway vmess
       - China vmess
       - China vmess (1)
@@ -925,6 +1010,21 @@ proxy-groups:
       - UNKNOWN vmess (133)
       - UNKNOWN vmess (134)
       - UNKNOWN vmess (135)
+      - UNKNOWN vmess (136)
+      - UNKNOWN vmess (137)
+      - UNKNOWN vmess (138)
+      - UNKNOWN vmess (139)
+      - UNKNOWN vmess (140)
+      - UNKNOWN vmess (141)
+      - UNKNOWN vmess (142)
+      - UNKNOWN vmess (143)
+      - UNKNOWN vmess (144)
+      - UNKNOWN vmess (145)
+      - UNKNOWN vmess (146)
+      - UNKNOWN vmess (147)
+      - UNKNOWN vmess (148)
+      - UNKNOWN vmess (149)
+      - UNKNOWN vmess (150)
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -935,6 +1035,11 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
+      - Hong Kong hysteria2
+      - Japan hysteria2
+      - South Korea hysteria2
+      - Israel hysteria2
+      - South Korea vless
       - Norway vmess
       - China vmess
       - China vmess (1)
@@ -1112,11 +1217,31 @@ proxy-groups:
       - UNKNOWN vmess (133)
       - UNKNOWN vmess (134)
       - UNKNOWN vmess (135)
+      - UNKNOWN vmess (136)
+      - UNKNOWN vmess (137)
+      - UNKNOWN vmess (138)
+      - UNKNOWN vmess (139)
+      - UNKNOWN vmess (140)
+      - UNKNOWN vmess (141)
+      - UNKNOWN vmess (142)
+      - UNKNOWN vmess (143)
+      - UNKNOWN vmess (144)
+      - UNKNOWN vmess (145)
+      - UNKNOWN vmess (146)
+      - UNKNOWN vmess (147)
+      - UNKNOWN vmess (148)
+      - UNKNOWN vmess (149)
+      - UNKNOWN vmess (150)
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
+      - Hong Kong hysteria2
+      - Japan hysteria2
+      - South Korea hysteria2
+      - Israel hysteria2
+      - South Korea vless
       - Norway vmess
       - China vmess
       - China vmess (1)
@@ -1294,12 +1419,32 @@ proxy-groups:
       - UNKNOWN vmess (133)
       - UNKNOWN vmess (134)
       - UNKNOWN vmess (135)
+      - UNKNOWN vmess (136)
+      - UNKNOWN vmess (137)
+      - UNKNOWN vmess (138)
+      - UNKNOWN vmess (139)
+      - UNKNOWN vmess (140)
+      - UNKNOWN vmess (141)
+      - UNKNOWN vmess (142)
+      - UNKNOWN vmess (143)
+      - UNKNOWN vmess (144)
+      - UNKNOWN vmess (145)
+      - UNKNOWN vmess (146)
+      - UNKNOWN vmess (147)
+      - UNKNOWN vmess (148)
+      - UNKNOWN vmess (149)
+      - UNKNOWN vmess (150)
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - Hong Kong hysteria2
+      - Japan hysteria2
+      - South Korea hysteria2
+      - Israel hysteria2
+      - South Korea vless
       - Norway vmess
       - China vmess
       - China vmess (1)
@@ -1477,6 +1622,21 @@ proxy-groups:
       - UNKNOWN vmess (133)
       - UNKNOWN vmess (134)
       - UNKNOWN vmess (135)
+      - UNKNOWN vmess (136)
+      - UNKNOWN vmess (137)
+      - UNKNOWN vmess (138)
+      - UNKNOWN vmess (139)
+      - UNKNOWN vmess (140)
+      - UNKNOWN vmess (141)
+      - UNKNOWN vmess (142)
+      - UNKNOWN vmess (143)
+      - UNKNOWN vmess (144)
+      - UNKNOWN vmess (145)
+      - UNKNOWN vmess (146)
+      - UNKNOWN vmess (147)
+      - UNKNOWN vmess (148)
+      - UNKNOWN vmess (149)
+      - UNKNOWN vmess (150)
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -1492,6 +1652,11 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - Hong Kong hysteria2
+      - Japan hysteria2
+      - South Korea hysteria2
+      - Israel hysteria2
+      - South Korea vless
       - Norway vmess
       - China vmess
       - China vmess (1)
@@ -1669,6 +1834,21 @@ proxy-groups:
       - UNKNOWN vmess (133)
       - UNKNOWN vmess (134)
       - UNKNOWN vmess (135)
+      - UNKNOWN vmess (136)
+      - UNKNOWN vmess (137)
+      - UNKNOWN vmess (138)
+      - UNKNOWN vmess (139)
+      - UNKNOWN vmess (140)
+      - UNKNOWN vmess (141)
+      - UNKNOWN vmess (142)
+      - UNKNOWN vmess (143)
+      - UNKNOWN vmess (144)
+      - UNKNOWN vmess (145)
+      - UNKNOWN vmess (146)
+      - UNKNOWN vmess (147)
+      - UNKNOWN vmess (148)
+      - UNKNOWN vmess (149)
+      - UNKNOWN vmess (150)
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
