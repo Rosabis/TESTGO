@@ -5,6 +5,47 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
+  - {name: Norway vmess, server: 46.29.219.44, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, servername: www.19935376.xyz, network: ws, ws-opts: {path: /path/341901080027, headers: {Host: www.19935376.xyz}}, udp: true}
+  - {name: China vmess, server: 47.92.152.169, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: China vmess (1), server: 47.116.173.76, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: Lithuania vmess, server: 85.206.165.36, port: 443, type: vmess, uuid: ba49ab05-78f8-4b0b-9400-1826cc2d3f75, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, servername: www.83322971.xyz, network: ws, ws-opts: {path: /path/182320181512, headers: {Host: www.83322971.xyz}}, udp: true}
+  - {name: Finland vmess, server: 91.132.197.4, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, servername: www.97751616.xyz, network: ws, ws-opts: {path: /path/341901080027, headers: {Host: www.97751616.xyz}}, udp: true}
+  - {name: Taiwan vmess, server: 103.123.132.27, port: 30000, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, servername: www.97254291.xyz, network: ws, ws-opts: {path: /path/341901080027, headers: {Host: www.97254291.xyz}}, udp: true}
+  - {name: Japan vmess, server: 103.72.5.19, port: 48000, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, servername: www.17438016.xyz, network: ws, ws-opts: {path: /path/341901080027, headers: {Host: www.17438016.xyz}}, udp: true}
+  - {name: United States vmess, server: 104.233.233.242, port: 49999, type: vmess, uuid: 3650da1f-200f-4272-b608-60f720c08663, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, servername: www.41159394.xyz, network: ws, ws-opts: {path: /path/341901080027, headers: {Host: www.41159394.xyz}}, udp: true}
+  - {name: United States vmess (1), server: 107.148.70.78, port: 30000, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, servername: www.38928347.xyz, network: ws, ws-opts: {path: /path/341901080027, headers: {Host: www.38928347.xyz}}, udp: true}
+  - {name: China vmess (2), server: 112.132.212.19, port: 50004, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: China vmess (3), server: 112.132.215.12, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: China vmess (4), server: 120.210.205.82, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: China vmess (5), server: 120.233.15.59, port: 34602, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: China vmess (6), server: 120.233.15.61, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: United States vmess (2), server: 170.178.189.45, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, servername: www.88708836.xyz, network: ws, ws-opts: {path: /path/341901080027, headers: {Host: www.88708836.xyz}}, udp: true}
+  - {name: Moldova vmess, server: 178.175.132.84, port: 443, type: vmess, uuid: 7e4219ae-8bf1-4f79-902b-4f259c64533d, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, servername: www.10507558.xyz, network: ws, ws-opts: {path: /path/341901080027, headers: {Host: www.10507558.xyz}}, udp: true}
+  - {name: China vmess (7), server: 183.232.170.47, port: 15604, type: vmess, uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: China vmess (8), server: 183.232.170.47, port: 15605, type: vmess, uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: China vmess (9), server: 183.232.170.47, port: 15606, type: vmess, uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: China vmess (10), server: 183.232.170.47, port: 15600, type: vmess, uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: China vmess (11), server: 183.232.170.47, port: 15611, type: vmess, uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: China vmess (12), server: 183.232.170.47, port: 45001, type: vmess, uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: China vmess (13), server: 183.232.170.47, port: 48001, type: vmess, uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: China vmess (14), server: 183.232.170.47, port: 40096, type: vmess, uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: China vmess (15), server: 183.232.170.47, port: 40099, type: vmess, uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: China vmess (16), server: 183.232.199.61, port: 15600, type: vmess, uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: China vmess (17), server: 183.232.199.61, port: 15601, type: vmess, uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: China vmess (18), server: 183.232.199.61, port: 48001, type: vmess, uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: China vmess (19), server: 183.232.199.61, port: 40001, type: vmess, uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: China vmess (20), server: 183.232.199.61, port: 40096, type: vmess, uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: China vmess (21), server: 183.232.199.61, port: 42001, type: vmess, uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: China vmess (22), server: 183.232.199.28, port: 15603, type: vmess, uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: China vmess (23), server: 183.232.199.28, port: 21006, type: vmess, uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: China vmess (24), server: 183.232.199.28, port: 45001, type: vmess, uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: China vmess (25), server: 183.232.199.28, port: 43002, type: vmess, uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: Hungary vmess, server: 185.128.26.67, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, servername: www.59394222.xyz, network: ws, ws-opts: {path: /path/341901080027, headers: {Host: www.59394222.xyz}}, udp: true}
+  - {name: Russia vmess, server: 185.133.40.92, port: 443, type: vmess, uuid: 8d78c2a8-acaa-467d-9234-d2606624506d, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, servername: www.13311625.xyz, network: ws, ws-opts: {path: /path/341901080027, headers: {Host: www.13311625.xyz}}, udp: true}
+  - {name: United States vmess (3), server: 23.225.244.38, port: 36000, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, servername: www.72170246.xyz, network: ws, ws-opts: {path: /path/341901080027, headers: {Host: www.72170246.xyz}}, udp: true}
+  - {name: United States vmess (4), server: 23.225.41.74, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, servername: www.98725996.xyz, network: ws, ws-opts: {path: /path/341901080027, headers: {Host: www.98725996.xyz}}, udp: true}
+  - {name: Spain vmess, server: 37.120.142.251, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, servername: www.79284517.xyz, network: ws, ws-opts: {path: /path/341901080027, headers: {Host: www.79284517.xyz}}, udp: true}
+  - {name: Sweden vmess, server: 37.120.209.123, port: 31000, type: vmess, uuid: dc0cf22d-e35c-4b77-8924-977f6844909b, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, servername: www.87867255.xyz, network: ws, ws-opts: {path: /path/341901080027, headers: {Host: www.87867255.xyz}}, udp: true}
   - {name: UNKNOWN vmess, server: yx1.chinayyds.xyz, port: 2052, type: vmess, uuid: 0ecf28e1-c24f-48c1-92e5-ec8da5345f2d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: akus1.chinayyds.xyz}}, udp: true}
   - {name: UNKNOWN vmess (1), server: yx1.chinayyds.xyz, port: 2052, type: vmess, uuid: 0ecf28e1-c24f-48c1-92e5-ec8da5345f2d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: akus1.chinayyds.xyz}}, udp: true}
   - {name: UNKNOWN vmess (2), server: yx1.chinayyds.xyz, port: 2052, type: vmess, uuid: 0ecf28e1-c24f-48c1-92e5-ec8da5345f2d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: akus1.chinayyds.xyz}}, udp: true}
@@ -147,6 +188,47 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
+      - Norway vmess
+      - China vmess
+      - China vmess (1)
+      - Lithuania vmess
+      - Finland vmess
+      - Taiwan vmess
+      - Japan vmess
+      - United States vmess
+      - United States vmess (1)
+      - China vmess (2)
+      - China vmess (3)
+      - China vmess (4)
+      - China vmess (5)
+      - China vmess (6)
+      - United States vmess (2)
+      - Moldova vmess
+      - China vmess (7)
+      - China vmess (8)
+      - China vmess (9)
+      - China vmess (10)
+      - China vmess (11)
+      - China vmess (12)
+      - China vmess (13)
+      - China vmess (14)
+      - China vmess (15)
+      - China vmess (16)
+      - China vmess (17)
+      - China vmess (18)
+      - China vmess (19)
+      - China vmess (20)
+      - China vmess (21)
+      - China vmess (22)
+      - China vmess (23)
+      - China vmess (24)
+      - China vmess (25)
+      - Hungary vmess
+      - Russia vmess
+      - United States vmess (3)
+      - United States vmess (4)
+      - Spain vmess
+      - Sweden vmess
       - UNKNOWN vmess
       - UNKNOWN vmess (1)
       - UNKNOWN vmess (2)
@@ -288,6 +370,47 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
+      - Norway vmess
+      - China vmess
+      - China vmess (1)
+      - Lithuania vmess
+      - Finland vmess
+      - Taiwan vmess
+      - Japan vmess
+      - United States vmess
+      - United States vmess (1)
+      - China vmess (2)
+      - China vmess (3)
+      - China vmess (4)
+      - China vmess (5)
+      - China vmess (6)
+      - United States vmess (2)
+      - Moldova vmess
+      - China vmess (7)
+      - China vmess (8)
+      - China vmess (9)
+      - China vmess (10)
+      - China vmess (11)
+      - China vmess (12)
+      - China vmess (13)
+      - China vmess (14)
+      - China vmess (15)
+      - China vmess (16)
+      - China vmess (17)
+      - China vmess (18)
+      - China vmess (19)
+      - China vmess (20)
+      - China vmess (21)
+      - China vmess (22)
+      - China vmess (23)
+      - China vmess (24)
+      - China vmess (25)
+      - Hungary vmess
+      - Russia vmess
+      - United States vmess (3)
+      - United States vmess (4)
+      - Spain vmess
+      - Sweden vmess
       - UNKNOWN vmess
       - UNKNOWN vmess (1)
       - UNKNOWN vmess (2)
@@ -430,6 +553,47 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
+      - Norway vmess
+      - China vmess
+      - China vmess (1)
+      - Lithuania vmess
+      - Finland vmess
+      - Taiwan vmess
+      - Japan vmess
+      - United States vmess
+      - United States vmess (1)
+      - China vmess (2)
+      - China vmess (3)
+      - China vmess (4)
+      - China vmess (5)
+      - China vmess (6)
+      - United States vmess (2)
+      - Moldova vmess
+      - China vmess (7)
+      - China vmess (8)
+      - China vmess (9)
+      - China vmess (10)
+      - China vmess (11)
+      - China vmess (12)
+      - China vmess (13)
+      - China vmess (14)
+      - China vmess (15)
+      - China vmess (16)
+      - China vmess (17)
+      - China vmess (18)
+      - China vmess (19)
+      - China vmess (20)
+      - China vmess (21)
+      - China vmess (22)
+      - China vmess (23)
+      - China vmess (24)
+      - China vmess (25)
+      - Hungary vmess
+      - Russia vmess
+      - United States vmess (3)
+      - United States vmess (4)
+      - Spain vmess
+      - Sweden vmess
       - UNKNOWN vmess
       - UNKNOWN vmess (1)
       - UNKNOWN vmess (2)
@@ -584,6 +748,47 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
+      - Norway vmess
+      - China vmess
+      - China vmess (1)
+      - Lithuania vmess
+      - Finland vmess
+      - Taiwan vmess
+      - Japan vmess
+      - United States vmess
+      - United States vmess (1)
+      - China vmess (2)
+      - China vmess (3)
+      - China vmess (4)
+      - China vmess (5)
+      - China vmess (6)
+      - United States vmess (2)
+      - Moldova vmess
+      - China vmess (7)
+      - China vmess (8)
+      - China vmess (9)
+      - China vmess (10)
+      - China vmess (11)
+      - China vmess (12)
+      - China vmess (13)
+      - China vmess (14)
+      - China vmess (15)
+      - China vmess (16)
+      - China vmess (17)
+      - China vmess (18)
+      - China vmess (19)
+      - China vmess (20)
+      - China vmess (21)
+      - China vmess (22)
+      - China vmess (23)
+      - China vmess (24)
+      - China vmess (25)
+      - Hungary vmess
+      - Russia vmess
+      - United States vmess (3)
+      - United States vmess (4)
+      - Spain vmess
+      - Sweden vmess
       - UNKNOWN vmess
       - UNKNOWN vmess (1)
       - UNKNOWN vmess (2)
@@ -730,6 +935,47 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
+      - Norway vmess
+      - China vmess
+      - China vmess (1)
+      - Lithuania vmess
+      - Finland vmess
+      - Taiwan vmess
+      - Japan vmess
+      - United States vmess
+      - United States vmess (1)
+      - China vmess (2)
+      - China vmess (3)
+      - China vmess (4)
+      - China vmess (5)
+      - China vmess (6)
+      - United States vmess (2)
+      - Moldova vmess
+      - China vmess (7)
+      - China vmess (8)
+      - China vmess (9)
+      - China vmess (10)
+      - China vmess (11)
+      - China vmess (12)
+      - China vmess (13)
+      - China vmess (14)
+      - China vmess (15)
+      - China vmess (16)
+      - China vmess (17)
+      - China vmess (18)
+      - China vmess (19)
+      - China vmess (20)
+      - China vmess (21)
+      - China vmess (22)
+      - China vmess (23)
+      - China vmess (24)
+      - China vmess (25)
+      - Hungary vmess
+      - Russia vmess
+      - United States vmess (3)
+      - United States vmess (4)
+      - Spain vmess
+      - Sweden vmess
       - UNKNOWN vmess
       - UNKNOWN vmess (1)
       - UNKNOWN vmess (2)
@@ -871,6 +1117,47 @@ proxy-groups:
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
+      - Norway vmess
+      - China vmess
+      - China vmess (1)
+      - Lithuania vmess
+      - Finland vmess
+      - Taiwan vmess
+      - Japan vmess
+      - United States vmess
+      - United States vmess (1)
+      - China vmess (2)
+      - China vmess (3)
+      - China vmess (4)
+      - China vmess (5)
+      - China vmess (6)
+      - United States vmess (2)
+      - Moldova vmess
+      - China vmess (7)
+      - China vmess (8)
+      - China vmess (9)
+      - China vmess (10)
+      - China vmess (11)
+      - China vmess (12)
+      - China vmess (13)
+      - China vmess (14)
+      - China vmess (15)
+      - China vmess (16)
+      - China vmess (17)
+      - China vmess (18)
+      - China vmess (19)
+      - China vmess (20)
+      - China vmess (21)
+      - China vmess (22)
+      - China vmess (23)
+      - China vmess (24)
+      - China vmess (25)
+      - Hungary vmess
+      - Russia vmess
+      - United States vmess (3)
+      - United States vmess (4)
+      - Spain vmess
+      - Sweden vmess
       - UNKNOWN vmess
       - UNKNOWN vmess (1)
       - UNKNOWN vmess (2)
@@ -1013,6 +1300,47 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - Norway vmess
+      - China vmess
+      - China vmess (1)
+      - Lithuania vmess
+      - Finland vmess
+      - Taiwan vmess
+      - Japan vmess
+      - United States vmess
+      - United States vmess (1)
+      - China vmess (2)
+      - China vmess (3)
+      - China vmess (4)
+      - China vmess (5)
+      - China vmess (6)
+      - United States vmess (2)
+      - Moldova vmess
+      - China vmess (7)
+      - China vmess (8)
+      - China vmess (9)
+      - China vmess (10)
+      - China vmess (11)
+      - China vmess (12)
+      - China vmess (13)
+      - China vmess (14)
+      - China vmess (15)
+      - China vmess (16)
+      - China vmess (17)
+      - China vmess (18)
+      - China vmess (19)
+      - China vmess (20)
+      - China vmess (21)
+      - China vmess (22)
+      - China vmess (23)
+      - China vmess (24)
+      - China vmess (25)
+      - Hungary vmess
+      - Russia vmess
+      - United States vmess (3)
+      - United States vmess (4)
+      - Spain vmess
+      - Sweden vmess
       - UNKNOWN vmess
       - UNKNOWN vmess (1)
       - UNKNOWN vmess (2)
@@ -1164,6 +1492,47 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - Norway vmess
+      - China vmess
+      - China vmess (1)
+      - Lithuania vmess
+      - Finland vmess
+      - Taiwan vmess
+      - Japan vmess
+      - United States vmess
+      - United States vmess (1)
+      - China vmess (2)
+      - China vmess (3)
+      - China vmess (4)
+      - China vmess (5)
+      - China vmess (6)
+      - United States vmess (2)
+      - Moldova vmess
+      - China vmess (7)
+      - China vmess (8)
+      - China vmess (9)
+      - China vmess (10)
+      - China vmess (11)
+      - China vmess (12)
+      - China vmess (13)
+      - China vmess (14)
+      - China vmess (15)
+      - China vmess (16)
+      - China vmess (17)
+      - China vmess (18)
+      - China vmess (19)
+      - China vmess (20)
+      - China vmess (21)
+      - China vmess (22)
+      - China vmess (23)
+      - China vmess (24)
+      - China vmess (25)
+      - Hungary vmess
+      - Russia vmess
+      - United States vmess (3)
+      - United States vmess (4)
+      - Spain vmess
+      - Sweden vmess
       - UNKNOWN vmess
       - UNKNOWN vmess (1)
       - UNKNOWN vmess (2)
