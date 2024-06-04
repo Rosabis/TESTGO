@@ -10,6 +10,31 @@ proxies:
   - {name: Hong Kong hysteria2 (2), server: hk3.mojc.xyz, port: 443, type: hysteria2, password: 8558e171-3307-4f9b-94af-2fe8e427cf9d, auth: 8558e171-3307-4f9b-94af-2fe8e427cf9d, sni: hk3.mojc.xyz, skip-cert-verify: true, udp: true}
   - {name: Hong Kong hysteria2 (3), server: hk4.mojc.xyz, port: 443, type: hysteria2, password: 8558e171-3307-4f9b-94af-2fe8e427cf9d, auth: 8558e171-3307-4f9b-94af-2fe8e427cf9d, sni: hk4.mojc.xyz, skip-cert-verify: true, udp: true}
   - {name: Hong Kong hysteria2 (4), server: hk5.mojc.xyz, port: 443, type: hysteria2, password: 8558e171-3307-4f9b-94af-2fe8e427cf9d, auth: 8558e171-3307-4f9b-94af-2fe8e427cf9d, sni: hk5.mojc.xyz, skip-cert-verify: true, udp: true}
+  - {name: United Kingdom hysteria2, server: de1.jindoucn.life, port: 9988, type: hysteria2, password: dbcb212e-f47d-4a8b-836a-8845defe7a64, auth: dbcb212e-f47d-4a8b-836a-8845defe7a64, sni: de1.jindoucn.life, skip-cert-verify: true, udp: true}
+  - {name: Germany hysteria2, server: de2.jindoucn.life, port: 9988, type: hysteria2, password: dbcb212e-f47d-4a8b-836a-8845defe7a64, auth: dbcb212e-f47d-4a8b-836a-8845defe7a64, sni: de2.jindoucn.life, skip-cert-verify: true, udp: true}
+  - {name: United Kingdom hysteria2 (1), server: gb1.jindoucn.life, port: 9988, type: hysteria2, password: dbcb212e-f47d-4a8b-836a-8845defe7a64, auth: dbcb212e-f47d-4a8b-836a-8845defe7a64, sni: gb1.jindoucn.life, skip-cert-verify: true, udp: true}
+  - {name: United Kingdom hysteria2 (2), server: gb3.jindoucn.life, port: 9988, type: hysteria2, password: dbcb212e-f47d-4a8b-836a-8845defe7a64, auth: dbcb212e-f47d-4a8b-836a-8845defe7a64, sni: gb3.jindoucn.life, skip-cert-verify: true, udp: true}
+  - {name: United Kingdom hysteria2 (3), server: gb4.jindoucn.life, port: 9988, type: hysteria2, password: dbcb212e-f47d-4a8b-836a-8845defe7a64, auth: dbcb212e-f47d-4a8b-836a-8845defe7a64, sni: gb4.jindoucn.life, skip-cert-verify: true, udp: true}
+  - {name: Hong Kong hysteria2 (5), server: hk1.jindoucn.life, port: 9988, type: hysteria2, password: dbcb212e-f47d-4a8b-836a-8845defe7a64, auth: dbcb212e-f47d-4a8b-836a-8845defe7a64, sni: hk1.jindoucn.life, skip-cert-verify: true, udp: true}
+  - {name: Hong Kong hysteria2 (6), server: hk2.jindoucn.life, port: 9988, type: hysteria2, password: dbcb212e-f47d-4a8b-836a-8845defe7a64, auth: dbcb212e-f47d-4a8b-836a-8845defe7a64, sni: hk2.jindoucn.life, skip-cert-verify: true, udp: true}
+  - {name: Greece hysteria2, server: hk3.jindoucn.life, port: 9988, type: hysteria2, password: dbcb212e-f47d-4a8b-836a-8845defe7a64, auth: dbcb212e-f47d-4a8b-836a-8845defe7a64, sni: hk3.jindoucn.life, skip-cert-verify: true, udp: true}
+  - {name: Hong Kong hysteria2 (7), server: hk4.jindoucn.life, port: 9988, type: hysteria2, password: dbcb212e-f47d-4a8b-836a-8845defe7a64, auth: dbcb212e-f47d-4a8b-836a-8845defe7a64, sni: hk4.jindoucn.life, skip-cert-verify: true, udp: true}
+  - {name: Singapore hysteria2, server: sg1.jindoucn.life, port: 9988, type: hysteria2, password: dbcb212e-f47d-4a8b-836a-8845defe7a64, auth: dbcb212e-f47d-4a8b-836a-8845defe7a64, sni: sg1.jindoucn.life, skip-cert-verify: true, udp: true}
+  - {name: Taiwan hysteria2, server: tw1.jindoucn.life, port: 9988, type: hysteria2, password: dbcb212e-f47d-4a8b-836a-8845defe7a64, auth: dbcb212e-f47d-4a8b-836a-8845defe7a64, sni: tw1.jindoucn.life, skip-cert-verify: true, udp: true}
+  - {name: Taiwan hysteria2 (1), server: tw2.jindoucn.life, port: 9988, type: hysteria2, password: dbcb212e-f47d-4a8b-836a-8845defe7a64, auth: dbcb212e-f47d-4a8b-836a-8845defe7a64, sni: tw2.jindoucn.life, skip-cert-verify: true, udp: true}
+  - {name: United States hysteria2, server: us1.jindoucn.life, port: 9988, type: hysteria2, password: dbcb212e-f47d-4a8b-836a-8845defe7a64, auth: dbcb212e-f47d-4a8b-836a-8845defe7a64, sni: us1.jindoucn.life, skip-cert-verify: true, udp: true}
+  - {name: United States hysteria2 (1), server: us2.jindoucn.life, port: 9988, type: hysteria2, password: dbcb212e-f47d-4a8b-836a-8845defe7a64, auth: dbcb212e-f47d-4a8b-836a-8845defe7a64, sni: us2.jindoucn.life, skip-cert-verify: true, udp: true}
+  - {name: United States hysteria2 (2), server: us3.jindoucn.life, port: 9988, type: hysteria2, password: dbcb212e-f47d-4a8b-836a-8845defe7a64, auth: dbcb212e-f47d-4a8b-836a-8845defe7a64, sni: us3.jindoucn.life, skip-cert-verify: true, udp: true}
+  - {name: Iran hysteria2, server: us4.jindoucn.life, port: 9988, type: hysteria2, password: dbcb212e-f47d-4a8b-836a-8845defe7a64, auth: dbcb212e-f47d-4a8b-836a-8845defe7a64, sni: us4.jindoucn.life, skip-cert-verify: true, udp: true}
+  - {name: United States hysteria2 (3), server: us5.jindoucn.life, port: 9988, type: hysteria2, password: dbcb212e-f47d-4a8b-836a-8845defe7a64, auth: dbcb212e-f47d-4a8b-836a-8845defe7a64, sni: us5.jindoucn.life, skip-cert-verify: true, udp: true}
+  - {name: United States hysteria2 (4), server: us6.jindoucn.life, port: 9988, type: hysteria2, password: dbcb212e-f47d-4a8b-836a-8845defe7a64, auth: dbcb212e-f47d-4a8b-836a-8845defe7a64, sni: us6.jindoucn.life, skip-cert-verify: true, udp: true}
+  - {name: United States hysteria2 (5), server: us7.jindoucn.life, port: 9988, type: hysteria2, password: dbcb212e-f47d-4a8b-836a-8845defe7a64, auth: dbcb212e-f47d-4a8b-836a-8845defe7a64, sni: us7.jindoucn.life, skip-cert-verify: true, udp: true}
+  - {name: Japan hysteria2, server: zp1.jindoucn.life, port: 9988, type: hysteria2, password: dbcb212e-f47d-4a8b-836a-8845defe7a64, auth: dbcb212e-f47d-4a8b-836a-8845defe7a64, sni: zp1.jindoucn.life, skip-cert-verify: true, udp: true}
+  - {name: Japan hysteria2 (1), server: zp2.jindoucn.life, port: 9988, type: hysteria2, password: dbcb212e-f47d-4a8b-836a-8845defe7a64, auth: dbcb212e-f47d-4a8b-836a-8845defe7a64, sni: zp2.jindoucn.life, skip-cert-verify: true, udp: true}
+  - {name: Japan hysteria2 (2), server: zp3.jindoucn.life, port: 9988, type: hysteria2, password: dbcb212e-f47d-4a8b-836a-8845defe7a64, auth: dbcb212e-f47d-4a8b-836a-8845defe7a64, sni: zp3.jindoucn.life, skip-cert-verify: true, udp: true}
+  - {name: Japan hysteria2 (3), server: zp4.jindoucn.life, port: 9988, type: hysteria2, password: dbcb212e-f47d-4a8b-836a-8845defe7a64, auth: dbcb212e-f47d-4a8b-836a-8845defe7a64, sni: zp4.jindoucn.life, skip-cert-verify: true, udp: true}
+  - {name: Japan hysteria2 (4), server: zp5.jindoucn.life, port: 9988, type: hysteria2, password: dbcb212e-f47d-4a8b-836a-8845defe7a64, auth: dbcb212e-f47d-4a8b-836a-8845defe7a64, sni: zp5.jindoucn.life, skip-cert-verify: true, udp: true}
+  - {name: Japan hysteria2 (5), server: zp6.jindoucn.life, port: 9988, type: hysteria2, password: dbcb212e-f47d-4a8b-836a-8845defe7a64, auth: dbcb212e-f47d-4a8b-836a-8845defe7a64, sni: zp6.jindoucn.life, skip-cert-verify: true, udp: true}
   - {name: Japan ss, server: bgroup.node1.s.nodelist-gfwairport2.top, port: 50001, type: ss, cipher: chacha20-ietf-poly1305, password: 2155145a-b1b5-443a-8977-670f6bd10f02, udp: true}
   - {name: United States ss, server: bgroup.node5.s.nodelist-gfwairport2.top, port: 50001, type: ss, cipher: chacha20-ietf-poly1305, password: 2155145a-b1b5-443a-8977-670f6bd10f02, udp: true}
   - {name: Australia vless, server: 178.173.236.231, port: 443, type: vless, uuid: 85794e0d-bb8b-472d-a3ae-92ce7de243f6, tls: true, tfo: false, flow: xtls-rprx-vision, skip-cert-verify: true, servername: dckbhk1.xn--9vq57ocpoc50b.com, client-fingerprint: chrome, network: tcp, udp: true}
@@ -37,6 +62,31 @@ proxy-groups:
       - Hong Kong hysteria2 (2)
       - Hong Kong hysteria2 (3)
       - Hong Kong hysteria2 (4)
+      - United Kingdom hysteria2
+      - Germany hysteria2
+      - United Kingdom hysteria2 (1)
+      - United Kingdom hysteria2 (2)
+      - United Kingdom hysteria2 (3)
+      - Hong Kong hysteria2 (5)
+      - Hong Kong hysteria2 (6)
+      - Greece hysteria2
+      - Hong Kong hysteria2 (7)
+      - Singapore hysteria2
+      - Taiwan hysteria2
+      - Taiwan hysteria2 (1)
+      - United States hysteria2
+      - United States hysteria2 (1)
+      - United States hysteria2 (2)
+      - Iran hysteria2
+      - United States hysteria2 (3)
+      - United States hysteria2 (4)
+      - United States hysteria2 (5)
+      - Japan hysteria2
+      - Japan hysteria2 (1)
+      - Japan hysteria2 (2)
+      - Japan hysteria2 (3)
+      - Japan hysteria2 (4)
+      - Japan hysteria2 (5)
       - Japan ss
       - United States ss
       - Australia vless
@@ -63,6 +113,31 @@ proxy-groups:
       - Hong Kong hysteria2 (2)
       - Hong Kong hysteria2 (3)
       - Hong Kong hysteria2 (4)
+      - United Kingdom hysteria2
+      - Germany hysteria2
+      - United Kingdom hysteria2 (1)
+      - United Kingdom hysteria2 (2)
+      - United Kingdom hysteria2 (3)
+      - Hong Kong hysteria2 (5)
+      - Hong Kong hysteria2 (6)
+      - Greece hysteria2
+      - Hong Kong hysteria2 (7)
+      - Singapore hysteria2
+      - Taiwan hysteria2
+      - Taiwan hysteria2 (1)
+      - United States hysteria2
+      - United States hysteria2 (1)
+      - United States hysteria2 (2)
+      - Iran hysteria2
+      - United States hysteria2 (3)
+      - United States hysteria2 (4)
+      - United States hysteria2 (5)
+      - Japan hysteria2
+      - Japan hysteria2 (1)
+      - Japan hysteria2 (2)
+      - Japan hysteria2 (3)
+      - Japan hysteria2 (4)
+      - Japan hysteria2 (5)
       - Japan ss
       - United States ss
       - Australia vless
@@ -90,6 +165,31 @@ proxy-groups:
       - Hong Kong hysteria2 (2)
       - Hong Kong hysteria2 (3)
       - Hong Kong hysteria2 (4)
+      - United Kingdom hysteria2
+      - Germany hysteria2
+      - United Kingdom hysteria2 (1)
+      - United Kingdom hysteria2 (2)
+      - United Kingdom hysteria2 (3)
+      - Hong Kong hysteria2 (5)
+      - Hong Kong hysteria2 (6)
+      - Greece hysteria2
+      - Hong Kong hysteria2 (7)
+      - Singapore hysteria2
+      - Taiwan hysteria2
+      - Taiwan hysteria2 (1)
+      - United States hysteria2
+      - United States hysteria2 (1)
+      - United States hysteria2 (2)
+      - Iran hysteria2
+      - United States hysteria2 (3)
+      - United States hysteria2 (4)
+      - United States hysteria2 (5)
+      - Japan hysteria2
+      - Japan hysteria2 (1)
+      - Japan hysteria2 (2)
+      - Japan hysteria2 (3)
+      - Japan hysteria2 (4)
+      - Japan hysteria2 (5)
       - Japan ss
       - United States ss
       - Australia vless
@@ -129,6 +229,31 @@ proxy-groups:
       - Hong Kong hysteria2 (2)
       - Hong Kong hysteria2 (3)
       - Hong Kong hysteria2 (4)
+      - United Kingdom hysteria2
+      - Germany hysteria2
+      - United Kingdom hysteria2 (1)
+      - United Kingdom hysteria2 (2)
+      - United Kingdom hysteria2 (3)
+      - Hong Kong hysteria2 (5)
+      - Hong Kong hysteria2 (6)
+      - Greece hysteria2
+      - Hong Kong hysteria2 (7)
+      - Singapore hysteria2
+      - Taiwan hysteria2
+      - Taiwan hysteria2 (1)
+      - United States hysteria2
+      - United States hysteria2 (1)
+      - United States hysteria2 (2)
+      - Iran hysteria2
+      - United States hysteria2 (3)
+      - United States hysteria2 (4)
+      - United States hysteria2 (5)
+      - Japan hysteria2
+      - Japan hysteria2 (1)
+      - Japan hysteria2 (2)
+      - Japan hysteria2 (3)
+      - Japan hysteria2 (4)
+      - Japan hysteria2 (5)
       - Japan ss
       - United States ss
       - Australia vless
@@ -160,6 +285,31 @@ proxy-groups:
       - Hong Kong hysteria2 (2)
       - Hong Kong hysteria2 (3)
       - Hong Kong hysteria2 (4)
+      - United Kingdom hysteria2
+      - Germany hysteria2
+      - United Kingdom hysteria2 (1)
+      - United Kingdom hysteria2 (2)
+      - United Kingdom hysteria2 (3)
+      - Hong Kong hysteria2 (5)
+      - Hong Kong hysteria2 (6)
+      - Greece hysteria2
+      - Hong Kong hysteria2 (7)
+      - Singapore hysteria2
+      - Taiwan hysteria2
+      - Taiwan hysteria2 (1)
+      - United States hysteria2
+      - United States hysteria2 (1)
+      - United States hysteria2 (2)
+      - Iran hysteria2
+      - United States hysteria2 (3)
+      - United States hysteria2 (4)
+      - United States hysteria2 (5)
+      - Japan hysteria2
+      - Japan hysteria2 (1)
+      - Japan hysteria2 (2)
+      - Japan hysteria2 (3)
+      - Japan hysteria2 (4)
+      - Japan hysteria2 (5)
       - Japan ss
       - United States ss
       - Australia vless
@@ -186,6 +336,31 @@ proxy-groups:
       - Hong Kong hysteria2 (2)
       - Hong Kong hysteria2 (3)
       - Hong Kong hysteria2 (4)
+      - United Kingdom hysteria2
+      - Germany hysteria2
+      - United Kingdom hysteria2 (1)
+      - United Kingdom hysteria2 (2)
+      - United Kingdom hysteria2 (3)
+      - Hong Kong hysteria2 (5)
+      - Hong Kong hysteria2 (6)
+      - Greece hysteria2
+      - Hong Kong hysteria2 (7)
+      - Singapore hysteria2
+      - Taiwan hysteria2
+      - Taiwan hysteria2 (1)
+      - United States hysteria2
+      - United States hysteria2 (1)
+      - United States hysteria2 (2)
+      - Iran hysteria2
+      - United States hysteria2 (3)
+      - United States hysteria2 (4)
+      - United States hysteria2 (5)
+      - Japan hysteria2
+      - Japan hysteria2 (1)
+      - Japan hysteria2 (2)
+      - Japan hysteria2 (3)
+      - Japan hysteria2 (4)
+      - Japan hysteria2 (5)
       - Japan ss
       - United States ss
       - Australia vless
@@ -213,6 +388,31 @@ proxy-groups:
       - Hong Kong hysteria2 (2)
       - Hong Kong hysteria2 (3)
       - Hong Kong hysteria2 (4)
+      - United Kingdom hysteria2
+      - Germany hysteria2
+      - United Kingdom hysteria2 (1)
+      - United Kingdom hysteria2 (2)
+      - United Kingdom hysteria2 (3)
+      - Hong Kong hysteria2 (5)
+      - Hong Kong hysteria2 (6)
+      - Greece hysteria2
+      - Hong Kong hysteria2 (7)
+      - Singapore hysteria2
+      - Taiwan hysteria2
+      - Taiwan hysteria2 (1)
+      - United States hysteria2
+      - United States hysteria2 (1)
+      - United States hysteria2 (2)
+      - Iran hysteria2
+      - United States hysteria2 (3)
+      - United States hysteria2 (4)
+      - United States hysteria2 (5)
+      - Japan hysteria2
+      - Japan hysteria2 (1)
+      - Japan hysteria2 (2)
+      - Japan hysteria2 (3)
+      - Japan hysteria2 (4)
+      - Japan hysteria2 (5)
       - Japan ss
       - United States ss
       - Australia vless
@@ -249,6 +449,31 @@ proxy-groups:
       - Hong Kong hysteria2 (2)
       - Hong Kong hysteria2 (3)
       - Hong Kong hysteria2 (4)
+      - United Kingdom hysteria2
+      - Germany hysteria2
+      - United Kingdom hysteria2 (1)
+      - United Kingdom hysteria2 (2)
+      - United Kingdom hysteria2 (3)
+      - Hong Kong hysteria2 (5)
+      - Hong Kong hysteria2 (6)
+      - Greece hysteria2
+      - Hong Kong hysteria2 (7)
+      - Singapore hysteria2
+      - Taiwan hysteria2
+      - Taiwan hysteria2 (1)
+      - United States hysteria2
+      - United States hysteria2 (1)
+      - United States hysteria2 (2)
+      - Iran hysteria2
+      - United States hysteria2 (3)
+      - United States hysteria2 (4)
+      - United States hysteria2 (5)
+      - Japan hysteria2
+      - Japan hysteria2 (1)
+      - Japan hysteria2 (2)
+      - Japan hysteria2 (3)
+      - Japan hysteria2 (4)
+      - Japan hysteria2 (5)
       - Japan ss
       - United States ss
       - Australia vless
