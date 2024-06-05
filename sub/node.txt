@@ -35,8 +35,37 @@ proxies:
   - {name: Japan hysteria2 (3), server: zp4.jindoucn.life, port: 9988, type: hysteria2, password: dbcb212e-f47d-4a8b-836a-8845defe7a64, auth: dbcb212e-f47d-4a8b-836a-8845defe7a64, sni: zp4.jindoucn.life, skip-cert-verify: true, udp: true}
   - {name: Japan hysteria2 (4), server: zp5.jindoucn.life, port: 9988, type: hysteria2, password: dbcb212e-f47d-4a8b-836a-8845defe7a64, auth: dbcb212e-f47d-4a8b-836a-8845defe7a64, sni: zp5.jindoucn.life, skip-cert-verify: true, udp: true}
   - {name: Japan hysteria2 (5), server: zp6.jindoucn.life, port: 9988, type: hysteria2, password: dbcb212e-f47d-4a8b-836a-8845defe7a64, auth: dbcb212e-f47d-4a8b-836a-8845defe7a64, sni: zp6.jindoucn.life, skip-cert-verify: true, udp: true}
+  - {name: China ss, server: 36.140.27.21, port: 12990, type: ss, cipher: chacha20-ietf-poly1305, password: 4efcc145-f066-4dc0-a29b-0bed72ee5776, udp: true}
+  - {name: China ss (1), server: 36.140.27.21, port: 17994, type: ss, cipher: chacha20-ietf-poly1305, password: 4efcc145-f066-4dc0-a29b-0bed72ee5776, udp: true}
+  - {name: China ss (2), server: 111.38.53.173, port: 22100, type: ss, cipher: chacha20-ietf-poly1305, password: 9c8a9aaf-1d32-4fec-a3a0-0d26c009353d, udp: true}
+  - {name: China ss (3), server: 111.38.53.173, port: 23719, type: ss, cipher: chacha20-ietf-poly1305, password: 9c8a9aaf-1d32-4fec-a3a0-0d26c009353d, udp: true}
+  - {name: China ss (4), server: 111.38.53.173, port: 30311, type: ss, cipher: chacha20-ietf-poly1305, password: 9c8a9aaf-1d32-4fec-a3a0-0d26c009353d, udp: true}
+  - {name: China ss (5), server: 111.38.53.173, port: 44646, type: ss, cipher: chacha20-ietf-poly1305, password: 9c8a9aaf-1d32-4fec-a3a0-0d26c009353d, udp: true}
+  - {name: China ss (6), server: 106.75.143.201, port: 33333, type: ss, cipher: chacha20-ietf-poly1305, password: 02e451e9-e178-40c7-a3b0-b80a897887f2, udp: true}
+  - {name: China ss (7), server: 113.31.104.14, port: 33333, type: ss, cipher: chacha20-ietf-poly1305, password: 02e451e9-e178-40c7-a3b0-b80a897887f2, udp: true}
+  - {name: China ss (8), server: 58.220.21.50, port: 38005, type: ss, cipher: chacha20-ietf-poly1305, password: 02e451e9-e178-40c7-a3b0-b80a897887f2, udp: true}
+  - {name: China ss (9), server: 58.220.21.50, port: 38006, type: ss, cipher: chacha20-ietf-poly1305, password: 02e451e9-e178-40c7-a3b0-b80a897887f2, udp: true}
+  - {name: China ss (10), server: 58.220.21.50, port: 38007, type: ss, cipher: chacha20-ietf-poly1305, password: 02e451e9-e178-40c7-a3b0-b80a897887f2, udp: true}
+  - {name: China ss (11), server: 58.220.21.50, port: 38009, type: ss, cipher: chacha20-ietf-poly1305, password: 02e451e9-e178-40c7-a3b0-b80a897887f2, udp: true}
+  - {name: China ss (12), server: 58.220.21.50, port: 38011, type: ss, cipher: chacha20-ietf-poly1305, password: 02e451e9-e178-40c7-a3b0-b80a897887f2, udp: true}
+  - {name: China ss (13), server: 58.220.21.50, port: 38013, type: ss, cipher: chacha20-ietf-poly1305, password: 02e451e9-e178-40c7-a3b0-b80a897887f2, udp: true}
+  - {name: China ss (14), server: 58.220.21.50, port: 38020, type: ss, cipher: chacha20-ietf-poly1305, password: 02e451e9-e178-40c7-a3b0-b80a897887f2, udp: true}
+  - {name: China ss (15), server: 58.220.21.50, port: 38021, type: ss, cipher: chacha20-ietf-poly1305, password: 02e451e9-e178-40c7-a3b0-b80a897887f2, udp: true}
+  - {name: China ss (16), server: 58.220.21.50, port: 38022, type: ss, cipher: chacha20-ietf-poly1305, password: 02e451e9-e178-40c7-a3b0-b80a897887f2, udp: true}
+  - {name: China ss (17), server: 58.220.21.50, port: 38023, type: ss, cipher: chacha20-ietf-poly1305, password: 02e451e9-e178-40c7-a3b0-b80a897887f2, udp: true}
+  - {name: China ss (18), server: 58.220.21.50, port: 38025, type: ss, cipher: chacha20-ietf-poly1305, password: 02e451e9-e178-40c7-a3b0-b80a897887f2, udp: true}
+  - {name: China ss (19), server: 58.220.21.50, port: 38027, type: ss, cipher: chacha20-ietf-poly1305, password: 02e451e9-e178-40c7-a3b0-b80a897887f2, udp: true}
+  - {name: China ss (20), server: 58.220.21.50, port: 38029, type: ss, cipher: chacha20-ietf-poly1305, password: 02e451e9-e178-40c7-a3b0-b80a897887f2, udp: true}
+  - {name: China ss (21), server: 58.220.21.50, port: 38031, type: ss, cipher: chacha20-ietf-poly1305, password: 02e451e9-e178-40c7-a3b0-b80a897887f2, udp: true}
+  - {name: China ss (22), server: 58.220.21.50, port: 38032, type: ss, cipher: chacha20-ietf-poly1305, password: 02e451e9-e178-40c7-a3b0-b80a897887f2, udp: true}
+  - {name: China ss (23), server: 58.220.21.50, port: 38050, type: ss, cipher: chacha20-ietf-poly1305, password: 02e451e9-e178-40c7-a3b0-b80a897887f2, udp: true}
+  - {name: China ss (24), server: 58.220.21.50, port: 38083, type: ss, cipher: chacha20-ietf-poly1305, password: 02e451e9-e178-40c7-a3b0-b80a897887f2, udp: true}
+  - {name: China ss (25), server: 58.220.21.50, port: 38124, type: ss, cipher: chacha20-ietf-poly1305, password: 02e451e9-e178-40c7-a3b0-b80a897887f2, udp: true}
   - {name: Japan ss, server: bgroup.node1.s.nodelist-gfwairport2.top, port: 50001, type: ss, cipher: chacha20-ietf-poly1305, password: 2155145a-b1b5-443a-8977-670f6bd10f02, udp: true}
   - {name: United States ss, server: bgroup.node5.s.nodelist-gfwairport2.top, port: 50001, type: ss, cipher: chacha20-ietf-poly1305, password: 2155145a-b1b5-443a-8977-670f6bd10f02, udp: true}
+  - {name: China ss (26), server: 112.17.33.7, port: 23833, type: ss, cipher: aes-128-gcm, password: 3cbdfa88-b649-411d-9910-a1f2fe322ccb, udp: true}
+  - {name: China ss (27), server: 120.233.42.140, port: 23833, type: ss, cipher: aes-128-gcm, password: 3cbdfa88-b649-411d-9910-a1f2fe322ccb, udp: true}
+  - {name: China ss (28), server: 140.179.5.30, port: 23833, type: ss, cipher: aes-128-gcm, password: 3cbdfa88-b649-411d-9910-a1f2fe322ccb, udp: true}
   - {name: Australia vless, server: 178.173.236.231, port: 443, type: vless, uuid: 85794e0d-bb8b-472d-a3ae-92ce7de243f6, tls: true, tfo: false, flow: xtls-rprx-vision, skip-cert-verify: true, servername: dckbhk1.xn--9vq57ocpoc50b.com, client-fingerprint: chrome, network: tcp, udp: true}
   - {name: Australia vless (1), server: 178.173.236.231, port: 443, type: vless, uuid: 85794e0d-bb8b-472d-a3ae-92ce7de243f6, tls: true, tfo: false, flow: xtls-rprx-vision, skip-cert-verify: true, servername: dcpqhk1.xn--9vq57ocpoc50b.com, client-fingerprint: chrome, network: tcp, udp: true}
   - {name: Hong Kong vless, server: 957e32be476a.78ab92.98f0fa.a458.h3.108f4143-d0af-4e42-85a0-b13448ab5917.138503301e7d.yydjc.top, port: 443, type: vless, uuid: 85794e0d-bb8b-472d-a3ae-92ce7de243f6, tls: true, tfo: false, flow: xtls-rprx-vision, skip-cert-verify: true, servername: dckbhk1.xn--9vq57ocpoc50b.com, client-fingerprint: chrome, network: tcp, udp: true}
@@ -87,8 +116,37 @@ proxy-groups:
       - Japan hysteria2 (3)
       - Japan hysteria2 (4)
       - Japan hysteria2 (5)
+      - China ss
+      - China ss (1)
+      - China ss (2)
+      - China ss (3)
+      - China ss (4)
+      - China ss (5)
+      - China ss (6)
+      - China ss (7)
+      - China ss (8)
+      - China ss (9)
+      - China ss (10)
+      - China ss (11)
+      - China ss (12)
+      - China ss (13)
+      - China ss (14)
+      - China ss (15)
+      - China ss (16)
+      - China ss (17)
+      - China ss (18)
+      - China ss (19)
+      - China ss (20)
+      - China ss (21)
+      - China ss (22)
+      - China ss (23)
+      - China ss (24)
+      - China ss (25)
       - Japan ss
       - United States ss
+      - China ss (26)
+      - China ss (27)
+      - China ss (28)
       - Australia vless
       - Australia vless (1)
       - Hong Kong vless
@@ -138,8 +196,37 @@ proxy-groups:
       - Japan hysteria2 (3)
       - Japan hysteria2 (4)
       - Japan hysteria2 (5)
+      - China ss
+      - China ss (1)
+      - China ss (2)
+      - China ss (3)
+      - China ss (4)
+      - China ss (5)
+      - China ss (6)
+      - China ss (7)
+      - China ss (8)
+      - China ss (9)
+      - China ss (10)
+      - China ss (11)
+      - China ss (12)
+      - China ss (13)
+      - China ss (14)
+      - China ss (15)
+      - China ss (16)
+      - China ss (17)
+      - China ss (18)
+      - China ss (19)
+      - China ss (20)
+      - China ss (21)
+      - China ss (22)
+      - China ss (23)
+      - China ss (24)
+      - China ss (25)
       - Japan ss
       - United States ss
+      - China ss (26)
+      - China ss (27)
+      - China ss (28)
       - Australia vless
       - Australia vless (1)
       - Hong Kong vless
@@ -190,8 +277,37 @@ proxy-groups:
       - Japan hysteria2 (3)
       - Japan hysteria2 (4)
       - Japan hysteria2 (5)
+      - China ss
+      - China ss (1)
+      - China ss (2)
+      - China ss (3)
+      - China ss (4)
+      - China ss (5)
+      - China ss (6)
+      - China ss (7)
+      - China ss (8)
+      - China ss (9)
+      - China ss (10)
+      - China ss (11)
+      - China ss (12)
+      - China ss (13)
+      - China ss (14)
+      - China ss (15)
+      - China ss (16)
+      - China ss (17)
+      - China ss (18)
+      - China ss (19)
+      - China ss (20)
+      - China ss (21)
+      - China ss (22)
+      - China ss (23)
+      - China ss (24)
+      - China ss (25)
       - Japan ss
       - United States ss
+      - China ss (26)
+      - China ss (27)
+      - China ss (28)
       - Australia vless
       - Australia vless (1)
       - Hong Kong vless
@@ -254,8 +370,37 @@ proxy-groups:
       - Japan hysteria2 (3)
       - Japan hysteria2 (4)
       - Japan hysteria2 (5)
+      - China ss
+      - China ss (1)
+      - China ss (2)
+      - China ss (3)
+      - China ss (4)
+      - China ss (5)
+      - China ss (6)
+      - China ss (7)
+      - China ss (8)
+      - China ss (9)
+      - China ss (10)
+      - China ss (11)
+      - China ss (12)
+      - China ss (13)
+      - China ss (14)
+      - China ss (15)
+      - China ss (16)
+      - China ss (17)
+      - China ss (18)
+      - China ss (19)
+      - China ss (20)
+      - China ss (21)
+      - China ss (22)
+      - China ss (23)
+      - China ss (24)
+      - China ss (25)
       - Japan ss
       - United States ss
+      - China ss (26)
+      - China ss (27)
+      - China ss (28)
       - Australia vless
       - Australia vless (1)
       - Hong Kong vless
@@ -310,8 +455,37 @@ proxy-groups:
       - Japan hysteria2 (3)
       - Japan hysteria2 (4)
       - Japan hysteria2 (5)
+      - China ss
+      - China ss (1)
+      - China ss (2)
+      - China ss (3)
+      - China ss (4)
+      - China ss (5)
+      - China ss (6)
+      - China ss (7)
+      - China ss (8)
+      - China ss (9)
+      - China ss (10)
+      - China ss (11)
+      - China ss (12)
+      - China ss (13)
+      - China ss (14)
+      - China ss (15)
+      - China ss (16)
+      - China ss (17)
+      - China ss (18)
+      - China ss (19)
+      - China ss (20)
+      - China ss (21)
+      - China ss (22)
+      - China ss (23)
+      - China ss (24)
+      - China ss (25)
       - Japan ss
       - United States ss
+      - China ss (26)
+      - China ss (27)
+      - China ss (28)
       - Australia vless
       - Australia vless (1)
       - Hong Kong vless
@@ -361,8 +535,37 @@ proxy-groups:
       - Japan hysteria2 (3)
       - Japan hysteria2 (4)
       - Japan hysteria2 (5)
+      - China ss
+      - China ss (1)
+      - China ss (2)
+      - China ss (3)
+      - China ss (4)
+      - China ss (5)
+      - China ss (6)
+      - China ss (7)
+      - China ss (8)
+      - China ss (9)
+      - China ss (10)
+      - China ss (11)
+      - China ss (12)
+      - China ss (13)
+      - China ss (14)
+      - China ss (15)
+      - China ss (16)
+      - China ss (17)
+      - China ss (18)
+      - China ss (19)
+      - China ss (20)
+      - China ss (21)
+      - China ss (22)
+      - China ss (23)
+      - China ss (24)
+      - China ss (25)
       - Japan ss
       - United States ss
+      - China ss (26)
+      - China ss (27)
+      - China ss (28)
       - Australia vless
       - Australia vless (1)
       - Hong Kong vless
@@ -413,8 +616,37 @@ proxy-groups:
       - Japan hysteria2 (3)
       - Japan hysteria2 (4)
       - Japan hysteria2 (5)
+      - China ss
+      - China ss (1)
+      - China ss (2)
+      - China ss (3)
+      - China ss (4)
+      - China ss (5)
+      - China ss (6)
+      - China ss (7)
+      - China ss (8)
+      - China ss (9)
+      - China ss (10)
+      - China ss (11)
+      - China ss (12)
+      - China ss (13)
+      - China ss (14)
+      - China ss (15)
+      - China ss (16)
+      - China ss (17)
+      - China ss (18)
+      - China ss (19)
+      - China ss (20)
+      - China ss (21)
+      - China ss (22)
+      - China ss (23)
+      - China ss (24)
+      - China ss (25)
       - Japan ss
       - United States ss
+      - China ss (26)
+      - China ss (27)
+      - China ss (28)
       - Australia vless
       - Australia vless (1)
       - Hong Kong vless
@@ -474,8 +706,37 @@ proxy-groups:
       - Japan hysteria2 (3)
       - Japan hysteria2 (4)
       - Japan hysteria2 (5)
+      - China ss
+      - China ss (1)
+      - China ss (2)
+      - China ss (3)
+      - China ss (4)
+      - China ss (5)
+      - China ss (6)
+      - China ss (7)
+      - China ss (8)
+      - China ss (9)
+      - China ss (10)
+      - China ss (11)
+      - China ss (12)
+      - China ss (13)
+      - China ss (14)
+      - China ss (15)
+      - China ss (16)
+      - China ss (17)
+      - China ss (18)
+      - China ss (19)
+      - China ss (20)
+      - China ss (21)
+      - China ss (22)
+      - China ss (23)
+      - China ss (24)
+      - China ss (25)
       - Japan ss
       - United States ss
+      - China ss (26)
+      - China ss (27)
+      - China ss (28)
       - Australia vless
       - Australia vless (1)
       - Hong Kong vless
