@@ -5,65 +5,458 @@ mode: Rule
 log-level: info
 external-controller: :9090
 proxies:
-  - {name: United States hysteria2, server: 129.153.75.202, port: 443, type: hysteria2, password: 5f48b137-439f-4111-a4af-c443ce60112b, auth: 5f48b137-439f-4111-a4af-c443ce60112b, sni: www.bing.com, skip-cert-verify: true, udp: true}
-  - {name: United States hysteria2 (1), server: 129.153.80.156, port: 443, type: hysteria2, password: 5f48b137-439f-4111-a4af-c443ce60112b, auth: 5f48b137-439f-4111-a4af-c443ce60112b, sni: www.bing.com, skip-cert-verify: true, udp: true}
-  - {name: South Korea hysteria2, server: 146.56.114.61, port: 443, type: hysteria2, password: 5f48b137-439f-4111-a4af-c443ce60112b, auth: 5f48b137-439f-4111-a4af-c443ce60112b, sni: www.hoyoverse.com, skip-cert-verify: true, udp: true}
-  - {name: Australia hysteria2, server: 152.69.186.200, port: 443, type: hysteria2, password: 5f48b137-439f-4111-a4af-c443ce60112b, auth: 5f48b137-439f-4111-a4af-c443ce60112b, sni: www.hoyoverse.com, skip-cert-verify: true, udp: true}
-  - {name: Germany hysteria2, server: 152.70.176.68, port: 443, type: hysteria2, password: 5f48b137-439f-4111-a4af-c443ce60112b, auth: 5f48b137-439f-4111-a4af-c443ce60112b, sni: www.bing.com, skip-cert-verify: true, udp: true}
-  - {name: United States hysteria2 (2), server: 158.101.37.59, port: 443, type: hysteria2, password: 5f48b137-439f-4111-a4af-c443ce60112b, auth: 5f48b137-439f-4111-a4af-c443ce60112b, sni: www.bing.com, skip-cert-verify: true, udp: true}
-  - {name: South Korea hysteria2 (1), server: 158.180.71.143, port: 443, type: hysteria2, password: 5f48b137-439f-4111-a4af-c443ce60112b, auth: 5f48b137-439f-4111-a4af-c443ce60112b, sni: www.hoyoverse.com, skip-cert-verify: true, udp: true}
-  - {name: Australia hysteria2 (1), server: 192.9.186.104, port: 443, type: hysteria2, password: 5f48b137-439f-4111-a4af-c443ce60112b, auth: 5f48b137-439f-4111-a4af-c443ce60112b, sni: www.hoyoverse.com, skip-cert-verify: true, udp: true}
-  - {name: Japan hysteria2, server: 205.178.183.33, port: 443, type: hysteria2, password: 5f48b137-439f-4111-a4af-c443ce60112b, auth: 5f48b137-439f-4111-a4af-c443ce60112b, sni: www.microsoft.com, skip-cert-verify: true, udp: true}
-  - {name: China trojan, server: onproxy.mxmxmx.lol, port: 50404, type: trojan, password: 1eb97bed-3455-4f02-bf9a-668b009be290, skip-cert-verify: true, udp: true}
-  - {name: China trojan (1), server: onproxy.mxmxmx.lol, port: 50421, type: trojan, password: 1eb97bed-3455-4f02-bf9a-668b009be290, skip-cert-verify: true, udp: true}
-  - {name: China trojan (2), server: onproxy.mxmxmx.lol, port: 50425, type: trojan, password: 1eb97bed-3455-4f02-bf9a-668b009be290, skip-cert-verify: true, udp: true}
-  - {name: China trojan (3), server: onproxy.mxmxmx.lol, port: 50432, type: trojan, password: 1eb97bed-3455-4f02-bf9a-668b009be290, skip-cert-verify: true, udp: true}
-  - {name: China trojan (4), server: onproxy.mxmxmx.lol, port: 50444, type: trojan, password: 1eb97bed-3455-4f02-bf9a-668b009be290, skip-cert-verify: true, udp: true}
-  - {name: China trojan (5), server: onproxy.mxmxmx.lol, port: 50454, type: trojan, password: 1eb97bed-3455-4f02-bf9a-668b009be290, skip-cert-verify: true, udp: true}
-  - {name: South Korea vless, server: 152.67.219.54, port: 443, type: vless, uuid: 5f48b137-439f-4111-a4af-c443ce60112b, tls: true, tfo: false, flow: xtls-rprx-vision, skip-cert-verify: true, servername: a9e9-de2f1o2.xn--4gq62f52gopi49k.com, client-fingerprint: chrome, network: tcp, udp: true}
-  - {name: Australia vless, server: 178.173.236.233, port: 443, type: vless, uuid: 5f48b137-439f-4111-a4af-c443ce60112b, tls: true, tfo: false, flow: xtls-rprx-vision, skip-cert-verify: true, servername: djdownloadhk.xn--4gq62f52gopi49k.com, client-fingerprint: chrome, network: tcp, udp: true}
-  - {name: Taiwan vless, server: c8217-b2a.h1.49d2.5e11.613.b297.djjsvip.cfd, port: 443, type: vless, uuid: 5f48b137-439f-4111-a4af-c443ce60112b, tls: true, tfo: false, flow: xtls-rprx-vision, skip-cert-verify: true, servername: djdownloadtw1.xn--4gq62f52gopi49k.com, client-fingerprint: chrome, network: tcp, udp: true}
-  - {name: UNKNOWN vmess, server: chaoji1.chaozhijc.xyz, port: 2082, type: vmess, uuid: 0ff2af1f-4993-41a8-849f-0161cf33bce2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: bx.chaozhijc.xyz}}, udp: true}
-  - {name: UNKNOWN vmess (1), server: chaoji1.chaozhijc.xyz, port: 2082, type: vmess, uuid: 0ff2af1f-4993-41a8-849f-0161cf33bce2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: dxjp.chaozhijc.xyz}}, udp: true}
-  - {name: UNKNOWN vmess (2), server: chaoji1.chaozhijc.xyz, port: 2082, type: vmess, uuid: 0ff2af1f-4993-41a8-849f-0161cf33bce2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: dyd.chaozhijc.xyz}}, udp: true}
-  - {name: UNKNOWN vmess (3), server: chaoji1.chaozhijc.xyz, port: 2082, type: vmess, uuid: 0ff2af1f-4993-41a8-849f-0161cf33bce2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: dadly.chaozhijc.xyz}}, udp: true}
-  - {name: UNKNOWN vmess (4), server: chaoji1.chaozhijc.xyz, port: 2082, type: vmess, uuid: 0ff2af1f-4993-41a8-849f-0161cf33bce2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: dadly.chaozhijc.xyz}}, udp: true}
-  - {name: UNKNOWN vmess (5), server: chaoji1.chaozhijc.xyz, port: 2082, type: vmess, uuid: 0ff2af1f-4993-41a8-849f-0161cf33bce2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: dadly.chaozhijc.xyz}}, udp: true}
-  - {name: UNKNOWN vmess (6), server: chaoji1.chaozhijc.xyz, port: 2082, type: vmess, uuid: 0ff2af1f-4993-41a8-849f-0161cf33bce2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: dadly.chaozhijc.xyz}}, udp: true}
-  - {name: UNKNOWN vmess (7), server: chaoji1.chaozhijc.xyz, port: 2082, type: vmess, uuid: 0ff2af1f-4993-41a8-849f-0161cf33bce2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: dadly.chaozhijc.xyz}}, udp: true}
-  - {name: UNKNOWN vmess (8), server: chaoji1.chaozhijc.xyz, port: 2082, type: vmess, uuid: 0ff2af1f-4993-41a8-849f-0161cf33bce2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: dadly.chaozhijc.xyz}}, udp: true}
-  - {name: UNKNOWN vmess (9), server: chaoji1.chaozhijc.xyz, port: 2082, type: vmess, uuid: 0ff2af1f-4993-41a8-849f-0161cf33bce2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: ddg.chaozhijc.xyz}}, udp: true}
-  - {name: UNKNOWN vmess (10), server: chaoji1.chaozhijc.xyz, port: 2082, type: vmess, uuid: 0ff2af1f-4993-41a8-849f-0161cf33bce2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: dny.chaozhijc.xyz}}, udp: true}
-  - {name: UNKNOWN vmess (11), server: chaoji2.chaozhijc.xyz, port: 2082, type: vmess, uuid: 0ff2af1f-4993-41a8-849f-0161cf33bce2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: bx.chaozhijc.xyz}}, udp: true}
-  - {name: UNKNOWN vmess (12), server: chaoji2.chaozhijc.xyz, port: 2082, type: vmess, uuid: 0ff2af1f-4993-41a8-849f-0161cf33bce2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: dxjp.chaozhijc.xyz}}, udp: true}
-  - {name: UNKNOWN vmess (13), server: chaoji2.chaozhijc.xyz, port: 2082, type: vmess, uuid: 0ff2af1f-4993-41a8-849f-0161cf33bce2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: dyd.chaozhijc.xyz}}, udp: true}
-  - {name: UNKNOWN vmess (14), server: chaoji2.chaozhijc.xyz, port: 2082, type: vmess, uuid: 0ff2af1f-4993-41a8-849f-0161cf33bce2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: dadly.chaozhijc.xyz}}, udp: true}
-  - {name: UNKNOWN vmess (15), server: chaoji2.chaozhijc.xyz, port: 2082, type: vmess, uuid: 0ff2af1f-4993-41a8-849f-0161cf33bce2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: ddg.chaozhijc.xyz}}, udp: true}
-  - {name: UNKNOWN vmess (16), server: chaoji2.chaozhijc.xyz, port: 2082, type: vmess, uuid: 0ff2af1f-4993-41a8-849f-0161cf33bce2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: dny.chaozhijc.xyz}}, udp: true}
+  - {name: The Netherlands hysteria2, server: dhl.qjfjc.top, port: 7328, type: hysteria2, password: 5cba26a3-c239-4b05-9509-101645d5cedc, auth: 5cba26a3-c239-4b05-9509-101645d5cedc, sni: dhl.qjfjc.top, skip-cert-verify: true, udp: true}
+  - {name: Singapore hysteria2, server: dxjp.qjfjc.top, port: 7328, type: hysteria2, password: 5cba26a3-c239-4b05-9509-101645d5cedc, auth: 5cba26a3-c239-4b05-9509-101645d5cedc, sni: dxjp.qjfjc.top, skip-cert-verify: true, udp: true}
+  - {name: Germany hysteria2, server: fg.qjfjc.top, port: 7328, type: hysteria2, password: 5cba26a3-c239-4b05-9509-101645d5cedc, auth: 5cba26a3-c239-4b05-9509-101645d5cedc, sni: fg.qjfjc.top, skip-cert-verify: true, udp: true}
+  - {name: The Netherlands hysteria2 (1), server: dhl.qjfjc.top, port: 7328, type: hysteria2, password: c70a65ac-459a-464c-aee0-82511b85334b, auth: c70a65ac-459a-464c-aee0-82511b85334b, sni: dhl.qjfjc.top, skip-cert-verify: true, udp: true}
+  - {name: United States hysteria2, server: dny.qjfjc.top, port: 7328, type: hysteria2, password: c70a65ac-459a-464c-aee0-82511b85334b, auth: c70a65ac-459a-464c-aee0-82511b85334b, sni: dny.qjfjc.top, skip-cert-verify: true, udp: true}
+  - {name: Singapore hysteria2 (1), server: dxjp2.qjfjc.top, port: 7328, type: hysteria2, password: c70a65ac-459a-464c-aee0-82511b85334b, auth: c70a65ac-459a-464c-aee0-82511b85334b, sni: dxjp2.qjfjc.top, skip-cert-verify: true, udp: true}
+  - {name: United States hysteria2 (1), server: 104.192.224.140, port: 62894, type: hysteria2, password: dongtaiwang.com, auth: dongtaiwang.com, sni: www.bing.com, skip-cert-verify: true, udp: true}
+  - {name: United States hysteria2 (2), server: 104.192.224.141, port: 62894, type: hysteria2, password: dongtaiwang.com, auth: dongtaiwang.com, sni: www.bing.com, skip-cert-verify: true, udp: true}
+  - {name: United States hysteria2 (3), server: 104.192.224.141, port: 62894, type: hysteria2, password: dongtaiwang.com, auth: dongtaiwang.com, sni: www.bing.com, skip-cert-verify: true, udp: true}
+  - {name: The Netherlands hysteria2 (2), server: dhl.qjfjc.top, port: 7328, type: hysteria2, password: e69f5da8-3d56-4776-86a0-a6dde0d64731, auth: e69f5da8-3d56-4776-86a0-a6dde0d64731, sni: dhl.qjfjc.top, skip-cert-verify: true, udp: true}
+  - {name: Singapore hysteria2 (2), server: dxjp.qjfjc.top, port: 7328, type: hysteria2, password: e69f5da8-3d56-4776-86a0-a6dde0d64731, auth: e69f5da8-3d56-4776-86a0-a6dde0d64731, sni: dxjp.qjfjc.top, skip-cert-verify: true, udp: true}
+  - {name: Singapore hysteria2 (3), server: dxjp.qjfjc.top, port: 7328, type: hysteria2, password: e69f5da8-3d56-4776-86a0-a6dde0d64731, auth: e69f5da8-3d56-4776-86a0-a6dde0d64731, sni: dxjp.qjfjc.top, skip-cert-verify: true, udp: true}
+  - {name: Singapore hysteria2 (4), server: dxjp.qjfjc.top, port: 7328, type: hysteria2, password: e69f5da8-3d56-4776-86a0-a6dde0d64731, auth: e69f5da8-3d56-4776-86a0-a6dde0d64731, sni: dxjp.qjfjc.top, skip-cert-verify: true, udp: true}
+  - {name: Singapore hysteria2 (5), server: dxjp.qjfjc.top, port: 7328, type: hysteria2, password: e69f5da8-3d56-4776-86a0-a6dde0d64731, auth: e69f5da8-3d56-4776-86a0-a6dde0d64731, sni: dxjp.qjfjc.top, skip-cert-verify: true, udp: true}
+  - {name: Singapore hysteria2 (6), server: dxjp2.qjfjc.top, port: 7328, type: hysteria2, password: e69f5da8-3d56-4776-86a0-a6dde0d64731, auth: e69f5da8-3d56-4776-86a0-a6dde0d64731, sni: dxjp2.qjfjc.top, skip-cert-verify: true, udp: true}
+  - {name: India hysteria2, server: dyd.qjfjc.top, port: 7328, type: hysteria2, password: e69f5da8-3d56-4776-86a0-a6dde0d64731, auth: e69f5da8-3d56-4776-86a0-a6dde0d64731, sni: dyd.qjfjc.top, skip-cert-verify: true, udp: true}
+  - {name: Hong Kong hysteria2, server: hk-01.worldfirst.eu.org, port: 44300, type: hysteria2, password: 0305973a-151f-4ecb-adaf-b8de02e648a6, auth: 0305973a-151f-4ecb-adaf-b8de02e648a6, sni: hk-01.worldfirst.eu.org, skip-cert-verify: true, udp: true}
+  - {name: Japan hysteria2, server: jp-01.worldfirst.eu.org, port: 44300, type: hysteria2, password: 0305973a-151f-4ecb-adaf-b8de02e648a6, auth: 0305973a-151f-4ecb-adaf-b8de02e648a6, sni: jp-01.worldfirst.eu.org, skip-cert-verify: true, udp: true}
+  - {name: South Korea hysteria2, server: kr-01.worldfirst.eu.org, port: 44300, type: hysteria2, password: 0305973a-151f-4ecb-adaf-b8de02e648a6, auth: 0305973a-151f-4ecb-adaf-b8de02e648a6, sni: kr-01.worldfirst.eu.org, skip-cert-verify: true, udp: true}
+  - {name: South Korea hysteria2 (1), server: kr-03.worldfirst.eu.org, port: 44300, type: hysteria2, password: 0305973a-151f-4ecb-adaf-b8de02e648a6, auth: 0305973a-151f-4ecb-adaf-b8de02e648a6, sni: kr-03.worldfirst.eu.org, skip-cert-verify: true, udp: true}
+  - {name: South Korea hysteria2 (2), server: kr-04.worldfirst.eu.org, port: 44300, type: hysteria2, password: 0305973a-151f-4ecb-adaf-b8de02e648a6, auth: 0305973a-151f-4ecb-adaf-b8de02e648a6, sni: kr-03.worldfirst.eu.org, skip-cert-verify: true, udp: true}
+  - {name: Singapore hysteria2 (7), server: sg-01.worldfirst.eu.org, port: 44300, type: hysteria2, password: 0305973a-151f-4ecb-adaf-b8de02e648a6, auth: 0305973a-151f-4ecb-adaf-b8de02e648a6, sni: sg-01.worldfirst.eu.org, skip-cert-verify: true, udp: true}
+  - {name: Singapore hysteria2 (8), server: sg-01.worldfirst.eu.org, port: 44300, type: hysteria2, password: 0305973a-151f-4ecb-adaf-b8de02e648a6, auth: 0305973a-151f-4ecb-adaf-b8de02e648a6, sni: sg-01.worldfirst.eu.org, skip-cert-verify: true, udp: true}
+  - {name: Singapore hysteria2 (9), server: sg-01.worldfirst.eu.org, port: 44300, type: hysteria2, password: 0305973a-151f-4ecb-adaf-b8de02e648a6, auth: 0305973a-151f-4ecb-adaf-b8de02e648a6, sni: sg-01.worldfirst.eu.org, skip-cert-verify: true, udp: true}
+  - {name: United States hysteria2 (4), server: us-01.worldfirst.eu.org, port: 44300, type: hysteria2, password: 0305973a-151f-4ecb-adaf-b8de02e648a6, auth: 0305973a-151f-4ecb-adaf-b8de02e648a6, sni: us-01.worldfirst.eu.org, skip-cert-verify: true, udp: true}
+  - {name: South Korea hysteria2 (3), server: zz.worldfirst.eu.org, port: 46600, type: hysteria2, password: 0305973a-151f-4ecb-adaf-b8de02e648a6, auth: 0305973a-151f-4ecb-adaf-b8de02e648a6, sni: hk-01.worldfirst.eu.org, skip-cert-verify: true, udp: true}
+  - {name: South Korea hysteria2 (4), server: zz.worldfirst.eu.org, port: 46601, type: hysteria2, password: 0305973a-151f-4ecb-adaf-b8de02e648a6, auth: 0305973a-151f-4ecb-adaf-b8de02e648a6, sni: us-01.worldfirst.eu.org, skip-cert-verify: true, udp: true}
+  - {name: South Korea hysteria2 (5), server: zz.worldfirst.eu.org, port: 46602, type: hysteria2, password: 0305973a-151f-4ecb-adaf-b8de02e648a6, auth: 0305973a-151f-4ecb-adaf-b8de02e648a6, sni: jp-01.worldfirst.eu.org, skip-cert-verify: true, udp: true}
+  - {name: South Korea hysteria2 (6), server: zz.worldfirst.eu.org, port: 46603, type: hysteria2, password: 0305973a-151f-4ecb-adaf-b8de02e648a6, auth: 0305973a-151f-4ecb-adaf-b8de02e648a6, sni: sg-01.worldfirst.eu.org, skip-cert-verify: true, udp: true}
+  - {name: South Korea hysteria2 (7), server: zz.worldfirst.eu.org, port: 46604, type: hysteria2, password: 0305973a-151f-4ecb-adaf-b8de02e648a6, auth: 0305973a-151f-4ecb-adaf-b8de02e648a6, sni: hk-01.worldfirst.eu.org, skip-cert-verify: true, udp: true}
+  - {name: Hong Kong hysteria2 (1), server: hk-01.worldfirst.eu.org, port: 44300, type: hysteria2, password: 3a1c0dae-304d-43e5-9c28-db2456c34eda, auth: 3a1c0dae-304d-43e5-9c28-db2456c34eda, sni: hk-01.worldfirst.eu.org, skip-cert-verify: true, udp: true}
+  - {name: Japan hysteria2 (1), server: jp-01.worldfirst.eu.org, port: 44300, type: hysteria2, password: 3a1c0dae-304d-43e5-9c28-db2456c34eda, auth: 3a1c0dae-304d-43e5-9c28-db2456c34eda, sni: jp-01.worldfirst.eu.org, skip-cert-verify: true, udp: true}
+  - {name: South Korea hysteria2 (8), server: kr-01.worldfirst.eu.org, port: 44300, type: hysteria2, password: 3a1c0dae-304d-43e5-9c28-db2456c34eda, auth: 3a1c0dae-304d-43e5-9c28-db2456c34eda, sni: kr-01.worldfirst.eu.org, skip-cert-verify: true, udp: true}
+  - {name: South Korea hysteria2 (9), server: kr-03.worldfirst.eu.org, port: 44300, type: hysteria2, password: 3a1c0dae-304d-43e5-9c28-db2456c34eda, auth: 3a1c0dae-304d-43e5-9c28-db2456c34eda, sni: kr-03.worldfirst.eu.org, skip-cert-verify: true, udp: true}
+  - {name: South Korea hysteria2 (10), server: kr-04.worldfirst.eu.org, port: 44300, type: hysteria2, password: 3a1c0dae-304d-43e5-9c28-db2456c34eda, auth: 3a1c0dae-304d-43e5-9c28-db2456c34eda, sni: kr-03.worldfirst.eu.org, skip-cert-verify: true, udp: true}
+  - {name: Singapore hysteria2 (10), server: sg-01.worldfirst.eu.org, port: 44300, type: hysteria2, password: 3a1c0dae-304d-43e5-9c28-db2456c34eda, auth: 3a1c0dae-304d-43e5-9c28-db2456c34eda, sni: sg-01.worldfirst.eu.org, skip-cert-verify: true, udp: true}
+  - {name: Singapore hysteria2 (11), server: sg-01.worldfirst.eu.org, port: 44300, type: hysteria2, password: 3a1c0dae-304d-43e5-9c28-db2456c34eda, auth: 3a1c0dae-304d-43e5-9c28-db2456c34eda, sni: sg-01.worldfirst.eu.org, skip-cert-verify: true, udp: true}
+  - {name: United States hysteria2 (5), server: us-01.worldfirst.eu.org, port: 44300, type: hysteria2, password: 3a1c0dae-304d-43e5-9c28-db2456c34eda, auth: 3a1c0dae-304d-43e5-9c28-db2456c34eda, sni: us-01.worldfirst.eu.org, skip-cert-verify: true, udp: true}
+  - {name: South Korea hysteria2 (11), server: zz.worldfirst.eu.org, port: 46600, type: hysteria2, password: 3a1c0dae-304d-43e5-9c28-db2456c34eda, auth: 3a1c0dae-304d-43e5-9c28-db2456c34eda, sni: hk-01.worldfirst.eu.org, skip-cert-verify: true, udp: true}
+  - {name: South Korea hysteria2 (12), server: zz.worldfirst.eu.org, port: 46601, type: hysteria2, password: 3a1c0dae-304d-43e5-9c28-db2456c34eda, auth: 3a1c0dae-304d-43e5-9c28-db2456c34eda, sni: us-01.worldfirst.eu.org, skip-cert-verify: true, udp: true}
+  - {name: South Korea hysteria2 (13), server: zz.worldfirst.eu.org, port: 46602, type: hysteria2, password: 3a1c0dae-304d-43e5-9c28-db2456c34eda, auth: 3a1c0dae-304d-43e5-9c28-db2456c34eda, sni: jp-01.worldfirst.eu.org, skip-cert-verify: true, udp: true}
+  - {name: South Korea hysteria2 (14), server: zz.worldfirst.eu.org, port: 46603, type: hysteria2, password: 3a1c0dae-304d-43e5-9c28-db2456c34eda, auth: 3a1c0dae-304d-43e5-9c28-db2456c34eda, sni: sg-01.worldfirst.eu.org, skip-cert-verify: true, udp: true}
+  - {name: South Korea hysteria2 (15), server: zz.worldfirst.eu.org, port: 46604, type: hysteria2, password: 3a1c0dae-304d-43e5-9c28-db2456c34eda, auth: 3a1c0dae-304d-43e5-9c28-db2456c34eda, sni: hk-01.worldfirst.eu.org, skip-cert-verify: true, udp: true}
+  - {name: Hong Kong hysteria2 (2), server: hk-01.worldfirst.eu.org, port: 44300, type: hysteria2, password: 49ee9216-bf9f-48db-9b67-fa762c907f7f, auth: 49ee9216-bf9f-48db-9b67-fa762c907f7f, sni: hk-01.worldfirst.eu.org, skip-cert-verify: true, udp: true}
+  - {name: Japan hysteria2 (2), server: jp-01.worldfirst.eu.org, port: 44300, type: hysteria2, password: 49ee9216-bf9f-48db-9b67-fa762c907f7f, auth: 49ee9216-bf9f-48db-9b67-fa762c907f7f, sni: jp-01.worldfirst.eu.org, skip-cert-verify: true, udp: true}
+  - {name: South Korea hysteria2 (16), server: kr-01.worldfirst.eu.org, port: 44300, type: hysteria2, password: 49ee9216-bf9f-48db-9b67-fa762c907f7f, auth: 49ee9216-bf9f-48db-9b67-fa762c907f7f, sni: kr-01.worldfirst.eu.org, skip-cert-verify: true, udp: true}
+  - {name: South Korea hysteria2 (17), server: kr-03.worldfirst.eu.org, port: 44300, type: hysteria2, password: 49ee9216-bf9f-48db-9b67-fa762c907f7f, auth: 49ee9216-bf9f-48db-9b67-fa762c907f7f, sni: kr-03.worldfirst.eu.org, skip-cert-verify: true, udp: true}
+  - {name: South Korea hysteria2 (18), server: kr-04.worldfirst.eu.org, port: 44300, type: hysteria2, password: 49ee9216-bf9f-48db-9b67-fa762c907f7f, auth: 49ee9216-bf9f-48db-9b67-fa762c907f7f, sni: kr-03.worldfirst.eu.org, skip-cert-verify: true, udp: true}
+  - {name: Singapore hysteria2 (12), server: sg-01.worldfirst.eu.org, port: 44300, type: hysteria2, password: 49ee9216-bf9f-48db-9b67-fa762c907f7f, auth: 49ee9216-bf9f-48db-9b67-fa762c907f7f, sni: sg-01.worldfirst.eu.org, skip-cert-verify: true, udp: true}
+  - {name: Singapore hysteria2 (13), server: sg-01.worldfirst.eu.org, port: 44300, type: hysteria2, password: 49ee9216-bf9f-48db-9b67-fa762c907f7f, auth: 49ee9216-bf9f-48db-9b67-fa762c907f7f, sni: sg-01.worldfirst.eu.org, skip-cert-verify: true, udp: true}
+  - {name: Singapore hysteria2 (14), server: sg-01.worldfirst.eu.org, port: 44300, type: hysteria2, password: 49ee9216-bf9f-48db-9b67-fa762c907f7f, auth: 49ee9216-bf9f-48db-9b67-fa762c907f7f, sni: sg-01.worldfirst.eu.org, skip-cert-verify: true, udp: true}
+  - {name: United States hysteria2 (6), server: us-01.worldfirst.eu.org, port: 44300, type: hysteria2, password: 49ee9216-bf9f-48db-9b67-fa762c907f7f, auth: 49ee9216-bf9f-48db-9b67-fa762c907f7f, sni: us-01.worldfirst.eu.org, skip-cert-verify: true, udp: true}
+  - {name: South Korea hysteria2 (19), server: zz.worldfirst.eu.org, port: 46600, type: hysteria2, password: 49ee9216-bf9f-48db-9b67-fa762c907f7f, auth: 49ee9216-bf9f-48db-9b67-fa762c907f7f, sni: hk-01.worldfirst.eu.org, skip-cert-verify: true, udp: true}
+  - {name: South Korea hysteria2 (20), server: zz.worldfirst.eu.org, port: 46601, type: hysteria2, password: 49ee9216-bf9f-48db-9b67-fa762c907f7f, auth: 49ee9216-bf9f-48db-9b67-fa762c907f7f, sni: us-01.worldfirst.eu.org, skip-cert-verify: true, udp: true}
+  - {name: South Korea hysteria2 (21), server: zz.worldfirst.eu.org, port: 46602, type: hysteria2, password: 49ee9216-bf9f-48db-9b67-fa762c907f7f, auth: 49ee9216-bf9f-48db-9b67-fa762c907f7f, sni: jp-01.worldfirst.eu.org, skip-cert-verify: true, udp: true}
+  - {name: South Korea hysteria2 (22), server: zz.worldfirst.eu.org, port: 46603, type: hysteria2, password: 49ee9216-bf9f-48db-9b67-fa762c907f7f, auth: 49ee9216-bf9f-48db-9b67-fa762c907f7f, sni: sg-01.worldfirst.eu.org, skip-cert-verify: true, udp: true}
+  - {name: South Korea hysteria2 (23), server: zz.worldfirst.eu.org, port: 46604, type: hysteria2, password: 49ee9216-bf9f-48db-9b67-fa762c907f7f, auth: 49ee9216-bf9f-48db-9b67-fa762c907f7f, sni: hk-01.worldfirst.eu.org, skip-cert-verify: true, udp: true}
+  - {name: Hong Kong hysteria2 (3), server: hk-01.worldfirst.eu.org, port: 44300, type: hysteria2, password: 5b541ef1-f62a-41c1-8b70-202e93254900, auth: 5b541ef1-f62a-41c1-8b70-202e93254900, sni: hk-01.worldfirst.eu.org, skip-cert-verify: true, udp: true}
+  - {name: Japan hysteria2 (3), server: jp-01.worldfirst.eu.org, port: 44300, type: hysteria2, password: 5b541ef1-f62a-41c1-8b70-202e93254900, auth: 5b541ef1-f62a-41c1-8b70-202e93254900, sni: jp-01.worldfirst.eu.org, skip-cert-verify: true, udp: true}
+  - {name: South Korea hysteria2 (24), server: kr-01.worldfirst.eu.org, port: 44300, type: hysteria2, password: 5b541ef1-f62a-41c1-8b70-202e93254900, auth: 5b541ef1-f62a-41c1-8b70-202e93254900, sni: kr-01.worldfirst.eu.org, skip-cert-verify: true, udp: true}
+  - {name: South Korea hysteria2 (25), server: kr-03.worldfirst.eu.org, port: 44300, type: hysteria2, password: 5b541ef1-f62a-41c1-8b70-202e93254900, auth: 5b541ef1-f62a-41c1-8b70-202e93254900, sni: kr-03.worldfirst.eu.org, skip-cert-verify: true, udp: true}
+  - {name: South Korea hysteria2 (26), server: kr-04.worldfirst.eu.org, port: 44300, type: hysteria2, password: 5b541ef1-f62a-41c1-8b70-202e93254900, auth: 5b541ef1-f62a-41c1-8b70-202e93254900, sni: kr-03.worldfirst.eu.org, skip-cert-verify: true, udp: true}
+  - {name: Singapore hysteria2 (15), server: sg-01.worldfirst.eu.org, port: 44300, type: hysteria2, password: 5b541ef1-f62a-41c1-8b70-202e93254900, auth: 5b541ef1-f62a-41c1-8b70-202e93254900, sni: sg-01.worldfirst.eu.org, skip-cert-verify: true, udp: true}
+  - {name: Singapore hysteria2 (16), server: sg-01.worldfirst.eu.org, port: 44300, type: hysteria2, password: 5b541ef1-f62a-41c1-8b70-202e93254900, auth: 5b541ef1-f62a-41c1-8b70-202e93254900, sni: sg-01.worldfirst.eu.org, skip-cert-verify: true, udp: true}
+  - {name: Singapore hysteria2 (17), server: sg-01.worldfirst.eu.org, port: 44300, type: hysteria2, password: 5b541ef1-f62a-41c1-8b70-202e93254900, auth: 5b541ef1-f62a-41c1-8b70-202e93254900, sni: sg-01.worldfirst.eu.org, skip-cert-verify: true, udp: true}
+  - {name: United States hysteria2 (7), server: us-01.worldfirst.eu.org, port: 44300, type: hysteria2, password: 5b541ef1-f62a-41c1-8b70-202e93254900, auth: 5b541ef1-f62a-41c1-8b70-202e93254900, sni: us-01.worldfirst.eu.org, skip-cert-verify: true, udp: true}
+  - {name: South Korea hysteria2 (27), server: zz.worldfirst.eu.org, port: 46600, type: hysteria2, password: 5b541ef1-f62a-41c1-8b70-202e93254900, auth: 5b541ef1-f62a-41c1-8b70-202e93254900, sni: hk-01.worldfirst.eu.org, skip-cert-verify: true, udp: true}
+  - {name: South Korea hysteria2 (28), server: zz.worldfirst.eu.org, port: 46601, type: hysteria2, password: 5b541ef1-f62a-41c1-8b70-202e93254900, auth: 5b541ef1-f62a-41c1-8b70-202e93254900, sni: us-01.worldfirst.eu.org, skip-cert-verify: true, udp: true}
+  - {name: South Korea hysteria2 (29), server: zz.worldfirst.eu.org, port: 46602, type: hysteria2, password: 5b541ef1-f62a-41c1-8b70-202e93254900, auth: 5b541ef1-f62a-41c1-8b70-202e93254900, sni: jp-01.worldfirst.eu.org, skip-cert-verify: true, udp: true}
+  - {name: South Korea hysteria2 (30), server: zz.worldfirst.eu.org, port: 46603, type: hysteria2, password: 5b541ef1-f62a-41c1-8b70-202e93254900, auth: 5b541ef1-f62a-41c1-8b70-202e93254900, sni: sg-01.worldfirst.eu.org, skip-cert-verify: true, udp: true}
+  - {name: South Korea hysteria2 (31), server: zz.worldfirst.eu.org, port: 46604, type: hysteria2, password: 5b541ef1-f62a-41c1-8b70-202e93254900, auth: 5b541ef1-f62a-41c1-8b70-202e93254900, sni: hk-01.worldfirst.eu.org, skip-cert-verify: true, udp: true}
+  - {name: Hong Kong hysteria2 (4), server: hk-01.worldfirst.eu.org, port: 44300, type: hysteria2, password: 6a38dafa-8289-4386-960a-3cae46c479e7, auth: 6a38dafa-8289-4386-960a-3cae46c479e7, sni: hk-01.worldfirst.eu.org, skip-cert-verify: true, udp: true}
+  - {name: Japan hysteria2 (4), server: jp-01.worldfirst.eu.org, port: 44300, type: hysteria2, password: 6a38dafa-8289-4386-960a-3cae46c479e7, auth: 6a38dafa-8289-4386-960a-3cae46c479e7, sni: jp-01.worldfirst.eu.org, skip-cert-verify: true, udp: true}
+  - {name: South Korea hysteria2 (32), server: kr-01.worldfirst.eu.org, port: 44300, type: hysteria2, password: 6a38dafa-8289-4386-960a-3cae46c479e7, auth: 6a38dafa-8289-4386-960a-3cae46c479e7, sni: kr-01.worldfirst.eu.org, skip-cert-verify: true, udp: true}
+  - {name: South Korea hysteria2 (33), server: kr-03.worldfirst.eu.org, port: 44300, type: hysteria2, password: 6a38dafa-8289-4386-960a-3cae46c479e7, auth: 6a38dafa-8289-4386-960a-3cae46c479e7, sni: kr-03.worldfirst.eu.org, skip-cert-verify: true, udp: true}
+  - {name: South Korea hysteria2 (34), server: kr-04.worldfirst.eu.org, port: 44300, type: hysteria2, password: 6a38dafa-8289-4386-960a-3cae46c479e7, auth: 6a38dafa-8289-4386-960a-3cae46c479e7, sni: kr-03.worldfirst.eu.org, skip-cert-verify: true, udp: true}
+  - {name: Singapore hysteria2 (18), server: sg-01.worldfirst.eu.org, port: 44300, type: hysteria2, password: 6a38dafa-8289-4386-960a-3cae46c479e7, auth: 6a38dafa-8289-4386-960a-3cae46c479e7, sni: sg-01.worldfirst.eu.org, skip-cert-verify: true, udp: true}
+  - {name: Singapore hysteria2 (19), server: sg-01.worldfirst.eu.org, port: 44300, type: hysteria2, password: 6a38dafa-8289-4386-960a-3cae46c479e7, auth: 6a38dafa-8289-4386-960a-3cae46c479e7, sni: sg-01.worldfirst.eu.org, skip-cert-verify: true, udp: true}
+  - {name: Singapore hysteria2 (20), server: sg-01.worldfirst.eu.org, port: 44300, type: hysteria2, password: 6a38dafa-8289-4386-960a-3cae46c479e7, auth: 6a38dafa-8289-4386-960a-3cae46c479e7, sni: sg-01.worldfirst.eu.org, skip-cert-verify: true, udp: true}
+  - {name: United States hysteria2 (8), server: us-01.worldfirst.eu.org, port: 44300, type: hysteria2, password: 6a38dafa-8289-4386-960a-3cae46c479e7, auth: 6a38dafa-8289-4386-960a-3cae46c479e7, sni: us-01.worldfirst.eu.org, skip-cert-verify: true, udp: true}
+  - {name: South Korea hysteria2 (35), server: zz.worldfirst.eu.org, port: 46600, type: hysteria2, password: 6a38dafa-8289-4386-960a-3cae46c479e7, auth: 6a38dafa-8289-4386-960a-3cae46c479e7, sni: hk-01.worldfirst.eu.org, skip-cert-verify: true, udp: true}
+  - {name: South Korea hysteria2 (36), server: zz.worldfirst.eu.org, port: 46601, type: hysteria2, password: 6a38dafa-8289-4386-960a-3cae46c479e7, auth: 6a38dafa-8289-4386-960a-3cae46c479e7, sni: us-01.worldfirst.eu.org, skip-cert-verify: true, udp: true}
+  - {name: South Korea hysteria2 (37), server: zz.worldfirst.eu.org, port: 46602, type: hysteria2, password: 6a38dafa-8289-4386-960a-3cae46c479e7, auth: 6a38dafa-8289-4386-960a-3cae46c479e7, sni: jp-01.worldfirst.eu.org, skip-cert-verify: true, udp: true}
+  - {name: South Korea hysteria2 (38), server: zz.worldfirst.eu.org, port: 46603, type: hysteria2, password: 6a38dafa-8289-4386-960a-3cae46c479e7, auth: 6a38dafa-8289-4386-960a-3cae46c479e7, sni: sg-01.worldfirst.eu.org, skip-cert-verify: true, udp: true}
+  - {name: South Korea hysteria2 (39), server: zz.worldfirst.eu.org, port: 46604, type: hysteria2, password: 6a38dafa-8289-4386-960a-3cae46c479e7, auth: 6a38dafa-8289-4386-960a-3cae46c479e7, sni: hk-01.worldfirst.eu.org, skip-cert-verify: true, udp: true}
+  - {name: Hong Kong hysteria2 (5), server: hk-01.worldfirst.eu.org, port: 44300, type: hysteria2, password: 7532094e-6222-4b25-9c10-0390ac2c098c, auth: 7532094e-6222-4b25-9c10-0390ac2c098c, sni: hk-01.worldfirst.eu.org, skip-cert-verify: true, udp: true}
+  - {name: Japan hysteria2 (5), server: jp-01.worldfirst.eu.org, port: 44300, type: hysteria2, password: 7532094e-6222-4b25-9c10-0390ac2c098c, auth: 7532094e-6222-4b25-9c10-0390ac2c098c, sni: jp-01.worldfirst.eu.org, skip-cert-verify: true, udp: true}
+  - {name: South Korea hysteria2 (40), server: kr-01.worldfirst.eu.org, port: 44300, type: hysteria2, password: 7532094e-6222-4b25-9c10-0390ac2c098c, auth: 7532094e-6222-4b25-9c10-0390ac2c098c, sni: kr-01.worldfirst.eu.org, skip-cert-verify: true, udp: true}
+  - {name: South Korea hysteria2 (41), server: kr-03.worldfirst.eu.org, port: 44300, type: hysteria2, password: 7532094e-6222-4b25-9c10-0390ac2c098c, auth: 7532094e-6222-4b25-9c10-0390ac2c098c, sni: kr-03.worldfirst.eu.org, skip-cert-verify: true, udp: true}
+  - {name: South Korea hysteria2 (42), server: kr-04.worldfirst.eu.org, port: 44300, type: hysteria2, password: 7532094e-6222-4b25-9c10-0390ac2c098c, auth: 7532094e-6222-4b25-9c10-0390ac2c098c, sni: kr-03.worldfirst.eu.org, skip-cert-verify: true, udp: true}
+  - {name: Singapore hysteria2 (21), server: sg-01.worldfirst.eu.org, port: 44300, type: hysteria2, password: 7532094e-6222-4b25-9c10-0390ac2c098c, auth: 7532094e-6222-4b25-9c10-0390ac2c098c, sni: sg-01.worldfirst.eu.org, skip-cert-verify: true, udp: true}
+  - {name: Singapore hysteria2 (22), server: sg-01.worldfirst.eu.org, port: 44300, type: hysteria2, password: 7532094e-6222-4b25-9c10-0390ac2c098c, auth: 7532094e-6222-4b25-9c10-0390ac2c098c, sni: sg-01.worldfirst.eu.org, skip-cert-verify: true, udp: true}
+  - {name: Singapore hysteria2 (23), server: sg-01.worldfirst.eu.org, port: 44300, type: hysteria2, password: 7532094e-6222-4b25-9c10-0390ac2c098c, auth: 7532094e-6222-4b25-9c10-0390ac2c098c, sni: sg-01.worldfirst.eu.org, skip-cert-verify: true, udp: true}
+  - {name: United States hysteria2 (9), server: us-01.worldfirst.eu.org, port: 44300, type: hysteria2, password: 7532094e-6222-4b25-9c10-0390ac2c098c, auth: 7532094e-6222-4b25-9c10-0390ac2c098c, sni: us-01.worldfirst.eu.org, skip-cert-verify: true, udp: true}
+  - {name: South Korea hysteria2 (43), server: zz.worldfirst.eu.org, port: 46600, type: hysteria2, password: 7532094e-6222-4b25-9c10-0390ac2c098c, auth: 7532094e-6222-4b25-9c10-0390ac2c098c, sni: hk-01.worldfirst.eu.org, skip-cert-verify: true, udp: true}
+  - {name: South Korea hysteria2 (44), server: zz.worldfirst.eu.org, port: 46601, type: hysteria2, password: 7532094e-6222-4b25-9c10-0390ac2c098c, auth: 7532094e-6222-4b25-9c10-0390ac2c098c, sni: us-01.worldfirst.eu.org, skip-cert-verify: true, udp: true}
+  - {name: South Korea hysteria2 (45), server: zz.worldfirst.eu.org, port: 46602, type: hysteria2, password: 7532094e-6222-4b25-9c10-0390ac2c098c, auth: 7532094e-6222-4b25-9c10-0390ac2c098c, sni: jp-01.worldfirst.eu.org, skip-cert-verify: true, udp: true}
+  - {name: South Korea hysteria2 (46), server: zz.worldfirst.eu.org, port: 46603, type: hysteria2, password: 7532094e-6222-4b25-9c10-0390ac2c098c, auth: 7532094e-6222-4b25-9c10-0390ac2c098c, sni: sg-01.worldfirst.eu.org, skip-cert-verify: true, udp: true}
+  - {name: South Korea hysteria2 (47), server: zz.worldfirst.eu.org, port: 46604, type: hysteria2, password: 7532094e-6222-4b25-9c10-0390ac2c098c, auth: 7532094e-6222-4b25-9c10-0390ac2c098c, sni: hk-01.worldfirst.eu.org, skip-cert-verify: true, udp: true}
+  - {name: Hong Kong hysteria2 (6), server: hk-01.worldfirst.eu.org, port: 44300, type: hysteria2, password: 97ffad8a-9526-4559-8c38-2753343ae7fd, auth: 97ffad8a-9526-4559-8c38-2753343ae7fd, sni: hk-01.worldfirst.eu.org, skip-cert-verify: true, udp: true}
+  - {name: Japan hysteria2 (6), server: jp-01.worldfirst.eu.org, port: 44300, type: hysteria2, password: 97ffad8a-9526-4559-8c38-2753343ae7fd, auth: 97ffad8a-9526-4559-8c38-2753343ae7fd, sni: jp-01.worldfirst.eu.org, skip-cert-verify: true, udp: true}
+  - {name: South Korea hysteria2 (48), server: kr-01.worldfirst.eu.org, port: 44300, type: hysteria2, password: 97ffad8a-9526-4559-8c38-2753343ae7fd, auth: 97ffad8a-9526-4559-8c38-2753343ae7fd, sni: kr-01.worldfirst.eu.org, skip-cert-verify: true, udp: true}
+  - {name: South Korea hysteria2 (49), server: kr-03.worldfirst.eu.org, port: 44300, type: hysteria2, password: 97ffad8a-9526-4559-8c38-2753343ae7fd, auth: 97ffad8a-9526-4559-8c38-2753343ae7fd, sni: kr-03.worldfirst.eu.org, skip-cert-verify: true, udp: true}
+  - {name: South Korea hysteria2 (50), server: kr-04.worldfirst.eu.org, port: 44300, type: hysteria2, password: 97ffad8a-9526-4559-8c38-2753343ae7fd, auth: 97ffad8a-9526-4559-8c38-2753343ae7fd, sni: kr-03.worldfirst.eu.org, skip-cert-verify: true, udp: true}
+  - {name: Singapore hysteria2 (24), server: sg-01.worldfirst.eu.org, port: 44300, type: hysteria2, password: 97ffad8a-9526-4559-8c38-2753343ae7fd, auth: 97ffad8a-9526-4559-8c38-2753343ae7fd, sni: sg-01.worldfirst.eu.org, skip-cert-verify: true, udp: true}
+  - {name: Singapore hysteria2 (25), server: sg-01.worldfirst.eu.org, port: 44300, type: hysteria2, password: 97ffad8a-9526-4559-8c38-2753343ae7fd, auth: 97ffad8a-9526-4559-8c38-2753343ae7fd, sni: sg-01.worldfirst.eu.org, skip-cert-verify: true, udp: true}
+  - {name: Singapore hysteria2 (26), server: sg-01.worldfirst.eu.org, port: 44300, type: hysteria2, password: 97ffad8a-9526-4559-8c38-2753343ae7fd, auth: 97ffad8a-9526-4559-8c38-2753343ae7fd, sni: sg-01.worldfirst.eu.org, skip-cert-verify: true, udp: true}
+  - {name: United States hysteria2 (10), server: us-01.worldfirst.eu.org, port: 44300, type: hysteria2, password: 97ffad8a-9526-4559-8c38-2753343ae7fd, auth: 97ffad8a-9526-4559-8c38-2753343ae7fd, sni: us-01.worldfirst.eu.org, skip-cert-verify: true, udp: true}
+  - {name: South Korea hysteria2 (51), server: zz.worldfirst.eu.org, port: 46600, type: hysteria2, password: 97ffad8a-9526-4559-8c38-2753343ae7fd, auth: 97ffad8a-9526-4559-8c38-2753343ae7fd, sni: hk-01.worldfirst.eu.org, skip-cert-verify: true, udp: true}
+  - {name: South Korea hysteria2 (52), server: zz.worldfirst.eu.org, port: 46601, type: hysteria2, password: 97ffad8a-9526-4559-8c38-2753343ae7fd, auth: 97ffad8a-9526-4559-8c38-2753343ae7fd, sni: us-01.worldfirst.eu.org, skip-cert-verify: true, udp: true}
+  - {name: South Korea hysteria2 (53), server: zz.worldfirst.eu.org, port: 46602, type: hysteria2, password: 97ffad8a-9526-4559-8c38-2753343ae7fd, auth: 97ffad8a-9526-4559-8c38-2753343ae7fd, sni: jp-01.worldfirst.eu.org, skip-cert-verify: true, udp: true}
+  - {name: South Korea hysteria2 (54), server: zz.worldfirst.eu.org, port: 46604, type: hysteria2, password: 97ffad8a-9526-4559-8c38-2753343ae7fd, auth: 97ffad8a-9526-4559-8c38-2753343ae7fd, sni: hk-01.worldfirst.eu.org, skip-cert-verify: true, udp: true}
+  - {name: Hong Kong hysteria2 (7), server: hk-01.worldfirst.eu.org, port: 44300, type: hysteria2, password: bd8073f4-fe17-4185-9bc3-cd9cd855ba8d, auth: bd8073f4-fe17-4185-9bc3-cd9cd855ba8d, sni: hk-01.worldfirst.eu.org, skip-cert-verify: true, udp: true}
+  - {name: Japan hysteria2 (7), server: jp-01.worldfirst.eu.org, port: 44300, type: hysteria2, password: bd8073f4-fe17-4185-9bc3-cd9cd855ba8d, auth: bd8073f4-fe17-4185-9bc3-cd9cd855ba8d, sni: jp-01.worldfirst.eu.org, skip-cert-verify: true, udp: true}
+  - {name: South Korea hysteria2 (55), server: kr-01.worldfirst.eu.org, port: 44300, type: hysteria2, password: bd8073f4-fe17-4185-9bc3-cd9cd855ba8d, auth: bd8073f4-fe17-4185-9bc3-cd9cd855ba8d, sni: kr-01.worldfirst.eu.org, skip-cert-verify: true, udp: true}
+  - {name: South Korea hysteria2 (56), server: kr-03.worldfirst.eu.org, port: 44300, type: hysteria2, password: bd8073f4-fe17-4185-9bc3-cd9cd855ba8d, auth: bd8073f4-fe17-4185-9bc3-cd9cd855ba8d, sni: kr-03.worldfirst.eu.org, skip-cert-verify: true, udp: true}
+  - {name: South Korea hysteria2 (57), server: kr-04.worldfirst.eu.org, port: 44300, type: hysteria2, password: bd8073f4-fe17-4185-9bc3-cd9cd855ba8d, auth: bd8073f4-fe17-4185-9bc3-cd9cd855ba8d, sni: kr-03.worldfirst.eu.org, skip-cert-verify: true, udp: true}
+  - {name: Singapore hysteria2 (27), server: sg-01.worldfirst.eu.org, port: 44300, type: hysteria2, password: bd8073f4-fe17-4185-9bc3-cd9cd855ba8d, auth: bd8073f4-fe17-4185-9bc3-cd9cd855ba8d, sni: sg-01.worldfirst.eu.org, skip-cert-verify: true, udp: true}
+  - {name: Singapore hysteria2 (28), server: sg-01.worldfirst.eu.org, port: 44300, type: hysteria2, password: bd8073f4-fe17-4185-9bc3-cd9cd855ba8d, auth: bd8073f4-fe17-4185-9bc3-cd9cd855ba8d, sni: sg-01.worldfirst.eu.org, skip-cert-verify: true, udp: true}
+  - {name: Singapore hysteria2 (29), server: sg-01.worldfirst.eu.org, port: 44300, type: hysteria2, password: bd8073f4-fe17-4185-9bc3-cd9cd855ba8d, auth: bd8073f4-fe17-4185-9bc3-cd9cd855ba8d, sni: sg-01.worldfirst.eu.org, skip-cert-verify: true, udp: true}
+  - {name: United States hysteria2 (11), server: us-01.worldfirst.eu.org, port: 44300, type: hysteria2, password: bd8073f4-fe17-4185-9bc3-cd9cd855ba8d, auth: bd8073f4-fe17-4185-9bc3-cd9cd855ba8d, sni: us-01.worldfirst.eu.org, skip-cert-verify: true, udp: true}
+  - {name: South Korea hysteria2 (58), server: zz.worldfirst.eu.org, port: 46600, type: hysteria2, password: bd8073f4-fe17-4185-9bc3-cd9cd855ba8d, auth: bd8073f4-fe17-4185-9bc3-cd9cd855ba8d, sni: hk-01.worldfirst.eu.org, skip-cert-verify: true, udp: true}
+  - {name: South Korea hysteria2 (59), server: zz.worldfirst.eu.org, port: 46601, type: hysteria2, password: bd8073f4-fe17-4185-9bc3-cd9cd855ba8d, auth: bd8073f4-fe17-4185-9bc3-cd9cd855ba8d, sni: us-01.worldfirst.eu.org, skip-cert-verify: true, udp: true}
+  - {name: South Korea hysteria2 (60), server: zz.worldfirst.eu.org, port: 46602, type: hysteria2, password: bd8073f4-fe17-4185-9bc3-cd9cd855ba8d, auth: bd8073f4-fe17-4185-9bc3-cd9cd855ba8d, sni: jp-01.worldfirst.eu.org, skip-cert-verify: true, udp: true}
+  - {name: South Korea hysteria2 (61), server: zz.worldfirst.eu.org, port: 46603, type: hysteria2, password: bd8073f4-fe17-4185-9bc3-cd9cd855ba8d, auth: bd8073f4-fe17-4185-9bc3-cd9cd855ba8d, sni: sg-01.worldfirst.eu.org, skip-cert-verify: true, udp: true}
+  - {name: South Korea hysteria2 (62), server: zz.worldfirst.eu.org, port: 46604, type: hysteria2, password: bd8073f4-fe17-4185-9bc3-cd9cd855ba8d, auth: bd8073f4-fe17-4185-9bc3-cd9cd855ba8d, sni: hk-01.worldfirst.eu.org, skip-cert-verify: true, udp: true}
+  - {name: Hong Kong hysteria2 (8), server: hk-01.worldfirst.eu.org, port: 44300, type: hysteria2, password: c710d3bb-3fd5-4a8f-a8b7-2fe143ace7ac, auth: c710d3bb-3fd5-4a8f-a8b7-2fe143ace7ac, sni: hk-01.worldfirst.eu.org, skip-cert-verify: true, udp: true}
+  - {name: Japan hysteria2 (8), server: jp-01.worldfirst.eu.org, port: 44300, type: hysteria2, password: c710d3bb-3fd5-4a8f-a8b7-2fe143ace7ac, auth: c710d3bb-3fd5-4a8f-a8b7-2fe143ace7ac, sni: jp-01.worldfirst.eu.org, skip-cert-verify: true, udp: true}
+  - {name: South Korea hysteria2 (63), server: kr-01.worldfirst.eu.org, port: 44300, type: hysteria2, password: c710d3bb-3fd5-4a8f-a8b7-2fe143ace7ac, auth: c710d3bb-3fd5-4a8f-a8b7-2fe143ace7ac, sni: kr-01.worldfirst.eu.org, skip-cert-verify: true, udp: true}
+  - {name: South Korea hysteria2 (64), server: kr-03.worldfirst.eu.org, port: 44300, type: hysteria2, password: c710d3bb-3fd5-4a8f-a8b7-2fe143ace7ac, auth: c710d3bb-3fd5-4a8f-a8b7-2fe143ace7ac, sni: kr-03.worldfirst.eu.org, skip-cert-verify: true, udp: true}
+  - {name: South Korea hysteria2 (65), server: kr-04.worldfirst.eu.org, port: 44300, type: hysteria2, password: c710d3bb-3fd5-4a8f-a8b7-2fe143ace7ac, auth: c710d3bb-3fd5-4a8f-a8b7-2fe143ace7ac, sni: kr-03.worldfirst.eu.org, skip-cert-verify: true, udp: true}
+  - {name: Singapore hysteria2 (30), server: sg-01.worldfirst.eu.org, port: 44300, type: hysteria2, password: c710d3bb-3fd5-4a8f-a8b7-2fe143ace7ac, auth: c710d3bb-3fd5-4a8f-a8b7-2fe143ace7ac, sni: sg-01.worldfirst.eu.org, skip-cert-verify: true, udp: true}
+  - {name: Singapore hysteria2 (31), server: sg-01.worldfirst.eu.org, port: 44300, type: hysteria2, password: c710d3bb-3fd5-4a8f-a8b7-2fe143ace7ac, auth: c710d3bb-3fd5-4a8f-a8b7-2fe143ace7ac, sni: sg-01.worldfirst.eu.org, skip-cert-verify: true, udp: true}
+  - {name: United States hysteria2 (12), server: us-01.worldfirst.eu.org, port: 44300, type: hysteria2, password: c710d3bb-3fd5-4a8f-a8b7-2fe143ace7ac, auth: c710d3bb-3fd5-4a8f-a8b7-2fe143ace7ac, sni: us-01.worldfirst.eu.org, skip-cert-verify: true, udp: true}
+  - {name: South Korea hysteria2 (66), server: zz.worldfirst.eu.org, port: 46600, type: hysteria2, password: c710d3bb-3fd5-4a8f-a8b7-2fe143ace7ac, auth: c710d3bb-3fd5-4a8f-a8b7-2fe143ace7ac, sni: hk-01.worldfirst.eu.org, skip-cert-verify: true, udp: true}
+  - {name: South Korea hysteria2 (67), server: zz.worldfirst.eu.org, port: 46601, type: hysteria2, password: c710d3bb-3fd5-4a8f-a8b7-2fe143ace7ac, auth: c710d3bb-3fd5-4a8f-a8b7-2fe143ace7ac, sni: us-01.worldfirst.eu.org, skip-cert-verify: true, udp: true}
+  - {name: South Korea hysteria2 (68), server: zz.worldfirst.eu.org, port: 46602, type: hysteria2, password: c710d3bb-3fd5-4a8f-a8b7-2fe143ace7ac, auth: c710d3bb-3fd5-4a8f-a8b7-2fe143ace7ac, sni: jp-01.worldfirst.eu.org, skip-cert-verify: true, udp: true}
+  - {name: South Korea hysteria2 (69), server: zz.worldfirst.eu.org, port: 46603, type: hysteria2, password: c710d3bb-3fd5-4a8f-a8b7-2fe143ace7ac, auth: c710d3bb-3fd5-4a8f-a8b7-2fe143ace7ac, sni: sg-01.worldfirst.eu.org, skip-cert-verify: true, udp: true}
+  - {name: South Korea hysteria2 (70), server: zz.worldfirst.eu.org, port: 46604, type: hysteria2, password: c710d3bb-3fd5-4a8f-a8b7-2fe143ace7ac, auth: c710d3bb-3fd5-4a8f-a8b7-2fe143ace7ac, sni: hk-01.worldfirst.eu.org, skip-cert-verify: true, udp: true}
+  - {name: Hong Kong hysteria2 (9), server: hk-01.worldfirst.eu.org, port: 44300, type: hysteria2, password: e9d4cc17-d2e1-4ba9-8bea-68b4ae2dd54b, auth: e9d4cc17-d2e1-4ba9-8bea-68b4ae2dd54b, sni: hk-01.worldfirst.eu.org, skip-cert-verify: true, udp: true}
+  - {name: South Korea hysteria2 (71), server: kr-01.worldfirst.eu.org, port: 44300, type: hysteria2, password: e9d4cc17-d2e1-4ba9-8bea-68b4ae2dd54b, auth: e9d4cc17-d2e1-4ba9-8bea-68b4ae2dd54b, sni: kr-01.worldfirst.eu.org, skip-cert-verify: true, udp: true}
+  - {name: South Korea hysteria2 (72), server: kr-03.worldfirst.eu.org, port: 44300, type: hysteria2, password: e9d4cc17-d2e1-4ba9-8bea-68b4ae2dd54b, auth: e9d4cc17-d2e1-4ba9-8bea-68b4ae2dd54b, sni: kr-03.worldfirst.eu.org, skip-cert-verify: true, udp: true}
+  - {name: South Korea hysteria2 (73), server: kr-04.worldfirst.eu.org, port: 44300, type: hysteria2, password: e9d4cc17-d2e1-4ba9-8bea-68b4ae2dd54b, auth: e9d4cc17-d2e1-4ba9-8bea-68b4ae2dd54b, sni: kr-03.worldfirst.eu.org, skip-cert-verify: true, udp: true}
+  - {name: Singapore hysteria2 (32), server: sg-01.worldfirst.eu.org, port: 44300, type: hysteria2, password: e9d4cc17-d2e1-4ba9-8bea-68b4ae2dd54b, auth: e9d4cc17-d2e1-4ba9-8bea-68b4ae2dd54b, sni: sg-01.worldfirst.eu.org, skip-cert-verify: true, udp: true}
+  - {name: Singapore hysteria2 (33), server: sg-01.worldfirst.eu.org, port: 44300, type: hysteria2, password: e9d4cc17-d2e1-4ba9-8bea-68b4ae2dd54b, auth: e9d4cc17-d2e1-4ba9-8bea-68b4ae2dd54b, sni: sg-01.worldfirst.eu.org, skip-cert-verify: true, udp: true}
+  - {name: Singapore hysteria2 (34), server: sg-01.worldfirst.eu.org, port: 44300, type: hysteria2, password: e9d4cc17-d2e1-4ba9-8bea-68b4ae2dd54b, auth: e9d4cc17-d2e1-4ba9-8bea-68b4ae2dd54b, sni: sg-01.worldfirst.eu.org, skip-cert-verify: true, udp: true}
+  - {name: United States hysteria2 (13), server: us-01.worldfirst.eu.org, port: 44300, type: hysteria2, password: e9d4cc17-d2e1-4ba9-8bea-68b4ae2dd54b, auth: e9d4cc17-d2e1-4ba9-8bea-68b4ae2dd54b, sni: us-01.worldfirst.eu.org, skip-cert-verify: true, udp: true}
+  - {name: South Korea hysteria2 (74), server: zz.worldfirst.eu.org, port: 46600, type: hysteria2, password: e9d4cc17-d2e1-4ba9-8bea-68b4ae2dd54b, auth: e9d4cc17-d2e1-4ba9-8bea-68b4ae2dd54b, sni: hk-01.worldfirst.eu.org, skip-cert-verify: true, udp: true}
+  - {name: South Korea hysteria2 (75), server: zz.worldfirst.eu.org, port: 46601, type: hysteria2, password: e9d4cc17-d2e1-4ba9-8bea-68b4ae2dd54b, auth: e9d4cc17-d2e1-4ba9-8bea-68b4ae2dd54b, sni: us-01.worldfirst.eu.org, skip-cert-verify: true, udp: true}
+  - {name: South Korea hysteria2 (76), server: zz.worldfirst.eu.org, port: 46603, type: hysteria2, password: e9d4cc17-d2e1-4ba9-8bea-68b4ae2dd54b, auth: e9d4cc17-d2e1-4ba9-8bea-68b4ae2dd54b, sni: sg-01.worldfirst.eu.org, skip-cert-verify: true, udp: true}
+  - {name: South Korea hysteria2 (77), server: zz.worldfirst.eu.org, port: 46604, type: hysteria2, password: e9d4cc17-d2e1-4ba9-8bea-68b4ae2dd54b, auth: e9d4cc17-d2e1-4ba9-8bea-68b4ae2dd54b, sni: hk-01.worldfirst.eu.org, skip-cert-verify: true, udp: true}
+  - {name: China ss, server: rk2.izoizoizo.top, port: 46091, type: ss, cipher: chacha20-ietf-poly1305, password: 4aa5bc5a-5574-4ec6-9c34-d2a5e9ee1d53, udp: true}
+  - {name: China ss (1), server: deepf.hjkdsak2.com, port: 20003, type: ss, cipher: chacha20-ietf-poly1305, password: 99301d55-a41f-4919-986b-1435996533aa, udp: true}
+  - {name: China ss (2), server: gy.666666222.shop, port: 20015, type: ss, cipher: chacha20-ietf-poly1305, password: a770a2c1-612b-4784-ba2d-aa79668681b7, udp: true}
+  - {name: China ss (3), server: gy.666666222.shop, port: 20031, type: ss, cipher: chacha20-ietf-poly1305, password: a770a2c1-612b-4784-ba2d-aa79668681b7, udp: true}
+  - {name: China ss (4), server: gz.666666222.shop, port: 20012, type: ss, cipher: chacha20-ietf-poly1305, password: a770a2c1-612b-4784-ba2d-aa79668681b7, udp: true}
+  - {name: China ss (5), server: gy.666666222.shop, port: 56701, type: ss, cipher: aes-128-gcm, password: a770a2c1-612b-4784-ba2d-aa79668681b7, udp: true}
+  - {name: China ss (6), server: gy.666666222.shop, port: 56705, type: ss, cipher: aes-128-gcm, password: a770a2c1-612b-4784-ba2d-aa79668681b7, udp: true}
+  - {name: United Kingdom ss, server: 212.102.53.197, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true}
+  - {name: Japan ss, server: 3.112.44.123, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true}
+  - {name: China ss (7), server: 59.56.77.178, port: 15001, type: ss, cipher: aes-256-cfb, password: hGkQ6915tD, udp: true}
+  - {name: China ss (8), server: 59.56.77.178, port: 15001, type: ss, cipher: aes-256-cfb, password: hGkQ6915tD, udp: true}
+  - {name: China ss (9), server: 59.56.77.178, port: 15084, type: ss, cipher: aes-256-cfb, password: hGkQ6915tD, udp: true}
+  - {name: China ss (10), server: 59.56.77.178, port: 16058, type: ss, cipher: aes-256-cfb, password: hGkQ6915tD, udp: true}
+  - {name: China ss (11), server: 59.56.77.178, port: 16058, type: ss, cipher: aes-256-cfb, password: hGkQ6915tD, udp: true}
+  - {name: Poland ss, server: 51.77.53.200, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true}
+  - {name: United States ss, server: 38.114.114.207, port: 8080, type: ss, cipher: aes-256-gcm, password: KixLvKzwjekG00rm, udp: true}
+  - {name: United States ss (1), server: 38.114.114.207, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true}
+  - {name: Poland ss (1), server: 51.77.53.200, port: 6679, type: ss, cipher: aes-256-gcm, password: TEzjfAYq2IjtuoS, udp: true}
+  - {name: Poland ss (2), server: 51.77.53.200, port: 8008, type: ss, cipher: aes-256-gcm, password: XKFKl2rULjIp74, udp: true}
+  - {name: Poland ss (3), server: 51.77.53.200, port: 5000, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: Poland ss (4), server: 51.77.53.200, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: Poland ss (5), server: 51.77.53.200, port: 5001, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: Poland ss (6), server: 51.77.53.200, port: 8888, type: ss, cipher: aes-256-gcm, password: Y6R9pAtvxxzmGC, udp: true}
+  - {name: Poland ss (7), server: 51.77.53.200, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: United States ss (2), server: 38.114.114.207, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: Poland ss (8), server: 51.77.53.200, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: Poland ss (9), server: 51.77.53.200, port: 5004, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true}
+  - {name: Poland ss (10), server: 51.77.53.200, port: 8882, type: ss, cipher: aes-256-gcm, password: kDWvXYZoTBcGkC4, udp: true}
+  - {name: Poland ss (11), server: 51.77.53.200, port: 6379, type: ss, cipher: aes-256-gcm, password: zDNVedRFPQexG9v, udp: true}
+  - {name: China trojan, server: 183.232.139.22, port: 4027, type: trojan, password: gkviEOYc, skip-cert-verify: true, udp: true}
+  - {name: China trojan (1), server: 223.113.54.154, port: 23621, type: trojan, password: gkviEOYc, skip-cert-verify: true, udp: true}
+  - {name: Hong Kong trojan, server: 8.210.100.23, port: 2096, type: trojan, password: moist, sni: trojan.freenods.sbs, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: trojan.freenods.sbs}}, udp: true}
+  - {name: Hong Kong trojan (1), server: 8.210.100.23, port: 2096, type: trojan, password: moist, sni: trojan.freenods.sbs, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: trojan.freenods.sbs}}, udp: true}
+  - {name: Taiwan trojan, server: 61.222.202.100, port: 23555, type: trojan, password: tg-fq521free, sni: torjan.xn--xhq44j.eu.org, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: torjan.xn--xhq44j.eu.org}}, udp: true}
+  - {name: United States trojan, server: 89.213.182.210, port: 34814, type: trojan, password: tg-fq521free, sni: torjan.xn--xhq44j.eu.org, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: torjan.xn--xhq44j.eu.org}}, udp: true}
+  - {name: United States vless, server: 108.181.23.99, port: 443, type: vless, uuid: 85794e0d-bb8b-472d-a3ae-92ce7de243f6, tls: true, tfo: false, flow: xtls-rprx-vision, skip-cert-verify: true, servername: dckbus.xn--9vq57ocpoc50b.com, client-fingerprint: chrome, network: tcp, udp: true}
+  - {name: Germany vless, server: 130.162.220.137, port: 443, type: vless, uuid: 85794e0d-bb8b-472d-a3ae-92ce7de243f6, tls: true, tfo: false, flow: xtls-rprx-vision, skip-cert-verify: true, servername: dckbde1.xn--9vq57ocpoc50b.com, client-fingerprint: chrome, network: tcp, udp: true}
+  - {name: Singapore vless, server: 138.2.90.14, port: 443, type: vless, uuid: 85794e0d-bb8b-472d-a3ae-92ce7de243f6, tls: true, tfo: false, flow: xtls-rprx-vision, skip-cert-verify: true, servername: dckbsg.xn--9vq57ocpoc50b.com, client-fingerprint: chrome, network: tcp, udp: true}
+  - {name: South Korea vless, server: 140.238.23.156, port: 443, type: vless, uuid: 85794e0d-bb8b-472d-a3ae-92ce7de243f6, tls: true, tfo: false, flow: xtls-rprx-vision, skip-cert-verify: true, servername: dckbkr.xn--9vq57ocpoc50b.com, client-fingerprint: chrome, network: tcp, udp: true}
+  - {name: Japan vless, server: 140.83.87.185, port: 443, type: vless, uuid: 85794e0d-bb8b-472d-a3ae-92ce7de243f6, tls: true, tfo: false, flow: xtls-rprx-vision, skip-cert-verify: true, servername: dckbjp.xn--9vq57ocpoc50b.com, client-fingerprint: chrome, network: tcp, udp: true}
+  - {name: South Korea vless (1), server: 146.56.166.182, port: 443, type: vless, uuid: 85794e0d-bb8b-472d-a3ae-92ce7de243f6, tls: true, tfo: false, flow: xtls-rprx-vision, skip-cert-verify: true, servername: dckbkr.xn--9vq57ocpoc50b.com, client-fingerprint: chrome, network: tcp, udp: true}
+  - {name: United States vless (1), server: 152.70.125.53, port: 443, type: vless, uuid: 85794e0d-bb8b-472d-a3ae-92ce7de243f6, tls: true, tfo: false, flow: xtls-rprx-vision, skip-cert-verify: true, servername: dckbus.xn--9vq57ocpoc50b.com, client-fingerprint: chrome, network: tcp, udp: true}
+  - {name: United States vless (2), server: 155.248.205.203, port: 443, type: vless, uuid: 85794e0d-bb8b-472d-a3ae-92ce7de243f6, tls: true, tfo: false, flow: xtls-rprx-vision, skip-cert-verify: true, servername: dckbus.xn--9vq57ocpoc50b.com, client-fingerprint: chrome, network: tcp, udp: true}
+  - {name: United States vless (3), server: 167.234.219.191, port: 443, type: vless, uuid: 85794e0d-bb8b-472d-a3ae-92ce7de243f6, tls: true, tfo: false, flow: xtls-rprx-vision, skip-cert-verify: true, servername: dckbus.xn--9vq57ocpoc50b.com, client-fingerprint: chrome, network: tcp, udp: true}
+  - {name: United States vless (4), server: 167.234.219.191, port: 443, type: vless, uuid: 85794e0d-bb8b-472d-a3ae-92ce7de243f6, tls: true, tfo: false, flow: xtls-rprx-vision, skip-cert-verify: true, servername: dckbus.xn--9vq57ocpoc50b.com, client-fingerprint: chrome, network: tcp, udp: true}
+  - {name: United States vless (5), server: 167.234.219.191, port: 443, type: vless, uuid: 85794e0d-bb8b-472d-a3ae-92ce7de243f6, tls: true, tfo: false, flow: xtls-rprx-vision, skip-cert-verify: true, servername: dckbus.xn--9vq57ocpoc50b.com, client-fingerprint: chrome, network: tcp, udp: true}
+  - {name: United States vless (6), server: 167.234.219.191, port: 443, type: vless, uuid: 85794e0d-bb8b-472d-a3ae-92ce7de243f6, tls: true, tfo: false, flow: xtls-rprx-vision, skip-cert-verify: true, servername: dckbus.xn--9vq57ocpoc50b.com, client-fingerprint: chrome, network: tcp, udp: true}
+  - {name: Singapore vless (1), server: 168.138.165.114, port: 443, type: vless, uuid: 85794e0d-bb8b-472d-a3ae-92ce7de243f6, tls: true, tfo: false, flow: xtls-rprx-vision, skip-cert-verify: true, servername: dckbjp.xn--9vq57ocpoc50b.com, client-fingerprint: chrome, network: tcp, udp: true}
+  - {name: Japan vless (1), server: 168.138.50.28, port: 443, type: vless, uuid: 85794e0d-bb8b-472d-a3ae-92ce7de243f6, tls: true, tfo: false, flow: xtls-rprx-vision, skip-cert-verify: true, servername: dckbjp.xn--9vq57ocpoc50b.com, client-fingerprint: chrome, network: tcp, udp: true}
+  - {name: Australia vless, server: 178.173.236.231, port: 443, type: vless, uuid: 85794e0d-bb8b-472d-a3ae-92ce7de243f6, tls: true, tfo: false, flow: xtls-rprx-vision, skip-cert-verify: true, servername: dckbhk1.xn--9vq57ocpoc50b.com, client-fingerprint: chrome, network: tcp, udp: true}
+  - {name: Australia vless (1), server: 178.173.236.231, port: 443, type: vless, uuid: 85794e0d-bb8b-472d-a3ae-92ce7de243f6, tls: true, tfo: false, flow: xtls-rprx-vision, skip-cert-verify: true, servername: dcpqhk1.xn--9vq57ocpoc50b.com, client-fingerprint: chrome, network: tcp, udp: true}
+  - {name: Hong Kong vless, server: 957e32be476a.78ab92.98f0fa.a458.h3.108f4143-d0af-4e42-85a0-b13448ab5917.138503301e7d.yydjc.top, port: 443, type: vless, uuid: 85794e0d-bb8b-472d-a3ae-92ce7de243f6, tls: true, tfo: false, flow: xtls-rprx-vision, skip-cert-verify: true, servername: dckbhk1.xn--9vq57ocpoc50b.com, client-fingerprint: chrome, network: tcp, udp: true}
+  - {name: China vmess, server: 47.116.173.76, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: China vmess (1), server: 112.132.212.19, port: 50004, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: China vmess (2), server: 112.132.212.19, port: 50004, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: China vmess (3), server: 112.132.212.19, port: 50004, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: Thailand vmess, server: 119.59.98.39, port: 30000, type: vmess, uuid: 4d24fbde-cb0e-4025-98ec-222933847d3d, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, servername: www.71199889.xyz, network: ws, ws-opts: {path: /path/091615350227, headers: {Host: www.71199889.xyz}}, udp: true}
+  - {name: Singapore vmess, server: 134.122.184.105, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, servername: www.31405400.xyz, network: ws, ws-opts: {path: /path/091615350227, headers: {Host: www.31405400.xyz}}, udp: true}
+  - {name: Japan vmess, server: 137.220.130.39, port: 443, type: vmess, uuid: 78e1c35c-7f45-4998-b45a-578cef59a5cf, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, servername: www.90015096.xyz, network: ws, ws-opts: {path: /path/091615350227, headers: {Host: www.90015096.xyz}}, udp: true}
+  - {name: Singapore vmess (1), server: 14.128.63.197, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, servername: www.91937386.xyz, network: ws, ws-opts: {path: /path/091615350227, headers: {Host: www.91937386.xyz}}, udp: true}
+  - {name: China vmess (4), server: 183.238.202.173, port: 51193, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: China vmess (5), server: 183.232.199.28, port: 43002, type: vmess, uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: China vmess (6), server: 183.232.199.28, port: 43002, type: vmess, uuid: aaaaaaaa-aaaa-aaaa-aaaa-daaaaaaaaaad, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: Hong Kong vmess, server: 206.237.31.203, port: 49879, type: vmess, uuid: 2aa1a094-8320-4567-b833-c0b4934eb7e2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: UNKNOWN vmess, server: cf1.ftclashcloud.site, port: 80, type: vmess, uuid: 9a76a4ab-cf9c-4554-ad92-2ced9e53b3df, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/ws?ed=2560", headers: {Host: azin01.ftclashcloud.online}}, udp: true}
+  - {name: UNKNOWN vmess (1), server: cf1.ftclashcloud.site, port: 80, type: vmess, uuid: 9d9e218e-6e27-4b7e-a8f9-295447234380, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/ws?ed=2560", headers: {Host: azin01.ftclashcloud.online}}, udp: true}
+  - {name: UNKNOWN vmess (2), server: cf1.ftclashcloud.site, port: 80, type: vmess, uuid: 9a76a4ab-cf9c-4554-ad92-2ced9e53b3df, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/ws?ed=2560", headers: {Host: shipid01.ftclashcloud.online}}, udp: true}
+  - {name: UNKNOWN vmess (3), server: cf1.ftclashcloud.site, port: 80, type: vmess, uuid: fe201767-f354-429b-8e7a-b209ee7ae974, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/ws?ed=2560", headers: {Host: shipid01.ftclashcloud.online}}, udp: true}
+  - {name: UNKNOWN vmess (4), server: cf3.ftclashcloud.site, port: 80, type: vmess, uuid: 9a76a4ab-cf9c-4554-ad92-2ced9e53b3df, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/ws?ed=2560", headers: {Host: mhyusa01.ftclashcloud.online}}, udp: true}
+  - {name: UNKNOWN vmess (5), server: cf3.ftclashcloud.site, port: 80, type: vmess, uuid: 9a76a4ab-cf9c-4554-ad92-2ced9e53b3df, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/ws?ed=2560", headers: {Host: azin01.ftclashcloud.online}}, udp: true}
+  - {name: UNKNOWN vmess (6), server: cf3.ftclashcloud.site, port: 80, type: vmess, uuid: 9a76a4ab-cf9c-4554-ad92-2ced9e53b3df, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/ws?ed=2560", headers: {Host: shipid01.ftclashcloud.online}}, udp: true}
+  - {name: UNKNOWN vmess (7), server: cf3.ftclashcloud.site, port: 80, type: vmess, uuid: fe201767-f354-429b-8e7a-b209ee7ae974, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/ws?ed=2560", headers: {Host: shipid01.ftclashcloud.online}}, udp: true}
+  - {name: UNKNOWN vmess (8), server: cf3.ftclashcloud.site, port: 80, type: vmess, uuid: 9a76a4ab-cf9c-4554-ad92-2ced9e53b3df, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/ws?ed=2560", headers: {Host: shsg01.ftclashcloud.online}}, udp: true}
+  - {name: UNKNOWN vmess (9), server: cf3.ftclashcloud.site, port: 80, type: vmess, uuid: fe201767-f354-429b-8e7a-b209ee7ae974, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/ws?ed=2560", headers: {Host: shsg01.ftclashcloud.online}}, udp: true}
+  - {name: UNKNOWN vmess (10), server: cf4.ftclashcloud.site, port: 80, type: vmess, uuid: 9a76a4ab-cf9c-4554-ad92-2ced9e53b3df, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/ws?ed=2560", headers: {Host: mhyusa01.ftclashcloud.online}}, udp: true}
+  - {name: UNKNOWN vmess (11), server: cf4.ftclashcloud.site, port: 80, type: vmess, uuid: 9a76a4ab-cf9c-4554-ad92-2ced9e53b3df, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/ws?ed=2560", headers: {Host: azin01.ftclashcloud.online}}, udp: true}
+  - {name: UNKNOWN vmess (12), server: cf4.ftclashcloud.site, port: 80, type: vmess, uuid: 9d9e218e-6e27-4b7e-a8f9-295447234380, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/ws?ed=2560", headers: {Host: azin01.ftclashcloud.online}}, udp: true}
+  - {name: UNKNOWN vmess (13), server: cf4.ftclashcloud.site, port: 80, type: vmess, uuid: 9d9e218e-6e27-4b7e-a8f9-295447234380, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/ws?ed=2560", headers: {Host: shipid01.ftclashcloud.online}}, udp: true}
+  - {name: UNKNOWN vmess (14), server: cf4.ftclashcloud.site, port: 80, type: vmess, uuid: 9a76a4ab-cf9c-4554-ad92-2ced9e53b3df, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/ws?ed=2560", headers: {Host: shsg01.ftclashcloud.online}}, udp: true}
+  - {name: UNKNOWN vmess (15), server: cf4.ftclashcloud.site, port: 80, type: vmess, uuid: fe201767-f354-429b-8e7a-b209ee7ae974, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/ws?ed=2560", headers: {Host: shsg01.ftclashcloud.online}}, udp: true}
 proxy-groups:
   - name: 🔰 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - 🎯 全球直连
-      - United States hysteria2
-      - United States hysteria2 (1)
-      - South Korea hysteria2
-      - Australia hysteria2
+      - The Netherlands hysteria2
+      - Singapore hysteria2
       - Germany hysteria2
+      - The Netherlands hysteria2 (1)
+      - United States hysteria2
+      - Singapore hysteria2 (1)
+      - United States hysteria2 (1)
       - United States hysteria2 (2)
-      - South Korea hysteria2 (1)
-      - Australia hysteria2 (1)
+      - United States hysteria2 (3)
+      - The Netherlands hysteria2 (2)
+      - Singapore hysteria2 (2)
+      - Singapore hysteria2 (3)
+      - Singapore hysteria2 (4)
+      - Singapore hysteria2 (5)
+      - Singapore hysteria2 (6)
+      - India hysteria2
+      - Hong Kong hysteria2
       - Japan hysteria2
+      - South Korea hysteria2
+      - South Korea hysteria2 (1)
+      - South Korea hysteria2 (2)
+      - Singapore hysteria2 (7)
+      - Singapore hysteria2 (8)
+      - Singapore hysteria2 (9)
+      - United States hysteria2 (4)
+      - South Korea hysteria2 (3)
+      - South Korea hysteria2 (4)
+      - South Korea hysteria2 (5)
+      - South Korea hysteria2 (6)
+      - South Korea hysteria2 (7)
+      - Hong Kong hysteria2 (1)
+      - Japan hysteria2 (1)
+      - South Korea hysteria2 (8)
+      - South Korea hysteria2 (9)
+      - South Korea hysteria2 (10)
+      - Singapore hysteria2 (10)
+      - Singapore hysteria2 (11)
+      - United States hysteria2 (5)
+      - South Korea hysteria2 (11)
+      - South Korea hysteria2 (12)
+      - South Korea hysteria2 (13)
+      - South Korea hysteria2 (14)
+      - South Korea hysteria2 (15)
+      - Hong Kong hysteria2 (2)
+      - Japan hysteria2 (2)
+      - South Korea hysteria2 (16)
+      - South Korea hysteria2 (17)
+      - South Korea hysteria2 (18)
+      - Singapore hysteria2 (12)
+      - Singapore hysteria2 (13)
+      - Singapore hysteria2 (14)
+      - United States hysteria2 (6)
+      - South Korea hysteria2 (19)
+      - South Korea hysteria2 (20)
+      - South Korea hysteria2 (21)
+      - South Korea hysteria2 (22)
+      - South Korea hysteria2 (23)
+      - Hong Kong hysteria2 (3)
+      - Japan hysteria2 (3)
+      - South Korea hysteria2 (24)
+      - South Korea hysteria2 (25)
+      - South Korea hysteria2 (26)
+      - Singapore hysteria2 (15)
+      - Singapore hysteria2 (16)
+      - Singapore hysteria2 (17)
+      - United States hysteria2 (7)
+      - South Korea hysteria2 (27)
+      - South Korea hysteria2 (28)
+      - South Korea hysteria2 (29)
+      - South Korea hysteria2 (30)
+      - South Korea hysteria2 (31)
+      - Hong Kong hysteria2 (4)
+      - Japan hysteria2 (4)
+      - South Korea hysteria2 (32)
+      - South Korea hysteria2 (33)
+      - South Korea hysteria2 (34)
+      - Singapore hysteria2 (18)
+      - Singapore hysteria2 (19)
+      - Singapore hysteria2 (20)
+      - United States hysteria2 (8)
+      - South Korea hysteria2 (35)
+      - South Korea hysteria2 (36)
+      - South Korea hysteria2 (37)
+      - South Korea hysteria2 (38)
+      - South Korea hysteria2 (39)
+      - Hong Kong hysteria2 (5)
+      - Japan hysteria2 (5)
+      - South Korea hysteria2 (40)
+      - South Korea hysteria2 (41)
+      - South Korea hysteria2 (42)
+      - Singapore hysteria2 (21)
+      - Singapore hysteria2 (22)
+      - Singapore hysteria2 (23)
+      - United States hysteria2 (9)
+      - South Korea hysteria2 (43)
+      - South Korea hysteria2 (44)
+      - South Korea hysteria2 (45)
+      - South Korea hysteria2 (46)
+      - South Korea hysteria2 (47)
+      - Hong Kong hysteria2 (6)
+      - Japan hysteria2 (6)
+      - South Korea hysteria2 (48)
+      - South Korea hysteria2 (49)
+      - South Korea hysteria2 (50)
+      - Singapore hysteria2 (24)
+      - Singapore hysteria2 (25)
+      - Singapore hysteria2 (26)
+      - United States hysteria2 (10)
+      - South Korea hysteria2 (51)
+      - South Korea hysteria2 (52)
+      - South Korea hysteria2 (53)
+      - South Korea hysteria2 (54)
+      - Hong Kong hysteria2 (7)
+      - Japan hysteria2 (7)
+      - South Korea hysteria2 (55)
+      - South Korea hysteria2 (56)
+      - South Korea hysteria2 (57)
+      - Singapore hysteria2 (27)
+      - Singapore hysteria2 (28)
+      - Singapore hysteria2 (29)
+      - United States hysteria2 (11)
+      - South Korea hysteria2 (58)
+      - South Korea hysteria2 (59)
+      - South Korea hysteria2 (60)
+      - South Korea hysteria2 (61)
+      - South Korea hysteria2 (62)
+      - Hong Kong hysteria2 (8)
+      - Japan hysteria2 (8)
+      - South Korea hysteria2 (63)
+      - South Korea hysteria2 (64)
+      - South Korea hysteria2 (65)
+      - Singapore hysteria2 (30)
+      - Singapore hysteria2 (31)
+      - United States hysteria2 (12)
+      - South Korea hysteria2 (66)
+      - South Korea hysteria2 (67)
+      - South Korea hysteria2 (68)
+      - South Korea hysteria2 (69)
+      - South Korea hysteria2 (70)
+      - Hong Kong hysteria2 (9)
+      - South Korea hysteria2 (71)
+      - South Korea hysteria2 (72)
+      - South Korea hysteria2 (73)
+      - Singapore hysteria2 (32)
+      - Singapore hysteria2 (33)
+      - Singapore hysteria2 (34)
+      - United States hysteria2 (13)
+      - South Korea hysteria2 (74)
+      - South Korea hysteria2 (75)
+      - South Korea hysteria2 (76)
+      - South Korea hysteria2 (77)
+      - China ss
+      - China ss (1)
+      - China ss (2)
+      - China ss (3)
+      - China ss (4)
+      - China ss (5)
+      - China ss (6)
+      - United Kingdom ss
+      - Japan ss
+      - China ss (7)
+      - China ss (8)
+      - China ss (9)
+      - China ss (10)
+      - China ss (11)
+      - Poland ss
+      - United States ss
+      - United States ss (1)
+      - Poland ss (1)
+      - Poland ss (2)
+      - Poland ss (3)
+      - Poland ss (4)
+      - Poland ss (5)
+      - Poland ss (6)
+      - Poland ss (7)
+      - United States ss (2)
+      - Poland ss (8)
+      - Poland ss (9)
+      - Poland ss (10)
+      - Poland ss (11)
       - China trojan
       - China trojan (1)
-      - China trojan (2)
-      - China trojan (3)
-      - China trojan (4)
-      - China trojan (5)
+      - Hong Kong trojan
+      - Hong Kong trojan (1)
+      - Taiwan trojan
+      - United States trojan
+      - United States vless
+      - Germany vless
+      - Singapore vless
       - South Korea vless
+      - Japan vless
+      - South Korea vless (1)
+      - United States vless (1)
+      - United States vless (2)
+      - United States vless (3)
+      - United States vless (4)
+      - United States vless (5)
+      - United States vless (6)
+      - Singapore vless (1)
+      - Japan vless (1)
       - Australia vless
-      - Taiwan vless
+      - Australia vless (1)
+      - Hong Kong vless
+      - China vmess
+      - China vmess (1)
+      - China vmess (2)
+      - China vmess (3)
+      - Thailand vmess
+      - Singapore vmess
+      - Japan vmess
+      - Singapore vmess (1)
+      - China vmess (4)
+      - China vmess (5)
+      - China vmess (6)
+      - Hong Kong vmess
       - UNKNOWN vmess
       - UNKNOWN vmess (1)
       - UNKNOWN vmess (2)
@@ -80,30 +473,226 @@ proxy-groups:
       - UNKNOWN vmess (13)
       - UNKNOWN vmess (14)
       - UNKNOWN vmess (15)
-      - UNKNOWN vmess (16)
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies:
-      - United States hysteria2
-      - United States hysteria2 (1)
-      - South Korea hysteria2
-      - Australia hysteria2
+      - The Netherlands hysteria2
+      - Singapore hysteria2
       - Germany hysteria2
+      - The Netherlands hysteria2 (1)
+      - United States hysteria2
+      - Singapore hysteria2 (1)
+      - United States hysteria2 (1)
       - United States hysteria2 (2)
-      - South Korea hysteria2 (1)
-      - Australia hysteria2 (1)
+      - United States hysteria2 (3)
+      - The Netherlands hysteria2 (2)
+      - Singapore hysteria2 (2)
+      - Singapore hysteria2 (3)
+      - Singapore hysteria2 (4)
+      - Singapore hysteria2 (5)
+      - Singapore hysteria2 (6)
+      - India hysteria2
+      - Hong Kong hysteria2
       - Japan hysteria2
+      - South Korea hysteria2
+      - South Korea hysteria2 (1)
+      - South Korea hysteria2 (2)
+      - Singapore hysteria2 (7)
+      - Singapore hysteria2 (8)
+      - Singapore hysteria2 (9)
+      - United States hysteria2 (4)
+      - South Korea hysteria2 (3)
+      - South Korea hysteria2 (4)
+      - South Korea hysteria2 (5)
+      - South Korea hysteria2 (6)
+      - South Korea hysteria2 (7)
+      - Hong Kong hysteria2 (1)
+      - Japan hysteria2 (1)
+      - South Korea hysteria2 (8)
+      - South Korea hysteria2 (9)
+      - South Korea hysteria2 (10)
+      - Singapore hysteria2 (10)
+      - Singapore hysteria2 (11)
+      - United States hysteria2 (5)
+      - South Korea hysteria2 (11)
+      - South Korea hysteria2 (12)
+      - South Korea hysteria2 (13)
+      - South Korea hysteria2 (14)
+      - South Korea hysteria2 (15)
+      - Hong Kong hysteria2 (2)
+      - Japan hysteria2 (2)
+      - South Korea hysteria2 (16)
+      - South Korea hysteria2 (17)
+      - South Korea hysteria2 (18)
+      - Singapore hysteria2 (12)
+      - Singapore hysteria2 (13)
+      - Singapore hysteria2 (14)
+      - United States hysteria2 (6)
+      - South Korea hysteria2 (19)
+      - South Korea hysteria2 (20)
+      - South Korea hysteria2 (21)
+      - South Korea hysteria2 (22)
+      - South Korea hysteria2 (23)
+      - Hong Kong hysteria2 (3)
+      - Japan hysteria2 (3)
+      - South Korea hysteria2 (24)
+      - South Korea hysteria2 (25)
+      - South Korea hysteria2 (26)
+      - Singapore hysteria2 (15)
+      - Singapore hysteria2 (16)
+      - Singapore hysteria2 (17)
+      - United States hysteria2 (7)
+      - South Korea hysteria2 (27)
+      - South Korea hysteria2 (28)
+      - South Korea hysteria2 (29)
+      - South Korea hysteria2 (30)
+      - South Korea hysteria2 (31)
+      - Hong Kong hysteria2 (4)
+      - Japan hysteria2 (4)
+      - South Korea hysteria2 (32)
+      - South Korea hysteria2 (33)
+      - South Korea hysteria2 (34)
+      - Singapore hysteria2 (18)
+      - Singapore hysteria2 (19)
+      - Singapore hysteria2 (20)
+      - United States hysteria2 (8)
+      - South Korea hysteria2 (35)
+      - South Korea hysteria2 (36)
+      - South Korea hysteria2 (37)
+      - South Korea hysteria2 (38)
+      - South Korea hysteria2 (39)
+      - Hong Kong hysteria2 (5)
+      - Japan hysteria2 (5)
+      - South Korea hysteria2 (40)
+      - South Korea hysteria2 (41)
+      - South Korea hysteria2 (42)
+      - Singapore hysteria2 (21)
+      - Singapore hysteria2 (22)
+      - Singapore hysteria2 (23)
+      - United States hysteria2 (9)
+      - South Korea hysteria2 (43)
+      - South Korea hysteria2 (44)
+      - South Korea hysteria2 (45)
+      - South Korea hysteria2 (46)
+      - South Korea hysteria2 (47)
+      - Hong Kong hysteria2 (6)
+      - Japan hysteria2 (6)
+      - South Korea hysteria2 (48)
+      - South Korea hysteria2 (49)
+      - South Korea hysteria2 (50)
+      - Singapore hysteria2 (24)
+      - Singapore hysteria2 (25)
+      - Singapore hysteria2 (26)
+      - United States hysteria2 (10)
+      - South Korea hysteria2 (51)
+      - South Korea hysteria2 (52)
+      - South Korea hysteria2 (53)
+      - South Korea hysteria2 (54)
+      - Hong Kong hysteria2 (7)
+      - Japan hysteria2 (7)
+      - South Korea hysteria2 (55)
+      - South Korea hysteria2 (56)
+      - South Korea hysteria2 (57)
+      - Singapore hysteria2 (27)
+      - Singapore hysteria2 (28)
+      - Singapore hysteria2 (29)
+      - United States hysteria2 (11)
+      - South Korea hysteria2 (58)
+      - South Korea hysteria2 (59)
+      - South Korea hysteria2 (60)
+      - South Korea hysteria2 (61)
+      - South Korea hysteria2 (62)
+      - Hong Kong hysteria2 (8)
+      - Japan hysteria2 (8)
+      - South Korea hysteria2 (63)
+      - South Korea hysteria2 (64)
+      - South Korea hysteria2 (65)
+      - Singapore hysteria2 (30)
+      - Singapore hysteria2 (31)
+      - United States hysteria2 (12)
+      - South Korea hysteria2 (66)
+      - South Korea hysteria2 (67)
+      - South Korea hysteria2 (68)
+      - South Korea hysteria2 (69)
+      - South Korea hysteria2 (70)
+      - Hong Kong hysteria2 (9)
+      - South Korea hysteria2 (71)
+      - South Korea hysteria2 (72)
+      - South Korea hysteria2 (73)
+      - Singapore hysteria2 (32)
+      - Singapore hysteria2 (33)
+      - Singapore hysteria2 (34)
+      - United States hysteria2 (13)
+      - South Korea hysteria2 (74)
+      - South Korea hysteria2 (75)
+      - South Korea hysteria2 (76)
+      - South Korea hysteria2 (77)
+      - China ss
+      - China ss (1)
+      - China ss (2)
+      - China ss (3)
+      - China ss (4)
+      - China ss (5)
+      - China ss (6)
+      - United Kingdom ss
+      - Japan ss
+      - China ss (7)
+      - China ss (8)
+      - China ss (9)
+      - China ss (10)
+      - China ss (11)
+      - Poland ss
+      - United States ss
+      - United States ss (1)
+      - Poland ss (1)
+      - Poland ss (2)
+      - Poland ss (3)
+      - Poland ss (4)
+      - Poland ss (5)
+      - Poland ss (6)
+      - Poland ss (7)
+      - United States ss (2)
+      - Poland ss (8)
+      - Poland ss (9)
+      - Poland ss (10)
+      - Poland ss (11)
       - China trojan
       - China trojan (1)
-      - China trojan (2)
-      - China trojan (3)
-      - China trojan (4)
-      - China trojan (5)
+      - Hong Kong trojan
+      - Hong Kong trojan (1)
+      - Taiwan trojan
+      - United States trojan
+      - United States vless
+      - Germany vless
+      - Singapore vless
       - South Korea vless
+      - Japan vless
+      - South Korea vless (1)
+      - United States vless (1)
+      - United States vless (2)
+      - United States vless (3)
+      - United States vless (4)
+      - United States vless (5)
+      - United States vless (6)
+      - Singapore vless (1)
+      - Japan vless (1)
       - Australia vless
-      - Taiwan vless
+      - Australia vless (1)
+      - Hong Kong vless
+      - China vmess
+      - China vmess (1)
+      - China vmess (2)
+      - China vmess (3)
+      - Thailand vmess
+      - Singapore vmess
+      - Japan vmess
+      - Singapore vmess (1)
+      - China vmess (4)
+      - China vmess (5)
+      - China vmess (6)
+      - Hong Kong vmess
       - UNKNOWN vmess
       - UNKNOWN vmess (1)
       - UNKNOWN vmess (2)
@@ -120,31 +709,227 @@ proxy-groups:
       - UNKNOWN vmess (13)
       - UNKNOWN vmess (14)
       - UNKNOWN vmess (15)
-      - UNKNOWN vmess (16)
   - name: 🎥 NETFLIX
     type: select
     proxies:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - United States hysteria2
-      - United States hysteria2 (1)
-      - South Korea hysteria2
-      - Australia hysteria2
+      - The Netherlands hysteria2
+      - Singapore hysteria2
       - Germany hysteria2
+      - The Netherlands hysteria2 (1)
+      - United States hysteria2
+      - Singapore hysteria2 (1)
+      - United States hysteria2 (1)
       - United States hysteria2 (2)
-      - South Korea hysteria2 (1)
-      - Australia hysteria2 (1)
+      - United States hysteria2 (3)
+      - The Netherlands hysteria2 (2)
+      - Singapore hysteria2 (2)
+      - Singapore hysteria2 (3)
+      - Singapore hysteria2 (4)
+      - Singapore hysteria2 (5)
+      - Singapore hysteria2 (6)
+      - India hysteria2
+      - Hong Kong hysteria2
       - Japan hysteria2
+      - South Korea hysteria2
+      - South Korea hysteria2 (1)
+      - South Korea hysteria2 (2)
+      - Singapore hysteria2 (7)
+      - Singapore hysteria2 (8)
+      - Singapore hysteria2 (9)
+      - United States hysteria2 (4)
+      - South Korea hysteria2 (3)
+      - South Korea hysteria2 (4)
+      - South Korea hysteria2 (5)
+      - South Korea hysteria2 (6)
+      - South Korea hysteria2 (7)
+      - Hong Kong hysteria2 (1)
+      - Japan hysteria2 (1)
+      - South Korea hysteria2 (8)
+      - South Korea hysteria2 (9)
+      - South Korea hysteria2 (10)
+      - Singapore hysteria2 (10)
+      - Singapore hysteria2 (11)
+      - United States hysteria2 (5)
+      - South Korea hysteria2 (11)
+      - South Korea hysteria2 (12)
+      - South Korea hysteria2 (13)
+      - South Korea hysteria2 (14)
+      - South Korea hysteria2 (15)
+      - Hong Kong hysteria2 (2)
+      - Japan hysteria2 (2)
+      - South Korea hysteria2 (16)
+      - South Korea hysteria2 (17)
+      - South Korea hysteria2 (18)
+      - Singapore hysteria2 (12)
+      - Singapore hysteria2 (13)
+      - Singapore hysteria2 (14)
+      - United States hysteria2 (6)
+      - South Korea hysteria2 (19)
+      - South Korea hysteria2 (20)
+      - South Korea hysteria2 (21)
+      - South Korea hysteria2 (22)
+      - South Korea hysteria2 (23)
+      - Hong Kong hysteria2 (3)
+      - Japan hysteria2 (3)
+      - South Korea hysteria2 (24)
+      - South Korea hysteria2 (25)
+      - South Korea hysteria2 (26)
+      - Singapore hysteria2 (15)
+      - Singapore hysteria2 (16)
+      - Singapore hysteria2 (17)
+      - United States hysteria2 (7)
+      - South Korea hysteria2 (27)
+      - South Korea hysteria2 (28)
+      - South Korea hysteria2 (29)
+      - South Korea hysteria2 (30)
+      - South Korea hysteria2 (31)
+      - Hong Kong hysteria2 (4)
+      - Japan hysteria2 (4)
+      - South Korea hysteria2 (32)
+      - South Korea hysteria2 (33)
+      - South Korea hysteria2 (34)
+      - Singapore hysteria2 (18)
+      - Singapore hysteria2 (19)
+      - Singapore hysteria2 (20)
+      - United States hysteria2 (8)
+      - South Korea hysteria2 (35)
+      - South Korea hysteria2 (36)
+      - South Korea hysteria2 (37)
+      - South Korea hysteria2 (38)
+      - South Korea hysteria2 (39)
+      - Hong Kong hysteria2 (5)
+      - Japan hysteria2 (5)
+      - South Korea hysteria2 (40)
+      - South Korea hysteria2 (41)
+      - South Korea hysteria2 (42)
+      - Singapore hysteria2 (21)
+      - Singapore hysteria2 (22)
+      - Singapore hysteria2 (23)
+      - United States hysteria2 (9)
+      - South Korea hysteria2 (43)
+      - South Korea hysteria2 (44)
+      - South Korea hysteria2 (45)
+      - South Korea hysteria2 (46)
+      - South Korea hysteria2 (47)
+      - Hong Kong hysteria2 (6)
+      - Japan hysteria2 (6)
+      - South Korea hysteria2 (48)
+      - South Korea hysteria2 (49)
+      - South Korea hysteria2 (50)
+      - Singapore hysteria2 (24)
+      - Singapore hysteria2 (25)
+      - Singapore hysteria2 (26)
+      - United States hysteria2 (10)
+      - South Korea hysteria2 (51)
+      - South Korea hysteria2 (52)
+      - South Korea hysteria2 (53)
+      - South Korea hysteria2 (54)
+      - Hong Kong hysteria2 (7)
+      - Japan hysteria2 (7)
+      - South Korea hysteria2 (55)
+      - South Korea hysteria2 (56)
+      - South Korea hysteria2 (57)
+      - Singapore hysteria2 (27)
+      - Singapore hysteria2 (28)
+      - Singapore hysteria2 (29)
+      - United States hysteria2 (11)
+      - South Korea hysteria2 (58)
+      - South Korea hysteria2 (59)
+      - South Korea hysteria2 (60)
+      - South Korea hysteria2 (61)
+      - South Korea hysteria2 (62)
+      - Hong Kong hysteria2 (8)
+      - Japan hysteria2 (8)
+      - South Korea hysteria2 (63)
+      - South Korea hysteria2 (64)
+      - South Korea hysteria2 (65)
+      - Singapore hysteria2 (30)
+      - Singapore hysteria2 (31)
+      - United States hysteria2 (12)
+      - South Korea hysteria2 (66)
+      - South Korea hysteria2 (67)
+      - South Korea hysteria2 (68)
+      - South Korea hysteria2 (69)
+      - South Korea hysteria2 (70)
+      - Hong Kong hysteria2 (9)
+      - South Korea hysteria2 (71)
+      - South Korea hysteria2 (72)
+      - South Korea hysteria2 (73)
+      - Singapore hysteria2 (32)
+      - Singapore hysteria2 (33)
+      - Singapore hysteria2 (34)
+      - United States hysteria2 (13)
+      - South Korea hysteria2 (74)
+      - South Korea hysteria2 (75)
+      - South Korea hysteria2 (76)
+      - South Korea hysteria2 (77)
+      - China ss
+      - China ss (1)
+      - China ss (2)
+      - China ss (3)
+      - China ss (4)
+      - China ss (5)
+      - China ss (6)
+      - United Kingdom ss
+      - Japan ss
+      - China ss (7)
+      - China ss (8)
+      - China ss (9)
+      - China ss (10)
+      - China ss (11)
+      - Poland ss
+      - United States ss
+      - United States ss (1)
+      - Poland ss (1)
+      - Poland ss (2)
+      - Poland ss (3)
+      - Poland ss (4)
+      - Poland ss (5)
+      - Poland ss (6)
+      - Poland ss (7)
+      - United States ss (2)
+      - Poland ss (8)
+      - Poland ss (9)
+      - Poland ss (10)
+      - Poland ss (11)
       - China trojan
       - China trojan (1)
-      - China trojan (2)
-      - China trojan (3)
-      - China trojan (4)
-      - China trojan (5)
+      - Hong Kong trojan
+      - Hong Kong trojan (1)
+      - Taiwan trojan
+      - United States trojan
+      - United States vless
+      - Germany vless
+      - Singapore vless
       - South Korea vless
+      - Japan vless
+      - South Korea vless (1)
+      - United States vless (1)
+      - United States vless (2)
+      - United States vless (3)
+      - United States vless (4)
+      - United States vless (5)
+      - United States vless (6)
+      - Singapore vless (1)
+      - Japan vless (1)
       - Australia vless
-      - Taiwan vless
+      - Australia vless (1)
+      - Hong Kong vless
+      - China vmess
+      - China vmess (1)
+      - China vmess (2)
+      - China vmess (3)
+      - Thailand vmess
+      - Singapore vmess
+      - Japan vmess
+      - Singapore vmess (1)
+      - China vmess (4)
+      - China vmess (5)
+      - China vmess (6)
+      - Hong Kong vmess
       - UNKNOWN vmess
       - UNKNOWN vmess (1)
       - UNKNOWN vmess (2)
@@ -161,7 +946,6 @@ proxy-groups:
       - UNKNOWN vmess (13)
       - UNKNOWN vmess (14)
       - UNKNOWN vmess (15)
-      - UNKNOWN vmess (16)
   - name: ⛔️ 广告拦截
     type: select
     proxies:
@@ -180,24 +964,221 @@ proxy-groups:
       - 🔰 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - United States hysteria2
-      - United States hysteria2 (1)
-      - South Korea hysteria2
-      - Australia hysteria2
+      - The Netherlands hysteria2
+      - Singapore hysteria2
       - Germany hysteria2
+      - The Netherlands hysteria2 (1)
+      - United States hysteria2
+      - Singapore hysteria2 (1)
+      - United States hysteria2 (1)
       - United States hysteria2 (2)
-      - South Korea hysteria2 (1)
-      - Australia hysteria2 (1)
+      - United States hysteria2 (3)
+      - The Netherlands hysteria2 (2)
+      - Singapore hysteria2 (2)
+      - Singapore hysteria2 (3)
+      - Singapore hysteria2 (4)
+      - Singapore hysteria2 (5)
+      - Singapore hysteria2 (6)
+      - India hysteria2
+      - Hong Kong hysteria2
       - Japan hysteria2
+      - South Korea hysteria2
+      - South Korea hysteria2 (1)
+      - South Korea hysteria2 (2)
+      - Singapore hysteria2 (7)
+      - Singapore hysteria2 (8)
+      - Singapore hysteria2 (9)
+      - United States hysteria2 (4)
+      - South Korea hysteria2 (3)
+      - South Korea hysteria2 (4)
+      - South Korea hysteria2 (5)
+      - South Korea hysteria2 (6)
+      - South Korea hysteria2 (7)
+      - Hong Kong hysteria2 (1)
+      - Japan hysteria2 (1)
+      - South Korea hysteria2 (8)
+      - South Korea hysteria2 (9)
+      - South Korea hysteria2 (10)
+      - Singapore hysteria2 (10)
+      - Singapore hysteria2 (11)
+      - United States hysteria2 (5)
+      - South Korea hysteria2 (11)
+      - South Korea hysteria2 (12)
+      - South Korea hysteria2 (13)
+      - South Korea hysteria2 (14)
+      - South Korea hysteria2 (15)
+      - Hong Kong hysteria2 (2)
+      - Japan hysteria2 (2)
+      - South Korea hysteria2 (16)
+      - South Korea hysteria2 (17)
+      - South Korea hysteria2 (18)
+      - Singapore hysteria2 (12)
+      - Singapore hysteria2 (13)
+      - Singapore hysteria2 (14)
+      - United States hysteria2 (6)
+      - South Korea hysteria2 (19)
+      - South Korea hysteria2 (20)
+      - South Korea hysteria2 (21)
+      - South Korea hysteria2 (22)
+      - South Korea hysteria2 (23)
+      - Hong Kong hysteria2 (3)
+      - Japan hysteria2 (3)
+      - South Korea hysteria2 (24)
+      - South Korea hysteria2 (25)
+      - South Korea hysteria2 (26)
+      - Singapore hysteria2 (15)
+      - Singapore hysteria2 (16)
+      - Singapore hysteria2 (17)
+      - United States hysteria2 (7)
+      - South Korea hysteria2 (27)
+      - South Korea hysteria2 (28)
+      - South Korea hysteria2 (29)
+      - South Korea hysteria2 (30)
+      - South Korea hysteria2 (31)
+      - Hong Kong hysteria2 (4)
+      - Japan hysteria2 (4)
+      - South Korea hysteria2 (32)
+      - South Korea hysteria2 (33)
+      - South Korea hysteria2 (34)
+      - Singapore hysteria2 (18)
+      - Singapore hysteria2 (19)
+      - Singapore hysteria2 (20)
+      - United States hysteria2 (8)
+      - South Korea hysteria2 (35)
+      - South Korea hysteria2 (36)
+      - South Korea hysteria2 (37)
+      - South Korea hysteria2 (38)
+      - South Korea hysteria2 (39)
+      - Hong Kong hysteria2 (5)
+      - Japan hysteria2 (5)
+      - South Korea hysteria2 (40)
+      - South Korea hysteria2 (41)
+      - South Korea hysteria2 (42)
+      - Singapore hysteria2 (21)
+      - Singapore hysteria2 (22)
+      - Singapore hysteria2 (23)
+      - United States hysteria2 (9)
+      - South Korea hysteria2 (43)
+      - South Korea hysteria2 (44)
+      - South Korea hysteria2 (45)
+      - South Korea hysteria2 (46)
+      - South Korea hysteria2 (47)
+      - Hong Kong hysteria2 (6)
+      - Japan hysteria2 (6)
+      - South Korea hysteria2 (48)
+      - South Korea hysteria2 (49)
+      - South Korea hysteria2 (50)
+      - Singapore hysteria2 (24)
+      - Singapore hysteria2 (25)
+      - Singapore hysteria2 (26)
+      - United States hysteria2 (10)
+      - South Korea hysteria2 (51)
+      - South Korea hysteria2 (52)
+      - South Korea hysteria2 (53)
+      - South Korea hysteria2 (54)
+      - Hong Kong hysteria2 (7)
+      - Japan hysteria2 (7)
+      - South Korea hysteria2 (55)
+      - South Korea hysteria2 (56)
+      - South Korea hysteria2 (57)
+      - Singapore hysteria2 (27)
+      - Singapore hysteria2 (28)
+      - Singapore hysteria2 (29)
+      - United States hysteria2 (11)
+      - South Korea hysteria2 (58)
+      - South Korea hysteria2 (59)
+      - South Korea hysteria2 (60)
+      - South Korea hysteria2 (61)
+      - South Korea hysteria2 (62)
+      - Hong Kong hysteria2 (8)
+      - Japan hysteria2 (8)
+      - South Korea hysteria2 (63)
+      - South Korea hysteria2 (64)
+      - South Korea hysteria2 (65)
+      - Singapore hysteria2 (30)
+      - Singapore hysteria2 (31)
+      - United States hysteria2 (12)
+      - South Korea hysteria2 (66)
+      - South Korea hysteria2 (67)
+      - South Korea hysteria2 (68)
+      - South Korea hysteria2 (69)
+      - South Korea hysteria2 (70)
+      - Hong Kong hysteria2 (9)
+      - South Korea hysteria2 (71)
+      - South Korea hysteria2 (72)
+      - South Korea hysteria2 (73)
+      - Singapore hysteria2 (32)
+      - Singapore hysteria2 (33)
+      - Singapore hysteria2 (34)
+      - United States hysteria2 (13)
+      - South Korea hysteria2 (74)
+      - South Korea hysteria2 (75)
+      - South Korea hysteria2 (76)
+      - South Korea hysteria2 (77)
+      - China ss
+      - China ss (1)
+      - China ss (2)
+      - China ss (3)
+      - China ss (4)
+      - China ss (5)
+      - China ss (6)
+      - United Kingdom ss
+      - Japan ss
+      - China ss (7)
+      - China ss (8)
+      - China ss (9)
+      - China ss (10)
+      - China ss (11)
+      - Poland ss
+      - United States ss
+      - United States ss (1)
+      - Poland ss (1)
+      - Poland ss (2)
+      - Poland ss (3)
+      - Poland ss (4)
+      - Poland ss (5)
+      - Poland ss (6)
+      - Poland ss (7)
+      - United States ss (2)
+      - Poland ss (8)
+      - Poland ss (9)
+      - Poland ss (10)
+      - Poland ss (11)
       - China trojan
       - China trojan (1)
-      - China trojan (2)
-      - China trojan (3)
-      - China trojan (4)
-      - China trojan (5)
+      - Hong Kong trojan
+      - Hong Kong trojan (1)
+      - Taiwan trojan
+      - United States trojan
+      - United States vless
+      - Germany vless
+      - Singapore vless
       - South Korea vless
+      - Japan vless
+      - South Korea vless (1)
+      - United States vless (1)
+      - United States vless (2)
+      - United States vless (3)
+      - United States vless (4)
+      - United States vless (5)
+      - United States vless (6)
+      - Singapore vless (1)
+      - Japan vless (1)
       - Australia vless
-      - Taiwan vless
+      - Australia vless (1)
+      - Hong Kong vless
+      - China vmess
+      - China vmess (1)
+      - China vmess (2)
+      - China vmess (3)
+      - Thailand vmess
+      - Singapore vmess
+      - Japan vmess
+      - Singapore vmess (1)
+      - China vmess (4)
+      - China vmess (5)
+      - China vmess (6)
+      - Hong Kong vmess
       - UNKNOWN vmess
       - UNKNOWN vmess (1)
       - UNKNOWN vmess (2)
@@ -214,7 +1195,6 @@ proxy-groups:
       - UNKNOWN vmess (13)
       - UNKNOWN vmess (14)
       - UNKNOWN vmess (15)
-      - UNKNOWN vmess (16)
   - name: 🌏 国内媒体
     type: select
     proxies:
@@ -225,24 +1205,221 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🔰 节点选择
-      - United States hysteria2
-      - United States hysteria2 (1)
-      - South Korea hysteria2
-      - Australia hysteria2
+      - The Netherlands hysteria2
+      - Singapore hysteria2
       - Germany hysteria2
+      - The Netherlands hysteria2 (1)
+      - United States hysteria2
+      - Singapore hysteria2 (1)
+      - United States hysteria2 (1)
       - United States hysteria2 (2)
-      - South Korea hysteria2 (1)
-      - Australia hysteria2 (1)
+      - United States hysteria2 (3)
+      - The Netherlands hysteria2 (2)
+      - Singapore hysteria2 (2)
+      - Singapore hysteria2 (3)
+      - Singapore hysteria2 (4)
+      - Singapore hysteria2 (5)
+      - Singapore hysteria2 (6)
+      - India hysteria2
+      - Hong Kong hysteria2
       - Japan hysteria2
+      - South Korea hysteria2
+      - South Korea hysteria2 (1)
+      - South Korea hysteria2 (2)
+      - Singapore hysteria2 (7)
+      - Singapore hysteria2 (8)
+      - Singapore hysteria2 (9)
+      - United States hysteria2 (4)
+      - South Korea hysteria2 (3)
+      - South Korea hysteria2 (4)
+      - South Korea hysteria2 (5)
+      - South Korea hysteria2 (6)
+      - South Korea hysteria2 (7)
+      - Hong Kong hysteria2 (1)
+      - Japan hysteria2 (1)
+      - South Korea hysteria2 (8)
+      - South Korea hysteria2 (9)
+      - South Korea hysteria2 (10)
+      - Singapore hysteria2 (10)
+      - Singapore hysteria2 (11)
+      - United States hysteria2 (5)
+      - South Korea hysteria2 (11)
+      - South Korea hysteria2 (12)
+      - South Korea hysteria2 (13)
+      - South Korea hysteria2 (14)
+      - South Korea hysteria2 (15)
+      - Hong Kong hysteria2 (2)
+      - Japan hysteria2 (2)
+      - South Korea hysteria2 (16)
+      - South Korea hysteria2 (17)
+      - South Korea hysteria2 (18)
+      - Singapore hysteria2 (12)
+      - Singapore hysteria2 (13)
+      - Singapore hysteria2 (14)
+      - United States hysteria2 (6)
+      - South Korea hysteria2 (19)
+      - South Korea hysteria2 (20)
+      - South Korea hysteria2 (21)
+      - South Korea hysteria2 (22)
+      - South Korea hysteria2 (23)
+      - Hong Kong hysteria2 (3)
+      - Japan hysteria2 (3)
+      - South Korea hysteria2 (24)
+      - South Korea hysteria2 (25)
+      - South Korea hysteria2 (26)
+      - Singapore hysteria2 (15)
+      - Singapore hysteria2 (16)
+      - Singapore hysteria2 (17)
+      - United States hysteria2 (7)
+      - South Korea hysteria2 (27)
+      - South Korea hysteria2 (28)
+      - South Korea hysteria2 (29)
+      - South Korea hysteria2 (30)
+      - South Korea hysteria2 (31)
+      - Hong Kong hysteria2 (4)
+      - Japan hysteria2 (4)
+      - South Korea hysteria2 (32)
+      - South Korea hysteria2 (33)
+      - South Korea hysteria2 (34)
+      - Singapore hysteria2 (18)
+      - Singapore hysteria2 (19)
+      - Singapore hysteria2 (20)
+      - United States hysteria2 (8)
+      - South Korea hysteria2 (35)
+      - South Korea hysteria2 (36)
+      - South Korea hysteria2 (37)
+      - South Korea hysteria2 (38)
+      - South Korea hysteria2 (39)
+      - Hong Kong hysteria2 (5)
+      - Japan hysteria2 (5)
+      - South Korea hysteria2 (40)
+      - South Korea hysteria2 (41)
+      - South Korea hysteria2 (42)
+      - Singapore hysteria2 (21)
+      - Singapore hysteria2 (22)
+      - Singapore hysteria2 (23)
+      - United States hysteria2 (9)
+      - South Korea hysteria2 (43)
+      - South Korea hysteria2 (44)
+      - South Korea hysteria2 (45)
+      - South Korea hysteria2 (46)
+      - South Korea hysteria2 (47)
+      - Hong Kong hysteria2 (6)
+      - Japan hysteria2 (6)
+      - South Korea hysteria2 (48)
+      - South Korea hysteria2 (49)
+      - South Korea hysteria2 (50)
+      - Singapore hysteria2 (24)
+      - Singapore hysteria2 (25)
+      - Singapore hysteria2 (26)
+      - United States hysteria2 (10)
+      - South Korea hysteria2 (51)
+      - South Korea hysteria2 (52)
+      - South Korea hysteria2 (53)
+      - South Korea hysteria2 (54)
+      - Hong Kong hysteria2 (7)
+      - Japan hysteria2 (7)
+      - South Korea hysteria2 (55)
+      - South Korea hysteria2 (56)
+      - South Korea hysteria2 (57)
+      - Singapore hysteria2 (27)
+      - Singapore hysteria2 (28)
+      - Singapore hysteria2 (29)
+      - United States hysteria2 (11)
+      - South Korea hysteria2 (58)
+      - South Korea hysteria2 (59)
+      - South Korea hysteria2 (60)
+      - South Korea hysteria2 (61)
+      - South Korea hysteria2 (62)
+      - Hong Kong hysteria2 (8)
+      - Japan hysteria2 (8)
+      - South Korea hysteria2 (63)
+      - South Korea hysteria2 (64)
+      - South Korea hysteria2 (65)
+      - Singapore hysteria2 (30)
+      - Singapore hysteria2 (31)
+      - United States hysteria2 (12)
+      - South Korea hysteria2 (66)
+      - South Korea hysteria2 (67)
+      - South Korea hysteria2 (68)
+      - South Korea hysteria2 (69)
+      - South Korea hysteria2 (70)
+      - Hong Kong hysteria2 (9)
+      - South Korea hysteria2 (71)
+      - South Korea hysteria2 (72)
+      - South Korea hysteria2 (73)
+      - Singapore hysteria2 (32)
+      - Singapore hysteria2 (33)
+      - Singapore hysteria2 (34)
+      - United States hysteria2 (13)
+      - South Korea hysteria2 (74)
+      - South Korea hysteria2 (75)
+      - South Korea hysteria2 (76)
+      - South Korea hysteria2 (77)
+      - China ss
+      - China ss (1)
+      - China ss (2)
+      - China ss (3)
+      - China ss (4)
+      - China ss (5)
+      - China ss (6)
+      - United Kingdom ss
+      - Japan ss
+      - China ss (7)
+      - China ss (8)
+      - China ss (9)
+      - China ss (10)
+      - China ss (11)
+      - Poland ss
+      - United States ss
+      - United States ss (1)
+      - Poland ss (1)
+      - Poland ss (2)
+      - Poland ss (3)
+      - Poland ss (4)
+      - Poland ss (5)
+      - Poland ss (6)
+      - Poland ss (7)
+      - United States ss (2)
+      - Poland ss (8)
+      - Poland ss (9)
+      - Poland ss (10)
+      - Poland ss (11)
       - China trojan
       - China trojan (1)
-      - China trojan (2)
-      - China trojan (3)
-      - China trojan (4)
-      - China trojan (5)
+      - Hong Kong trojan
+      - Hong Kong trojan (1)
+      - Taiwan trojan
+      - United States trojan
+      - United States vless
+      - Germany vless
+      - Singapore vless
       - South Korea vless
+      - Japan vless
+      - South Korea vless (1)
+      - United States vless (1)
+      - United States vless (2)
+      - United States vless (3)
+      - United States vless (4)
+      - United States vless (5)
+      - United States vless (6)
+      - Singapore vless (1)
+      - Japan vless (1)
       - Australia vless
-      - Taiwan vless
+      - Australia vless (1)
+      - Hong Kong vless
+      - China vmess
+      - China vmess (1)
+      - China vmess (2)
+      - China vmess (3)
+      - Thailand vmess
+      - Singapore vmess
+      - Japan vmess
+      - Singapore vmess (1)
+      - China vmess (4)
+      - China vmess (5)
+      - China vmess (6)
+      - Hong Kong vmess
       - UNKNOWN vmess
       - UNKNOWN vmess (1)
       - UNKNOWN vmess (2)
@@ -259,30 +1436,226 @@ proxy-groups:
       - UNKNOWN vmess (13)
       - UNKNOWN vmess (14)
       - UNKNOWN vmess (15)
-      - UNKNOWN vmess (16)
   - name: 📲 电报信息
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
-      - United States hysteria2
-      - United States hysteria2 (1)
-      - South Korea hysteria2
-      - Australia hysteria2
+      - The Netherlands hysteria2
+      - Singapore hysteria2
       - Germany hysteria2
+      - The Netherlands hysteria2 (1)
+      - United States hysteria2
+      - Singapore hysteria2 (1)
+      - United States hysteria2 (1)
       - United States hysteria2 (2)
-      - South Korea hysteria2 (1)
-      - Australia hysteria2 (1)
+      - United States hysteria2 (3)
+      - The Netherlands hysteria2 (2)
+      - Singapore hysteria2 (2)
+      - Singapore hysteria2 (3)
+      - Singapore hysteria2 (4)
+      - Singapore hysteria2 (5)
+      - Singapore hysteria2 (6)
+      - India hysteria2
+      - Hong Kong hysteria2
       - Japan hysteria2
+      - South Korea hysteria2
+      - South Korea hysteria2 (1)
+      - South Korea hysteria2 (2)
+      - Singapore hysteria2 (7)
+      - Singapore hysteria2 (8)
+      - Singapore hysteria2 (9)
+      - United States hysteria2 (4)
+      - South Korea hysteria2 (3)
+      - South Korea hysteria2 (4)
+      - South Korea hysteria2 (5)
+      - South Korea hysteria2 (6)
+      - South Korea hysteria2 (7)
+      - Hong Kong hysteria2 (1)
+      - Japan hysteria2 (1)
+      - South Korea hysteria2 (8)
+      - South Korea hysteria2 (9)
+      - South Korea hysteria2 (10)
+      - Singapore hysteria2 (10)
+      - Singapore hysteria2 (11)
+      - United States hysteria2 (5)
+      - South Korea hysteria2 (11)
+      - South Korea hysteria2 (12)
+      - South Korea hysteria2 (13)
+      - South Korea hysteria2 (14)
+      - South Korea hysteria2 (15)
+      - Hong Kong hysteria2 (2)
+      - Japan hysteria2 (2)
+      - South Korea hysteria2 (16)
+      - South Korea hysteria2 (17)
+      - South Korea hysteria2 (18)
+      - Singapore hysteria2 (12)
+      - Singapore hysteria2 (13)
+      - Singapore hysteria2 (14)
+      - United States hysteria2 (6)
+      - South Korea hysteria2 (19)
+      - South Korea hysteria2 (20)
+      - South Korea hysteria2 (21)
+      - South Korea hysteria2 (22)
+      - South Korea hysteria2 (23)
+      - Hong Kong hysteria2 (3)
+      - Japan hysteria2 (3)
+      - South Korea hysteria2 (24)
+      - South Korea hysteria2 (25)
+      - South Korea hysteria2 (26)
+      - Singapore hysteria2 (15)
+      - Singapore hysteria2 (16)
+      - Singapore hysteria2 (17)
+      - United States hysteria2 (7)
+      - South Korea hysteria2 (27)
+      - South Korea hysteria2 (28)
+      - South Korea hysteria2 (29)
+      - South Korea hysteria2 (30)
+      - South Korea hysteria2 (31)
+      - Hong Kong hysteria2 (4)
+      - Japan hysteria2 (4)
+      - South Korea hysteria2 (32)
+      - South Korea hysteria2 (33)
+      - South Korea hysteria2 (34)
+      - Singapore hysteria2 (18)
+      - Singapore hysteria2 (19)
+      - Singapore hysteria2 (20)
+      - United States hysteria2 (8)
+      - South Korea hysteria2 (35)
+      - South Korea hysteria2 (36)
+      - South Korea hysteria2 (37)
+      - South Korea hysteria2 (38)
+      - South Korea hysteria2 (39)
+      - Hong Kong hysteria2 (5)
+      - Japan hysteria2 (5)
+      - South Korea hysteria2 (40)
+      - South Korea hysteria2 (41)
+      - South Korea hysteria2 (42)
+      - Singapore hysteria2 (21)
+      - Singapore hysteria2 (22)
+      - Singapore hysteria2 (23)
+      - United States hysteria2 (9)
+      - South Korea hysteria2 (43)
+      - South Korea hysteria2 (44)
+      - South Korea hysteria2 (45)
+      - South Korea hysteria2 (46)
+      - South Korea hysteria2 (47)
+      - Hong Kong hysteria2 (6)
+      - Japan hysteria2 (6)
+      - South Korea hysteria2 (48)
+      - South Korea hysteria2 (49)
+      - South Korea hysteria2 (50)
+      - Singapore hysteria2 (24)
+      - Singapore hysteria2 (25)
+      - Singapore hysteria2 (26)
+      - United States hysteria2 (10)
+      - South Korea hysteria2 (51)
+      - South Korea hysteria2 (52)
+      - South Korea hysteria2 (53)
+      - South Korea hysteria2 (54)
+      - Hong Kong hysteria2 (7)
+      - Japan hysteria2 (7)
+      - South Korea hysteria2 (55)
+      - South Korea hysteria2 (56)
+      - South Korea hysteria2 (57)
+      - Singapore hysteria2 (27)
+      - Singapore hysteria2 (28)
+      - Singapore hysteria2 (29)
+      - United States hysteria2 (11)
+      - South Korea hysteria2 (58)
+      - South Korea hysteria2 (59)
+      - South Korea hysteria2 (60)
+      - South Korea hysteria2 (61)
+      - South Korea hysteria2 (62)
+      - Hong Kong hysteria2 (8)
+      - Japan hysteria2 (8)
+      - South Korea hysteria2 (63)
+      - South Korea hysteria2 (64)
+      - South Korea hysteria2 (65)
+      - Singapore hysteria2 (30)
+      - Singapore hysteria2 (31)
+      - United States hysteria2 (12)
+      - South Korea hysteria2 (66)
+      - South Korea hysteria2 (67)
+      - South Korea hysteria2 (68)
+      - South Korea hysteria2 (69)
+      - South Korea hysteria2 (70)
+      - Hong Kong hysteria2 (9)
+      - South Korea hysteria2 (71)
+      - South Korea hysteria2 (72)
+      - South Korea hysteria2 (73)
+      - Singapore hysteria2 (32)
+      - Singapore hysteria2 (33)
+      - Singapore hysteria2 (34)
+      - United States hysteria2 (13)
+      - South Korea hysteria2 (74)
+      - South Korea hysteria2 (75)
+      - South Korea hysteria2 (76)
+      - South Korea hysteria2 (77)
+      - China ss
+      - China ss (1)
+      - China ss (2)
+      - China ss (3)
+      - China ss (4)
+      - China ss (5)
+      - China ss (6)
+      - United Kingdom ss
+      - Japan ss
+      - China ss (7)
+      - China ss (8)
+      - China ss (9)
+      - China ss (10)
+      - China ss (11)
+      - Poland ss
+      - United States ss
+      - United States ss (1)
+      - Poland ss (1)
+      - Poland ss (2)
+      - Poland ss (3)
+      - Poland ss (4)
+      - Poland ss (5)
+      - Poland ss (6)
+      - Poland ss (7)
+      - United States ss (2)
+      - Poland ss (8)
+      - Poland ss (9)
+      - Poland ss (10)
+      - Poland ss (11)
       - China trojan
       - China trojan (1)
-      - China trojan (2)
-      - China trojan (3)
-      - China trojan (4)
-      - China trojan (5)
+      - Hong Kong trojan
+      - Hong Kong trojan (1)
+      - Taiwan trojan
+      - United States trojan
+      - United States vless
+      - Germany vless
+      - Singapore vless
       - South Korea vless
+      - Japan vless
+      - South Korea vless (1)
+      - United States vless (1)
+      - United States vless (2)
+      - United States vless (3)
+      - United States vless (4)
+      - United States vless (5)
+      - United States vless (6)
+      - Singapore vless (1)
+      - Japan vless (1)
       - Australia vless
-      - Taiwan vless
+      - Australia vless (1)
+      - Hong Kong vless
+      - China vmess
+      - China vmess (1)
+      - China vmess (2)
+      - China vmess (3)
+      - Thailand vmess
+      - Singapore vmess
+      - Japan vmess
+      - Singapore vmess (1)
+      - China vmess (4)
+      - China vmess (5)
+      - China vmess (6)
+      - Hong Kong vmess
       - UNKNOWN vmess
       - UNKNOWN vmess (1)
       - UNKNOWN vmess (2)
@@ -299,31 +1672,227 @@ proxy-groups:
       - UNKNOWN vmess (13)
       - UNKNOWN vmess (14)
       - UNKNOWN vmess (15)
-      - UNKNOWN vmess (16)
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - United States hysteria2
-      - United States hysteria2 (1)
-      - South Korea hysteria2
-      - Australia hysteria2
+      - The Netherlands hysteria2
+      - Singapore hysteria2
       - Germany hysteria2
+      - The Netherlands hysteria2 (1)
+      - United States hysteria2
+      - Singapore hysteria2 (1)
+      - United States hysteria2 (1)
       - United States hysteria2 (2)
-      - South Korea hysteria2 (1)
-      - Australia hysteria2 (1)
+      - United States hysteria2 (3)
+      - The Netherlands hysteria2 (2)
+      - Singapore hysteria2 (2)
+      - Singapore hysteria2 (3)
+      - Singapore hysteria2 (4)
+      - Singapore hysteria2 (5)
+      - Singapore hysteria2 (6)
+      - India hysteria2
+      - Hong Kong hysteria2
       - Japan hysteria2
+      - South Korea hysteria2
+      - South Korea hysteria2 (1)
+      - South Korea hysteria2 (2)
+      - Singapore hysteria2 (7)
+      - Singapore hysteria2 (8)
+      - Singapore hysteria2 (9)
+      - United States hysteria2 (4)
+      - South Korea hysteria2 (3)
+      - South Korea hysteria2 (4)
+      - South Korea hysteria2 (5)
+      - South Korea hysteria2 (6)
+      - South Korea hysteria2 (7)
+      - Hong Kong hysteria2 (1)
+      - Japan hysteria2 (1)
+      - South Korea hysteria2 (8)
+      - South Korea hysteria2 (9)
+      - South Korea hysteria2 (10)
+      - Singapore hysteria2 (10)
+      - Singapore hysteria2 (11)
+      - United States hysteria2 (5)
+      - South Korea hysteria2 (11)
+      - South Korea hysteria2 (12)
+      - South Korea hysteria2 (13)
+      - South Korea hysteria2 (14)
+      - South Korea hysteria2 (15)
+      - Hong Kong hysteria2 (2)
+      - Japan hysteria2 (2)
+      - South Korea hysteria2 (16)
+      - South Korea hysteria2 (17)
+      - South Korea hysteria2 (18)
+      - Singapore hysteria2 (12)
+      - Singapore hysteria2 (13)
+      - Singapore hysteria2 (14)
+      - United States hysteria2 (6)
+      - South Korea hysteria2 (19)
+      - South Korea hysteria2 (20)
+      - South Korea hysteria2 (21)
+      - South Korea hysteria2 (22)
+      - South Korea hysteria2 (23)
+      - Hong Kong hysteria2 (3)
+      - Japan hysteria2 (3)
+      - South Korea hysteria2 (24)
+      - South Korea hysteria2 (25)
+      - South Korea hysteria2 (26)
+      - Singapore hysteria2 (15)
+      - Singapore hysteria2 (16)
+      - Singapore hysteria2 (17)
+      - United States hysteria2 (7)
+      - South Korea hysteria2 (27)
+      - South Korea hysteria2 (28)
+      - South Korea hysteria2 (29)
+      - South Korea hysteria2 (30)
+      - South Korea hysteria2 (31)
+      - Hong Kong hysteria2 (4)
+      - Japan hysteria2 (4)
+      - South Korea hysteria2 (32)
+      - South Korea hysteria2 (33)
+      - South Korea hysteria2 (34)
+      - Singapore hysteria2 (18)
+      - Singapore hysteria2 (19)
+      - Singapore hysteria2 (20)
+      - United States hysteria2 (8)
+      - South Korea hysteria2 (35)
+      - South Korea hysteria2 (36)
+      - South Korea hysteria2 (37)
+      - South Korea hysteria2 (38)
+      - South Korea hysteria2 (39)
+      - Hong Kong hysteria2 (5)
+      - Japan hysteria2 (5)
+      - South Korea hysteria2 (40)
+      - South Korea hysteria2 (41)
+      - South Korea hysteria2 (42)
+      - Singapore hysteria2 (21)
+      - Singapore hysteria2 (22)
+      - Singapore hysteria2 (23)
+      - United States hysteria2 (9)
+      - South Korea hysteria2 (43)
+      - South Korea hysteria2 (44)
+      - South Korea hysteria2 (45)
+      - South Korea hysteria2 (46)
+      - South Korea hysteria2 (47)
+      - Hong Kong hysteria2 (6)
+      - Japan hysteria2 (6)
+      - South Korea hysteria2 (48)
+      - South Korea hysteria2 (49)
+      - South Korea hysteria2 (50)
+      - Singapore hysteria2 (24)
+      - Singapore hysteria2 (25)
+      - Singapore hysteria2 (26)
+      - United States hysteria2 (10)
+      - South Korea hysteria2 (51)
+      - South Korea hysteria2 (52)
+      - South Korea hysteria2 (53)
+      - South Korea hysteria2 (54)
+      - Hong Kong hysteria2 (7)
+      - Japan hysteria2 (7)
+      - South Korea hysteria2 (55)
+      - South Korea hysteria2 (56)
+      - South Korea hysteria2 (57)
+      - Singapore hysteria2 (27)
+      - Singapore hysteria2 (28)
+      - Singapore hysteria2 (29)
+      - United States hysteria2 (11)
+      - South Korea hysteria2 (58)
+      - South Korea hysteria2 (59)
+      - South Korea hysteria2 (60)
+      - South Korea hysteria2 (61)
+      - South Korea hysteria2 (62)
+      - Hong Kong hysteria2 (8)
+      - Japan hysteria2 (8)
+      - South Korea hysteria2 (63)
+      - South Korea hysteria2 (64)
+      - South Korea hysteria2 (65)
+      - Singapore hysteria2 (30)
+      - Singapore hysteria2 (31)
+      - United States hysteria2 (12)
+      - South Korea hysteria2 (66)
+      - South Korea hysteria2 (67)
+      - South Korea hysteria2 (68)
+      - South Korea hysteria2 (69)
+      - South Korea hysteria2 (70)
+      - Hong Kong hysteria2 (9)
+      - South Korea hysteria2 (71)
+      - South Korea hysteria2 (72)
+      - South Korea hysteria2 (73)
+      - Singapore hysteria2 (32)
+      - Singapore hysteria2 (33)
+      - Singapore hysteria2 (34)
+      - United States hysteria2 (13)
+      - South Korea hysteria2 (74)
+      - South Korea hysteria2 (75)
+      - South Korea hysteria2 (76)
+      - South Korea hysteria2 (77)
+      - China ss
+      - China ss (1)
+      - China ss (2)
+      - China ss (3)
+      - China ss (4)
+      - China ss (5)
+      - China ss (6)
+      - United Kingdom ss
+      - Japan ss
+      - China ss (7)
+      - China ss (8)
+      - China ss (9)
+      - China ss (10)
+      - China ss (11)
+      - Poland ss
+      - United States ss
+      - United States ss (1)
+      - Poland ss (1)
+      - Poland ss (2)
+      - Poland ss (3)
+      - Poland ss (4)
+      - Poland ss (5)
+      - Poland ss (6)
+      - Poland ss (7)
+      - United States ss (2)
+      - Poland ss (8)
+      - Poland ss (9)
+      - Poland ss (10)
+      - Poland ss (11)
       - China trojan
       - China trojan (1)
-      - China trojan (2)
-      - China trojan (3)
-      - China trojan (4)
-      - China trojan (5)
+      - Hong Kong trojan
+      - Hong Kong trojan (1)
+      - Taiwan trojan
+      - United States trojan
+      - United States vless
+      - Germany vless
+      - Singapore vless
       - South Korea vless
+      - Japan vless
+      - South Korea vless (1)
+      - United States vless (1)
+      - United States vless (2)
+      - United States vless (3)
+      - United States vless (4)
+      - United States vless (5)
+      - United States vless (6)
+      - Singapore vless (1)
+      - Japan vless (1)
       - Australia vless
-      - Taiwan vless
+      - Australia vless (1)
+      - Hong Kong vless
+      - China vmess
+      - China vmess (1)
+      - China vmess (2)
+      - China vmess (3)
+      - Thailand vmess
+      - Singapore vmess
+      - Japan vmess
+      - Singapore vmess (1)
+      - China vmess (4)
+      - China vmess (5)
+      - China vmess (6)
+      - Hong Kong vmess
       - UNKNOWN vmess
       - UNKNOWN vmess (1)
       - UNKNOWN vmess (2)
@@ -340,7 +1909,6 @@ proxy-groups:
       - UNKNOWN vmess (13)
       - UNKNOWN vmess (14)
       - UNKNOWN vmess (15)
-      - UNKNOWN vmess (16)
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -356,24 +1924,221 @@ proxy-groups:
       - 🔰 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - United States hysteria2
-      - United States hysteria2 (1)
-      - South Korea hysteria2
-      - Australia hysteria2
+      - The Netherlands hysteria2
+      - Singapore hysteria2
       - Germany hysteria2
+      - The Netherlands hysteria2 (1)
+      - United States hysteria2
+      - Singapore hysteria2 (1)
+      - United States hysteria2 (1)
       - United States hysteria2 (2)
-      - South Korea hysteria2 (1)
-      - Australia hysteria2 (1)
+      - United States hysteria2 (3)
+      - The Netherlands hysteria2 (2)
+      - Singapore hysteria2 (2)
+      - Singapore hysteria2 (3)
+      - Singapore hysteria2 (4)
+      - Singapore hysteria2 (5)
+      - Singapore hysteria2 (6)
+      - India hysteria2
+      - Hong Kong hysteria2
       - Japan hysteria2
+      - South Korea hysteria2
+      - South Korea hysteria2 (1)
+      - South Korea hysteria2 (2)
+      - Singapore hysteria2 (7)
+      - Singapore hysteria2 (8)
+      - Singapore hysteria2 (9)
+      - United States hysteria2 (4)
+      - South Korea hysteria2 (3)
+      - South Korea hysteria2 (4)
+      - South Korea hysteria2 (5)
+      - South Korea hysteria2 (6)
+      - South Korea hysteria2 (7)
+      - Hong Kong hysteria2 (1)
+      - Japan hysteria2 (1)
+      - South Korea hysteria2 (8)
+      - South Korea hysteria2 (9)
+      - South Korea hysteria2 (10)
+      - Singapore hysteria2 (10)
+      - Singapore hysteria2 (11)
+      - United States hysteria2 (5)
+      - South Korea hysteria2 (11)
+      - South Korea hysteria2 (12)
+      - South Korea hysteria2 (13)
+      - South Korea hysteria2 (14)
+      - South Korea hysteria2 (15)
+      - Hong Kong hysteria2 (2)
+      - Japan hysteria2 (2)
+      - South Korea hysteria2 (16)
+      - South Korea hysteria2 (17)
+      - South Korea hysteria2 (18)
+      - Singapore hysteria2 (12)
+      - Singapore hysteria2 (13)
+      - Singapore hysteria2 (14)
+      - United States hysteria2 (6)
+      - South Korea hysteria2 (19)
+      - South Korea hysteria2 (20)
+      - South Korea hysteria2 (21)
+      - South Korea hysteria2 (22)
+      - South Korea hysteria2 (23)
+      - Hong Kong hysteria2 (3)
+      - Japan hysteria2 (3)
+      - South Korea hysteria2 (24)
+      - South Korea hysteria2 (25)
+      - South Korea hysteria2 (26)
+      - Singapore hysteria2 (15)
+      - Singapore hysteria2 (16)
+      - Singapore hysteria2 (17)
+      - United States hysteria2 (7)
+      - South Korea hysteria2 (27)
+      - South Korea hysteria2 (28)
+      - South Korea hysteria2 (29)
+      - South Korea hysteria2 (30)
+      - South Korea hysteria2 (31)
+      - Hong Kong hysteria2 (4)
+      - Japan hysteria2 (4)
+      - South Korea hysteria2 (32)
+      - South Korea hysteria2 (33)
+      - South Korea hysteria2 (34)
+      - Singapore hysteria2 (18)
+      - Singapore hysteria2 (19)
+      - Singapore hysteria2 (20)
+      - United States hysteria2 (8)
+      - South Korea hysteria2 (35)
+      - South Korea hysteria2 (36)
+      - South Korea hysteria2 (37)
+      - South Korea hysteria2 (38)
+      - South Korea hysteria2 (39)
+      - Hong Kong hysteria2 (5)
+      - Japan hysteria2 (5)
+      - South Korea hysteria2 (40)
+      - South Korea hysteria2 (41)
+      - South Korea hysteria2 (42)
+      - Singapore hysteria2 (21)
+      - Singapore hysteria2 (22)
+      - Singapore hysteria2 (23)
+      - United States hysteria2 (9)
+      - South Korea hysteria2 (43)
+      - South Korea hysteria2 (44)
+      - South Korea hysteria2 (45)
+      - South Korea hysteria2 (46)
+      - South Korea hysteria2 (47)
+      - Hong Kong hysteria2 (6)
+      - Japan hysteria2 (6)
+      - South Korea hysteria2 (48)
+      - South Korea hysteria2 (49)
+      - South Korea hysteria2 (50)
+      - Singapore hysteria2 (24)
+      - Singapore hysteria2 (25)
+      - Singapore hysteria2 (26)
+      - United States hysteria2 (10)
+      - South Korea hysteria2 (51)
+      - South Korea hysteria2 (52)
+      - South Korea hysteria2 (53)
+      - South Korea hysteria2 (54)
+      - Hong Kong hysteria2 (7)
+      - Japan hysteria2 (7)
+      - South Korea hysteria2 (55)
+      - South Korea hysteria2 (56)
+      - South Korea hysteria2 (57)
+      - Singapore hysteria2 (27)
+      - Singapore hysteria2 (28)
+      - Singapore hysteria2 (29)
+      - United States hysteria2 (11)
+      - South Korea hysteria2 (58)
+      - South Korea hysteria2 (59)
+      - South Korea hysteria2 (60)
+      - South Korea hysteria2 (61)
+      - South Korea hysteria2 (62)
+      - Hong Kong hysteria2 (8)
+      - Japan hysteria2 (8)
+      - South Korea hysteria2 (63)
+      - South Korea hysteria2 (64)
+      - South Korea hysteria2 (65)
+      - Singapore hysteria2 (30)
+      - Singapore hysteria2 (31)
+      - United States hysteria2 (12)
+      - South Korea hysteria2 (66)
+      - South Korea hysteria2 (67)
+      - South Korea hysteria2 (68)
+      - South Korea hysteria2 (69)
+      - South Korea hysteria2 (70)
+      - Hong Kong hysteria2 (9)
+      - South Korea hysteria2 (71)
+      - South Korea hysteria2 (72)
+      - South Korea hysteria2 (73)
+      - Singapore hysteria2 (32)
+      - Singapore hysteria2 (33)
+      - Singapore hysteria2 (34)
+      - United States hysteria2 (13)
+      - South Korea hysteria2 (74)
+      - South Korea hysteria2 (75)
+      - South Korea hysteria2 (76)
+      - South Korea hysteria2 (77)
+      - China ss
+      - China ss (1)
+      - China ss (2)
+      - China ss (3)
+      - China ss (4)
+      - China ss (5)
+      - China ss (6)
+      - United Kingdom ss
+      - Japan ss
+      - China ss (7)
+      - China ss (8)
+      - China ss (9)
+      - China ss (10)
+      - China ss (11)
+      - Poland ss
+      - United States ss
+      - United States ss (1)
+      - Poland ss (1)
+      - Poland ss (2)
+      - Poland ss (3)
+      - Poland ss (4)
+      - Poland ss (5)
+      - Poland ss (6)
+      - Poland ss (7)
+      - United States ss (2)
+      - Poland ss (8)
+      - Poland ss (9)
+      - Poland ss (10)
+      - Poland ss (11)
       - China trojan
       - China trojan (1)
-      - China trojan (2)
-      - China trojan (3)
-      - China trojan (4)
-      - China trojan (5)
+      - Hong Kong trojan
+      - Hong Kong trojan (1)
+      - Taiwan trojan
+      - United States trojan
+      - United States vless
+      - Germany vless
+      - Singapore vless
       - South Korea vless
+      - Japan vless
+      - South Korea vless (1)
+      - United States vless (1)
+      - United States vless (2)
+      - United States vless (3)
+      - United States vless (4)
+      - United States vless (5)
+      - United States vless (6)
+      - Singapore vless (1)
+      - Japan vless (1)
       - Australia vless
-      - Taiwan vless
+      - Australia vless (1)
+      - Hong Kong vless
+      - China vmess
+      - China vmess (1)
+      - China vmess (2)
+      - China vmess (3)
+      - Thailand vmess
+      - Singapore vmess
+      - Japan vmess
+      - Singapore vmess (1)
+      - China vmess (4)
+      - China vmess (5)
+      - China vmess (6)
+      - Hong Kong vmess
       - UNKNOWN vmess
       - UNKNOWN vmess (1)
       - UNKNOWN vmess (2)
@@ -390,7 +2155,6 @@ proxy-groups:
       - UNKNOWN vmess (13)
       - UNKNOWN vmess (14)
       - UNKNOWN vmess (15)
-      - UNKNOWN vmess (16)
 rules:
   - DOMAIN-SUFFIX,local,🎯 全球直连
   - IP-CIDR,192.168.0.0/16,🎯 全球直连,no-resolve
