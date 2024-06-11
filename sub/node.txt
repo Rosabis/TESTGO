@@ -212,51 +212,51 @@ proxies:
   - {name: China vmess (13), server: 183.238.202.173, port: 51193, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: Taiwan vmess, server: 35.229.236.201, port: 12345, type: vmess, uuid: 957c0034-9066-48a8-b824-5f6203298746, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /957c0034}, udp: true}
   - {name: China vmess (14), server: x.y49t1kh1.5ebf71z0-tro1.my777999.top, port: 21991, type: vmess, uuid: dffc697a-2535-470c-bb6a-8157b6c157a7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: UNKNOWN vmess, server: cf.hy2.one, port: 2052, type: vmess, uuid: 0a8d5b74-7884-48cd-a562-2d01d136d6f7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: hk00.hy-2.top}}, udp: true}
-  - {name: UNKNOWN vmess (1), server: cf.hy2.one, port: 2052, type: vmess, uuid: 0a8d5b74-7884-48cd-a562-2d01d136d6f7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: sg004.hy-2.top}}, udp: true}
-  - {name: UNKNOWN vmess (2), server: cf1.ftclashcloud.site, port: 80, type: vmess, uuid: 39fd55c9-073c-49fc-bd77-d6d438e618ae, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/ws?ed=2560", headers: {Host: mhyusa01.ftclashcloud.online}}, udp: true}
-  - {name: UNKNOWN vmess (3), server: cf1.ftclashcloud.site, port: 80, type: vmess, uuid: 67d2d4b7-a38e-4beb-8caf-ce50ff92420a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/ws?ed=2560", headers: {Host: mhyusa01.ftclashcloud.online}}, udp: true}
-  - {name: UNKNOWN vmess (4), server: cf1.ftclashcloud.site, port: 80, type: vmess, uuid: 67d2d4b7-a38e-4beb-8caf-ce50ff92420a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/ws?ed=2560", headers: {Host: azin01.ftclashcloud.online}}, udp: true}
-  - {name: UNKNOWN vmess (5), server: cf1.ftclashcloud.site, port: 80, type: vmess, uuid: 94abc845-175b-4399-9662-87db7c2101a0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/ws?ed=2560", headers: {Host: azin01.ftclashcloud.online}}, udp: true}
-  - {name: UNKNOWN vmess (6), server: cf1.ftclashcloud.site, port: 80, type: vmess, uuid: 39fd55c9-073c-49fc-bd77-d6d438e618ae, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/ws?ed=2560", headers: {Host: azin01.ftclashcloud.online}}, udp: true}
-  - {name: UNKNOWN vmess (7), server: cf1.ftclashcloud.site, port: 80, type: vmess, uuid: 39fd55c9-073c-49fc-bd77-d6d438e618ae, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/ws?ed=2560", headers: {Host: shipid01.ftclashcloud.online}}, udp: true}
-  - {name: UNKNOWN vmess (8), server: cf1.ftclashcloud.site, port: 80, type: vmess, uuid: 67d2d4b7-a38e-4beb-8caf-ce50ff92420a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/ws?ed=2560", headers: {Host: shipid01.ftclashcloud.online}}, udp: true}
-  - {name: UNKNOWN vmess (9), server: cf1.ftclashcloud.site, port: 80, type: vmess, uuid: 94abc845-175b-4399-9662-87db7c2101a0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/ws?ed=2560", headers: {Host: shipid01.ftclashcloud.online}}, udp: true}
-  - {name: UNKNOWN vmess (10), server: cf1.ftclashcloud.site, port: 80, type: vmess, uuid: 67d2d4b7-a38e-4beb-8caf-ce50ff92420a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/ws?ed=2560", headers: {Host: shsg01.ftclashcloud.online}}, udp: true}
-  - {name: UNKNOWN vmess (11), server: cf1.ftclashcloud.site, port: 80, type: vmess, uuid: 94abc845-175b-4399-9662-87db7c2101a0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/ws?ed=2560", headers: {Host: shsg01.ftclashcloud.online}}, udp: true}
-  - {name: UNKNOWN vmess (12), server: cf1.ftclashcloud.site, port: 80, type: vmess, uuid: 39fd55c9-073c-49fc-bd77-d6d438e618ae, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/ws?ed=2560", headers: {Host: shsg01.ftclashcloud.online}}, udp: true}
-  - {name: UNKNOWN vmess (13), server: cf2.ftclashcloud.site, port: 80, type: vmess, uuid: 39fd55c9-073c-49fc-bd77-d6d438e618ae, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/ws?ed=2560", headers: {Host: mhyusa01.ftclashcloud.online}}, udp: true}
-  - {name: UNKNOWN vmess (14), server: cf2.ftclashcloud.site, port: 80, type: vmess, uuid: 67d2d4b7-a38e-4beb-8caf-ce50ff92420a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/ws?ed=2560", headers: {Host: mhyusa01.ftclashcloud.online}}, udp: true}
-  - {name: UNKNOWN vmess (15), server: cf2.ftclashcloud.site, port: 80, type: vmess, uuid: 94abc845-175b-4399-9662-87db7c2101a0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/ws?ed=2560", headers: {Host: mhyusa01.ftclashcloud.online}}, udp: true}
-  - {name: UNKNOWN vmess (16), server: cf2.ftclashcloud.site, port: 80, type: vmess, uuid: 39fd55c9-073c-49fc-bd77-d6d438e618ae, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/ws?ed=2560", headers: {Host: azin01.ftclashcloud.online}}, udp: true}
-  - {name: UNKNOWN vmess (17), server: cf2.ftclashcloud.site, port: 80, type: vmess, uuid: 39fd55c9-073c-49fc-bd77-d6d438e618ae, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/ws?ed=2560", headers: {Host: shipid01.ftclashcloud.online}}, udp: true}
-  - {name: UNKNOWN vmess (18), server: cf2.ftclashcloud.site, port: 80, type: vmess, uuid: 67d2d4b7-a38e-4beb-8caf-ce50ff92420a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/ws?ed=2560", headers: {Host: shipid01.ftclashcloud.online}}, udp: true}
-  - {name: UNKNOWN vmess (19), server: cf2.ftclashcloud.site, port: 80, type: vmess, uuid: 94abc845-175b-4399-9662-87db7c2101a0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/ws?ed=2560", headers: {Host: shipid01.ftclashcloud.online}}, udp: true}
-  - {name: UNKNOWN vmess (20), server: cf2.ftclashcloud.site, port: 80, type: vmess, uuid: 67d2d4b7-a38e-4beb-8caf-ce50ff92420a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/ws?ed=2560", headers: {Host: shsg01.ftclashcloud.online}}, udp: true}
-  - {name: UNKNOWN vmess (21), server: cf2.ftclashcloud.site, port: 80, type: vmess, uuid: 94abc845-175b-4399-9662-87db7c2101a0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/ws?ed=2560", headers: {Host: shsg01.ftclashcloud.online}}, udp: true}
-  - {name: UNKNOWN vmess (22), server: cf2.ftclashcloud.site, port: 80, type: vmess, uuid: 39fd55c9-073c-49fc-bd77-d6d438e618ae, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/ws?ed=2560", headers: {Host: shsg01.ftclashcloud.online}}, udp: true}
-  - {name: UNKNOWN vmess (23), server: cf3.ftclashcloud.site, port: 80, type: vmess, uuid: 39fd55c9-073c-49fc-bd77-d6d438e618ae, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/ws?ed=2560", headers: {Host: mhyusa01.ftclashcloud.online}}, udp: true}
-  - {name: UNKNOWN vmess (24), server: cf3.ftclashcloud.site, port: 80, type: vmess, uuid: 67d2d4b7-a38e-4beb-8caf-ce50ff92420a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/ws?ed=2560", headers: {Host: mhyusa01.ftclashcloud.online}}, udp: true}
-  - {name: UNKNOWN vmess (25), server: cf3.ftclashcloud.site, port: 80, type: vmess, uuid: 67d2d4b7-a38e-4beb-8caf-ce50ff92420a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/ws?ed=2560", headers: {Host: azin01.ftclashcloud.online}}, udp: true}
-  - {name: UNKNOWN vmess (26), server: cf3.ftclashcloud.site, port: 80, type: vmess, uuid: 94abc845-175b-4399-9662-87db7c2101a0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/ws?ed=2560", headers: {Host: azin01.ftclashcloud.online}}, udp: true}
-  - {name: UNKNOWN vmess (27), server: cf3.ftclashcloud.site, port: 80, type: vmess, uuid: 39fd55c9-073c-49fc-bd77-d6d438e618ae, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/ws?ed=2560", headers: {Host: azin01.ftclashcloud.online}}, udp: true}
-  - {name: UNKNOWN vmess (28), server: cf3.ftclashcloud.site, port: 80, type: vmess, uuid: 39fd55c9-073c-49fc-bd77-d6d438e618ae, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/ws?ed=2560", headers: {Host: shipid01.ftclashcloud.online}}, udp: true}
-  - {name: UNKNOWN vmess (29), server: cf3.ftclashcloud.site, port: 80, type: vmess, uuid: 67d2d4b7-a38e-4beb-8caf-ce50ff92420a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/ws?ed=2560", headers: {Host: shipid01.ftclashcloud.online}}, udp: true}
-  - {name: UNKNOWN vmess (30), server: cf3.ftclashcloud.site, port: 80, type: vmess, uuid: 94abc845-175b-4399-9662-87db7c2101a0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/ws?ed=2560", headers: {Host: shipid01.ftclashcloud.online}}, udp: true}
-  - {name: UNKNOWN vmess (31), server: cf3.ftclashcloud.site, port: 80, type: vmess, uuid: 67d2d4b7-a38e-4beb-8caf-ce50ff92420a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/ws?ed=2560", headers: {Host: shsg01.ftclashcloud.online}}, udp: true}
-  - {name: UNKNOWN vmess (32), server: cf3.ftclashcloud.site, port: 80, type: vmess, uuid: 94abc845-175b-4399-9662-87db7c2101a0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/ws?ed=2560", headers: {Host: shsg01.ftclashcloud.online}}, udp: true}
-  - {name: UNKNOWN vmess (33), server: cf3.ftclashcloud.site, port: 80, type: vmess, uuid: 39fd55c9-073c-49fc-bd77-d6d438e618ae, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/ws?ed=2560", headers: {Host: shsg01.ftclashcloud.online}}, udp: true}
-  - {name: UNKNOWN vmess (34), server: cf4.ftclashcloud.site, port: 80, type: vmess, uuid: 39fd55c9-073c-49fc-bd77-d6d438e618ae, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/ws?ed=2560", headers: {Host: mhyusa01.ftclashcloud.online}}, udp: true}
-  - {name: UNKNOWN vmess (35), server: cf4.ftclashcloud.site, port: 80, type: vmess, uuid: 67d2d4b7-a38e-4beb-8caf-ce50ff92420a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/ws?ed=2560", headers: {Host: mhyusa01.ftclashcloud.online}}, udp: true}
-  - {name: UNKNOWN vmess (36), server: cf4.ftclashcloud.site, port: 80, type: vmess, uuid: 67d2d4b7-a38e-4beb-8caf-ce50ff92420a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/ws?ed=2560", headers: {Host: azin01.ftclashcloud.online}}, udp: true}
-  - {name: UNKNOWN vmess (37), server: cf4.ftclashcloud.site, port: 80, type: vmess, uuid: 94abc845-175b-4399-9662-87db7c2101a0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/ws?ed=2560", headers: {Host: azin01.ftclashcloud.online}}, udp: true}
-  - {name: UNKNOWN vmess (38), server: cf4.ftclashcloud.site, port: 80, type: vmess, uuid: 39fd55c9-073c-49fc-bd77-d6d438e618ae, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/ws?ed=2560", headers: {Host: azin01.ftclashcloud.online}}, udp: true}
-  - {name: UNKNOWN vmess (39), server: cf4.ftclashcloud.site, port: 80, type: vmess, uuid: 39fd55c9-073c-49fc-bd77-d6d438e618ae, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/ws?ed=2560", headers: {Host: shipid01.ftclashcloud.online}}, udp: true}
-  - {name: UNKNOWN vmess (40), server: cf4.ftclashcloud.site, port: 80, type: vmess, uuid: 67d2d4b7-a38e-4beb-8caf-ce50ff92420a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/ws?ed=2560", headers: {Host: shipid01.ftclashcloud.online}}, udp: true}
-  - {name: UNKNOWN vmess (41), server: cf4.ftclashcloud.site, port: 80, type: vmess, uuid: 94abc845-175b-4399-9662-87db7c2101a0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/ws?ed=2560", headers: {Host: shipid01.ftclashcloud.online}}, udp: true}
-  - {name: UNKNOWN vmess (42), server: cf4.ftclashcloud.site, port: 80, type: vmess, uuid: 67d2d4b7-a38e-4beb-8caf-ce50ff92420a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/ws?ed=2560", headers: {Host: shsg01.ftclashcloud.online}}, udp: true}
-  - {name: UNKNOWN vmess (43), server: cf4.ftclashcloud.site, port: 80, type: vmess, uuid: 94abc845-175b-4399-9662-87db7c2101a0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/ws?ed=2560", headers: {Host: shsg01.ftclashcloud.online}}, udp: true}
-  - {name: UNKNOWN vmess (44), server: cf4.ftclashcloud.site, port: 80, type: vmess, uuid: 39fd55c9-073c-49fc-bd77-d6d438e618ae, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/ws?ed=2560", headers: {Host: shsg01.ftclashcloud.online}}, udp: true}
+  - {name: Hong Kong vmess, server: cf.hy2.one, port: 2052, type: vmess, uuid: 0a8d5b74-7884-48cd-a562-2d01d136d6f7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: hk00.hy-2.top}}, udp: true}
+  - {name: Hong Kong vmess (1), server: cf.hy2.one, port: 2052, type: vmess, uuid: 0a8d5b74-7884-48cd-a562-2d01d136d6f7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: sg004.hy-2.top}}, udp: true}
+  - {name: UNKNOWN vmess, server: cf1.ftclashcloud.site, port: 80, type: vmess, uuid: 39fd55c9-073c-49fc-bd77-d6d438e618ae, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/ws?ed=2560", headers: {Host: mhyusa01.ftclashcloud.online}}, udp: true}
+  - {name: UNKNOWN vmess (1), server: cf1.ftclashcloud.site, port: 80, type: vmess, uuid: 67d2d4b7-a38e-4beb-8caf-ce50ff92420a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/ws?ed=2560", headers: {Host: mhyusa01.ftclashcloud.online}}, udp: true}
+  - {name: UNKNOWN vmess (2), server: cf1.ftclashcloud.site, port: 80, type: vmess, uuid: 67d2d4b7-a38e-4beb-8caf-ce50ff92420a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/ws?ed=2560", headers: {Host: azin01.ftclashcloud.online}}, udp: true}
+  - {name: UNKNOWN vmess (3), server: cf1.ftclashcloud.site, port: 80, type: vmess, uuid: 94abc845-175b-4399-9662-87db7c2101a0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/ws?ed=2560", headers: {Host: azin01.ftclashcloud.online}}, udp: true}
+  - {name: UNKNOWN vmess (4), server: cf1.ftclashcloud.site, port: 80, type: vmess, uuid: 39fd55c9-073c-49fc-bd77-d6d438e618ae, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/ws?ed=2560", headers: {Host: azin01.ftclashcloud.online}}, udp: true}
+  - {name: UNKNOWN vmess (5), server: cf1.ftclashcloud.site, port: 80, type: vmess, uuid: 39fd55c9-073c-49fc-bd77-d6d438e618ae, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/ws?ed=2560", headers: {Host: shipid01.ftclashcloud.online}}, udp: true}
+  - {name: UNKNOWN vmess (6), server: cf1.ftclashcloud.site, port: 80, type: vmess, uuid: 67d2d4b7-a38e-4beb-8caf-ce50ff92420a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/ws?ed=2560", headers: {Host: shipid01.ftclashcloud.online}}, udp: true}
+  - {name: UNKNOWN vmess (7), server: cf1.ftclashcloud.site, port: 80, type: vmess, uuid: 94abc845-175b-4399-9662-87db7c2101a0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/ws?ed=2560", headers: {Host: shipid01.ftclashcloud.online}}, udp: true}
+  - {name: UNKNOWN vmess (8), server: cf1.ftclashcloud.site, port: 80, type: vmess, uuid: 67d2d4b7-a38e-4beb-8caf-ce50ff92420a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/ws?ed=2560", headers: {Host: shsg01.ftclashcloud.online}}, udp: true}
+  - {name: UNKNOWN vmess (9), server: cf1.ftclashcloud.site, port: 80, type: vmess, uuid: 94abc845-175b-4399-9662-87db7c2101a0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/ws?ed=2560", headers: {Host: shsg01.ftclashcloud.online}}, udp: true}
+  - {name: UNKNOWN vmess (10), server: cf1.ftclashcloud.site, port: 80, type: vmess, uuid: 39fd55c9-073c-49fc-bd77-d6d438e618ae, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/ws?ed=2560", headers: {Host: shsg01.ftclashcloud.online}}, udp: true}
+  - {name: UNKNOWN vmess (11), server: cf2.ftclashcloud.site, port: 80, type: vmess, uuid: 39fd55c9-073c-49fc-bd77-d6d438e618ae, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/ws?ed=2560", headers: {Host: mhyusa01.ftclashcloud.online}}, udp: true}
+  - {name: UNKNOWN vmess (12), server: cf2.ftclashcloud.site, port: 80, type: vmess, uuid: 67d2d4b7-a38e-4beb-8caf-ce50ff92420a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/ws?ed=2560", headers: {Host: mhyusa01.ftclashcloud.online}}, udp: true}
+  - {name: UNKNOWN vmess (13), server: cf2.ftclashcloud.site, port: 80, type: vmess, uuid: 94abc845-175b-4399-9662-87db7c2101a0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/ws?ed=2560", headers: {Host: mhyusa01.ftclashcloud.online}}, udp: true}
+  - {name: UNKNOWN vmess (14), server: cf2.ftclashcloud.site, port: 80, type: vmess, uuid: 39fd55c9-073c-49fc-bd77-d6d438e618ae, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/ws?ed=2560", headers: {Host: azin01.ftclashcloud.online}}, udp: true}
+  - {name: UNKNOWN vmess (15), server: cf2.ftclashcloud.site, port: 80, type: vmess, uuid: 39fd55c9-073c-49fc-bd77-d6d438e618ae, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/ws?ed=2560", headers: {Host: shipid01.ftclashcloud.online}}, udp: true}
+  - {name: UNKNOWN vmess (16), server: cf2.ftclashcloud.site, port: 80, type: vmess, uuid: 67d2d4b7-a38e-4beb-8caf-ce50ff92420a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/ws?ed=2560", headers: {Host: shipid01.ftclashcloud.online}}, udp: true}
+  - {name: UNKNOWN vmess (17), server: cf2.ftclashcloud.site, port: 80, type: vmess, uuid: 94abc845-175b-4399-9662-87db7c2101a0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/ws?ed=2560", headers: {Host: shipid01.ftclashcloud.online}}, udp: true}
+  - {name: UNKNOWN vmess (18), server: cf2.ftclashcloud.site, port: 80, type: vmess, uuid: 67d2d4b7-a38e-4beb-8caf-ce50ff92420a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/ws?ed=2560", headers: {Host: shsg01.ftclashcloud.online}}, udp: true}
+  - {name: UNKNOWN vmess (19), server: cf2.ftclashcloud.site, port: 80, type: vmess, uuid: 94abc845-175b-4399-9662-87db7c2101a0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/ws?ed=2560", headers: {Host: shsg01.ftclashcloud.online}}, udp: true}
+  - {name: UNKNOWN vmess (20), server: cf2.ftclashcloud.site, port: 80, type: vmess, uuid: 39fd55c9-073c-49fc-bd77-d6d438e618ae, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/ws?ed=2560", headers: {Host: shsg01.ftclashcloud.online}}, udp: true}
+  - {name: UNKNOWN vmess (21), server: cf3.ftclashcloud.site, port: 80, type: vmess, uuid: 39fd55c9-073c-49fc-bd77-d6d438e618ae, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/ws?ed=2560", headers: {Host: mhyusa01.ftclashcloud.online}}, udp: true}
+  - {name: UNKNOWN vmess (22), server: cf3.ftclashcloud.site, port: 80, type: vmess, uuid: 67d2d4b7-a38e-4beb-8caf-ce50ff92420a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/ws?ed=2560", headers: {Host: mhyusa01.ftclashcloud.online}}, udp: true}
+  - {name: UNKNOWN vmess (23), server: cf3.ftclashcloud.site, port: 80, type: vmess, uuid: 67d2d4b7-a38e-4beb-8caf-ce50ff92420a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/ws?ed=2560", headers: {Host: azin01.ftclashcloud.online}}, udp: true}
+  - {name: UNKNOWN vmess (24), server: cf3.ftclashcloud.site, port: 80, type: vmess, uuid: 94abc845-175b-4399-9662-87db7c2101a0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/ws?ed=2560", headers: {Host: azin01.ftclashcloud.online}}, udp: true}
+  - {name: UNKNOWN vmess (25), server: cf3.ftclashcloud.site, port: 80, type: vmess, uuid: 39fd55c9-073c-49fc-bd77-d6d438e618ae, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/ws?ed=2560", headers: {Host: azin01.ftclashcloud.online}}, udp: true}
+  - {name: UNKNOWN vmess (26), server: cf3.ftclashcloud.site, port: 80, type: vmess, uuid: 39fd55c9-073c-49fc-bd77-d6d438e618ae, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/ws?ed=2560", headers: {Host: shipid01.ftclashcloud.online}}, udp: true}
+  - {name: UNKNOWN vmess (27), server: cf3.ftclashcloud.site, port: 80, type: vmess, uuid: 67d2d4b7-a38e-4beb-8caf-ce50ff92420a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/ws?ed=2560", headers: {Host: shipid01.ftclashcloud.online}}, udp: true}
+  - {name: UNKNOWN vmess (28), server: cf3.ftclashcloud.site, port: 80, type: vmess, uuid: 94abc845-175b-4399-9662-87db7c2101a0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/ws?ed=2560", headers: {Host: shipid01.ftclashcloud.online}}, udp: true}
+  - {name: UNKNOWN vmess (29), server: cf3.ftclashcloud.site, port: 80, type: vmess, uuid: 67d2d4b7-a38e-4beb-8caf-ce50ff92420a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/ws?ed=2560", headers: {Host: shsg01.ftclashcloud.online}}, udp: true}
+  - {name: UNKNOWN vmess (30), server: cf3.ftclashcloud.site, port: 80, type: vmess, uuid: 94abc845-175b-4399-9662-87db7c2101a0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/ws?ed=2560", headers: {Host: shsg01.ftclashcloud.online}}, udp: true}
+  - {name: UNKNOWN vmess (31), server: cf3.ftclashcloud.site, port: 80, type: vmess, uuid: 39fd55c9-073c-49fc-bd77-d6d438e618ae, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/ws?ed=2560", headers: {Host: shsg01.ftclashcloud.online}}, udp: true}
+  - {name: UNKNOWN vmess (32), server: cf4.ftclashcloud.site, port: 80, type: vmess, uuid: 39fd55c9-073c-49fc-bd77-d6d438e618ae, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/ws?ed=2560", headers: {Host: mhyusa01.ftclashcloud.online}}, udp: true}
+  - {name: UNKNOWN vmess (33), server: cf4.ftclashcloud.site, port: 80, type: vmess, uuid: 67d2d4b7-a38e-4beb-8caf-ce50ff92420a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/ws?ed=2560", headers: {Host: mhyusa01.ftclashcloud.online}}, udp: true}
+  - {name: UNKNOWN vmess (34), server: cf4.ftclashcloud.site, port: 80, type: vmess, uuid: 67d2d4b7-a38e-4beb-8caf-ce50ff92420a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/ws?ed=2560", headers: {Host: azin01.ftclashcloud.online}}, udp: true}
+  - {name: UNKNOWN vmess (35), server: cf4.ftclashcloud.site, port: 80, type: vmess, uuid: 94abc845-175b-4399-9662-87db7c2101a0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/ws?ed=2560", headers: {Host: azin01.ftclashcloud.online}}, udp: true}
+  - {name: UNKNOWN vmess (36), server: cf4.ftclashcloud.site, port: 80, type: vmess, uuid: 39fd55c9-073c-49fc-bd77-d6d438e618ae, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/ws?ed=2560", headers: {Host: azin01.ftclashcloud.online}}, udp: true}
+  - {name: UNKNOWN vmess (37), server: cf4.ftclashcloud.site, port: 80, type: vmess, uuid: 39fd55c9-073c-49fc-bd77-d6d438e618ae, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/ws?ed=2560", headers: {Host: shipid01.ftclashcloud.online}}, udp: true}
+  - {name: UNKNOWN vmess (38), server: cf4.ftclashcloud.site, port: 80, type: vmess, uuid: 67d2d4b7-a38e-4beb-8caf-ce50ff92420a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/ws?ed=2560", headers: {Host: shipid01.ftclashcloud.online}}, udp: true}
+  - {name: UNKNOWN vmess (39), server: cf4.ftclashcloud.site, port: 80, type: vmess, uuid: 94abc845-175b-4399-9662-87db7c2101a0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/ws?ed=2560", headers: {Host: shipid01.ftclashcloud.online}}, udp: true}
+  - {name: UNKNOWN vmess (40), server: cf4.ftclashcloud.site, port: 80, type: vmess, uuid: 67d2d4b7-a38e-4beb-8caf-ce50ff92420a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/ws?ed=2560", headers: {Host: shsg01.ftclashcloud.online}}, udp: true}
+  - {name: UNKNOWN vmess (41), server: cf4.ftclashcloud.site, port: 80, type: vmess, uuid: 94abc845-175b-4399-9662-87db7c2101a0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/ws?ed=2560", headers: {Host: shsg01.ftclashcloud.online}}, udp: true}
+  - {name: UNKNOWN vmess (42), server: cf4.ftclashcloud.site, port: 80, type: vmess, uuid: 39fd55c9-073c-49fc-bd77-d6d438e618ae, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: "/ws?ed=2560", headers: {Host: shsg01.ftclashcloud.online}}, udp: true}
   - {name: China vmess (15), server: m.cnmjin.net, port: 16632, type: vmess, uuid: 2b8cfb7b-d3e7-4525-8418-e13a9b8fd73b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: dcef278233434a15c3587ef998dd119d.mobgslb.tbcache.com}}, udp: true}
   - {name: United States vmess, server: myown.v2tlsconfused.site, port: 43972, type: vmess, uuid: c6360ce0-6edb-4e82-e3a8-e59d43344a2d, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-opts: {path: /, headers: {Host: myown.v2tlsconfused.site}}, udp: true}
 proxy-groups:
@@ -472,6 +472,8 @@ proxy-groups:
       - China vmess (13)
       - Taiwan vmess
       - China vmess (14)
+      - Hong Kong vmess
+      - Hong Kong vmess (1)
       - UNKNOWN vmess
       - UNKNOWN vmess (1)
       - UNKNOWN vmess (2)
@@ -515,8 +517,6 @@ proxy-groups:
       - UNKNOWN vmess (40)
       - UNKNOWN vmess (41)
       - UNKNOWN vmess (42)
-      - UNKNOWN vmess (43)
-      - UNKNOWN vmess (44)
       - China vmess (15)
       - United States vmess
   - name: ♻️ 自动选择
@@ -731,6 +731,8 @@ proxy-groups:
       - China vmess (13)
       - Taiwan vmess
       - China vmess (14)
+      - Hong Kong vmess
+      - Hong Kong vmess (1)
       - UNKNOWN vmess
       - UNKNOWN vmess (1)
       - UNKNOWN vmess (2)
@@ -774,8 +776,6 @@ proxy-groups:
       - UNKNOWN vmess (40)
       - UNKNOWN vmess (41)
       - UNKNOWN vmess (42)
-      - UNKNOWN vmess (43)
-      - UNKNOWN vmess (44)
       - China vmess (15)
       - United States vmess
   - name: 🎥 NETFLIX
@@ -991,6 +991,8 @@ proxy-groups:
       - China vmess (13)
       - Taiwan vmess
       - China vmess (14)
+      - Hong Kong vmess
+      - Hong Kong vmess (1)
       - UNKNOWN vmess
       - UNKNOWN vmess (1)
       - UNKNOWN vmess (2)
@@ -1034,8 +1036,6 @@ proxy-groups:
       - UNKNOWN vmess (40)
       - UNKNOWN vmess (41)
       - UNKNOWN vmess (42)
-      - UNKNOWN vmess (43)
-      - UNKNOWN vmess (44)
       - China vmess (15)
       - United States vmess
   - name: ⛔️ 广告拦截
@@ -1263,6 +1263,8 @@ proxy-groups:
       - China vmess (13)
       - Taiwan vmess
       - China vmess (14)
+      - Hong Kong vmess
+      - Hong Kong vmess (1)
       - UNKNOWN vmess
       - UNKNOWN vmess (1)
       - UNKNOWN vmess (2)
@@ -1306,8 +1308,6 @@ proxy-groups:
       - UNKNOWN vmess (40)
       - UNKNOWN vmess (41)
       - UNKNOWN vmess (42)
-      - UNKNOWN vmess (43)
-      - UNKNOWN vmess (44)
       - China vmess (15)
       - United States vmess
   - name: 🌏 国内媒体
@@ -1527,6 +1527,8 @@ proxy-groups:
       - China vmess (13)
       - Taiwan vmess
       - China vmess (14)
+      - Hong Kong vmess
+      - Hong Kong vmess (1)
       - UNKNOWN vmess
       - UNKNOWN vmess (1)
       - UNKNOWN vmess (2)
@@ -1570,8 +1572,6 @@ proxy-groups:
       - UNKNOWN vmess (40)
       - UNKNOWN vmess (41)
       - UNKNOWN vmess (42)
-      - UNKNOWN vmess (43)
-      - UNKNOWN vmess (44)
       - China vmess (15)
       - United States vmess
   - name: 📲 电报信息
@@ -1786,6 +1786,8 @@ proxy-groups:
       - China vmess (13)
       - Taiwan vmess
       - China vmess (14)
+      - Hong Kong vmess
+      - Hong Kong vmess (1)
       - UNKNOWN vmess
       - UNKNOWN vmess (1)
       - UNKNOWN vmess (2)
@@ -1829,8 +1831,6 @@ proxy-groups:
       - UNKNOWN vmess (40)
       - UNKNOWN vmess (41)
       - UNKNOWN vmess (42)
-      - UNKNOWN vmess (43)
-      - UNKNOWN vmess (44)
       - China vmess (15)
       - United States vmess
   - name: 🍎 苹果服务
@@ -2046,6 +2046,8 @@ proxy-groups:
       - China vmess (13)
       - Taiwan vmess
       - China vmess (14)
+      - Hong Kong vmess
+      - Hong Kong vmess (1)
       - UNKNOWN vmess
       - UNKNOWN vmess (1)
       - UNKNOWN vmess (2)
@@ -2089,8 +2091,6 @@ proxy-groups:
       - UNKNOWN vmess (40)
       - UNKNOWN vmess (41)
       - UNKNOWN vmess (42)
-      - UNKNOWN vmess (43)
-      - UNKNOWN vmess (44)
       - China vmess (15)
       - United States vmess
   - name: 🎯 全球直连
@@ -2315,6 +2315,8 @@ proxy-groups:
       - China vmess (13)
       - Taiwan vmess
       - China vmess (14)
+      - Hong Kong vmess
+      - Hong Kong vmess (1)
       - UNKNOWN vmess
       - UNKNOWN vmess (1)
       - UNKNOWN vmess (2)
@@ -2358,8 +2360,6 @@ proxy-groups:
       - UNKNOWN vmess (40)
       - UNKNOWN vmess (41)
       - UNKNOWN vmess (42)
-      - UNKNOWN vmess (43)
-      - UNKNOWN vmess (44)
       - China vmess (15)
       - United States vmess
 rules:
