@@ -47,6 +47,9 @@ jobs:
       - name: Run LITE merge script
         run: python merge.py
 
+      - name: Run MINI merge script
+        run: python "import base64.py"
+
       - name: Run FULL merge script
         run: python merge-full.py
         
