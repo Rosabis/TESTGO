@@ -48,7 +48,7 @@ jobs:
         run: python merge-lite.py
 
       - name: Run MINI merge script
-        run: python "merge-lite.py"
+        run: python "merge-mini.py"
 
       - name: Run FULL merge script
         run: python merge-full.py
