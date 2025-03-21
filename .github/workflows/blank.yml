@@ -1,0 +1,74 @@
+name: Merge Script
+
+on:
+  # push:
+  #   branches:
+  #     - main  # 替换为您的默认分支
+  schedule:
+    - cron: '0 0,6,12,18, * * *'  # 每6小时一次
+  workflow_dispatch:  # 触发手动事件
+
+jobs:
+  merge:
+    runs-on: windows-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: 3.11
+          
+      - name: Install 7-Zip
+        run: |
+          # 下载并安装 7-Zip
+          Invoke-WebRequest -Uri https://github.com/ip7z/7zip/releases/download/24.06/7z2406-x64.exe -OutFile 7z.exe
+          Start-Process -Wait -FilePath .\7z.exe -ArgumentList '/S'
+          Remove-Item -Force .\7z.exe
+
+      - name: Unzip 7z file
+        env:
+          PASS: ${{ secrets.PASS }}
+        run: |
+          # 要解压的 7z 文件路径
+          $env:ARCHIVE_PATH="GO.7Z"
+          
+          # 解压到当前目录
+          7z x -p"${env:PASS}" -aoa "${env:ARCHIVE_PATH}"
+
+          Write-Host "成功解压到当前目录：${env:ARCHIVE_PATH}"
+
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run LITE merge script
+        run: python merge-lite.py
+
+      - name: Run MINI merge script
+        run: python "merge-mini.py"
+
+     # - name: Run FULL merge script
+     #   run: python merge-full.py
+        
+      - name: Remove unnecessary files
+        run: |
+          # 删除除了指定文件和文件夹之外的所有内容
+          Get-ChildItem | Where-Object { $_.Name -notin @('.github', 'sub', 'GO.7z', 'LICENSE', 'README.md') } | Remove-Item -Recurse -Force
+
+      - name: Commit Changes
+        run: |
+          $changes = git status --porcelain
+          if ($changes) {
+            Write-Host "Changes detected in the repository."
+            git config core.ignorecase false
+            git config --local user.email "actions@github.com"
+            git config --local user.name "GitHub Action"
+            git add .
+            git commit -m "Updated at $(Get-Date -Format 'yyyy-MM-dd HH:mm:ss')"
+            git push
+          } else {
+            Write-Host "No changes detected in the repository."
+          }   
