@@ -50,8 +50,8 @@ jobs:
       - name: Run MINI merge script
         run: python "merge-mini.py"
 
-     # - name: Run FULL merge script
-     #   run: python merge-full.py
+      - name: Run FULL merge script
+        run: python merge-full.py
         
       - name: Remove unnecessary files
         run: |
