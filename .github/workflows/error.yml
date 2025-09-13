@@ -26,7 +26,7 @@ jobs:
           PASS: ${{ secrets.PASS }}
         run: |
           # 解压 7z 文件
-          7z x -p"$PASS" -aoa GO.7Z
+          7z x -p"$PASS" -aoa GO.7z
           echo "成功解压到当前目录"
 
       - name: Install dependencies
