@@ -1,8 +1,7 @@
-name: Merge Script
+name: ERROR
 
 on:
-  schedule:
-    - cron: '0 0,6,12,18 * * *'  # 每6小时一次
+
   workflow_dispatch:  # 触发手动事件
 
 jobs:
