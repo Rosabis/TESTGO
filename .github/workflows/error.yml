@@ -1,0 +1,61 @@
+name: ERROR
+
+on:
+
+  workflow_dispatch:  # 触发手动事件
+
+jobs:
+  merge:
+    runs-on: ubuntu-latest  # 改为 Ubuntu Linux
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v2
+        with:
+          python-version: 3.11
+          
+      - name: Install p7zip
+        run: sudo apt-get update && sudo apt-get install -y p7zip-full
+
+      - name: Unzip 7z file
+        env:
+          PASS: ${{ secrets.PASS }}
+        run: |
+          # 解压 7z 文件
+          7z x -p"$PASS" -aoa GO.7z
+          echo "成功解压到当前目录"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run LITE merge script
+        run: python merge-lite.py
+
+      - name: Run MINI merge script
+        run: python merge-mini.py
+
+      - name: Run FULL merge script
+        run: python merge-full.py
+        
+      - name: Remove unnecessary files
+        run: |
+          # 删除除了指定文件和文件夹之外的所有内容
+          shopt -s extglob
+          rm -rf !(.github|sub|GO.7z|LICENSE|README.md)
+          shopt -u extglob
+
+      - name: Commit Changes
+        run: |
+          if [ -n "$(git status --porcelain)" ]; then
+            echo "Changes detected in the repository."
+            git config --local user.email "actions@github.com"
+            git config --local user.name "GitHub Action"
+            git add .
+            git commit -m "Updated at $(date +'%Y-%m-%d %H:%M:%S')"
+            git push
+          else
+            echo "No changes detected in the repository."
+          fi
